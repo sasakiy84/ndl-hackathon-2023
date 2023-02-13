@@ -88,9 +88,9 @@
             <p class="text-hint-text">{{ selectedHint }}</p>
           </div>
 
-          <RouterLink to="/answer" class="show-answer-link"
-            >答えを見る</RouterLink
-          >
+          <button @click="submitAnswer" class="show-answer-link">
+            答えを見る
+          </button>
         </div>
       </div>
     </main>
@@ -101,15 +101,18 @@
 </template>
 
 <script setup>
-import { RouterLink } from "vue-router";
 import { useQuestionStore } from "../stores/question";
 import { ref, computed } from "vue";
 import { shuffleArray } from "../composables/util";
+import { useRouter } from "vue-router";
 
 const questionStore = useQuestionStore();
 const currentQuestionNumber = questionStore.currentQuestionNum;
 const totalQuestionNumber = questionStore.totalQuestionNum;
 const totalScore = questionStore.totalScore;
+const answer = questionStore.questionIds[currentQuestionNumber];
+
+const availableScore = ref(10);
 
 const currentHintImgIndex = ref(0);
 const hintImgLinks = [
@@ -157,17 +160,25 @@ const choices = ref([
 const pickedChoices = computed(() => {
   const dummyChoices = shuffleArray(choices.value)
     .filter((name) => {
-      return name !== questionStore[currentQuestionNumber];
+      return name !== answer;
     })
     .slice(0, 4);
 
-  const allCanditates = [
-    questionStore.questionIds[currentQuestionNumber],
-    ...dummyChoices,
-  ];
+  const allCanditates = [answer, ...dummyChoices];
 
   return shuffleArray(allCanditates);
 });
+
+const router = useRouter();
+const submitAnswer = async () => {
+  if (userAnswer.value === answer) {
+    questionStore.appendScore(availableScore.value);
+  } else {
+    questionStore.appendScore(0);
+  }
+
+  await router.push("/answer");
+};
 </script>
 
 <style scoped>
