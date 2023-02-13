@@ -8,7 +8,7 @@ export const useQuestionStore = defineStore({
         // 問題に使う人物名を格納する
         // 現在は固定値だが、そのうちランダムで初期化する
         questionIds: [
-            "聖武天皇",
+            "徳川家康",
             "聖徳太子",
             "天智天皇",
             "鑑真",
