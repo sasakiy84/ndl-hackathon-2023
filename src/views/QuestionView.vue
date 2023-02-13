@@ -1,49 +1,86 @@
 <template>
   <div class="body">
-
     <main>
-      <progress class="progress-bar" :max="totalQuestionNumber" :value="currentQuestionNumber"></progress>
-      <p class="progress-text">あと{{ totalQuestionNumber - currentQuestionNumber }}問</p>
-      <h1><span>{{ `Q.${currentQuestionNumber + 1}` }}</span>この人物は誰でしょう？</h1>
+      <progress
+        class="progress-bar"
+        :max="totalQuestionNumber"
+        :value="currentQuestionNumber"
+      ></progress>
+      <p class="progress-text">
+        あと{{ totalQuestionNumber - currentQuestionNumber }}問
+      </p>
+      <h1>
+        <span>{{ `Q.${currentQuestionNumber + 1}` }}</span
+        >この人物は誰でしょう？
+      </h1>
       <p>現在の得点: {{ totalScore }}</p>
       <div class="img-wrapper">
         <img class="hint-img" :src="hintImgLinks[currentHintImgIndex]" alt="" />
       </div>
       <div class="img-buttons">
-        <button class="long-round-button next-button" @click.prevent="changeHintImg(currentHintImgIndex + 1)">
+        <button
+          class="long-round-button next-button"
+          @click.prevent="changeHintImg(currentHintImgIndex + 1)"
+        >
           次の画像を見る
         </button>
-        <button v-for="index in hintImgLinks.length" :class="{
-          disabled: index === currentHintImgIndex + 1,
-        }" @click.prevent="changeHintImg(index - 1)" :disabled="index === currentHintImgIndex + 1"
-          class="round-button" :key="index">
+        <button
+          v-for="index in hintImgLinks.length"
+          :class="{
+            disabled: index === currentHintImgIndex + 1,
+          }"
+          @click.prevent="changeHintImg(index - 1)"
+          :disabled="index === currentHintImgIndex + 1"
+          class="round-button"
+          :key="index"
+        >
           {{ index }}
         </button>
       </div>
 
       <div class="user-inputs-container">
         <div class="user-inputs-wrapper">
-
           <div class="answer-input-wrapper" v-if="!selectBoxDisplayed">
-            <input class="answer-input" type="text" v-model="userAnswer" placeholder="人物名を入力する" />
+            <input
+              class="answer-input"
+              type="text"
+              v-model="userAnswer"
+              placeholder="人物名を入力する"
+            />
           </div>
           <div class="select-input-wrapper" v-else>
             <p>この中の誰でしょう</p>
             <div class="select-button-wrapper">
-              <button class="select-button" v-for="name in pickedChoices" :key="name"
+              <button
+                class="select-button"
+                v-for="name in pickedChoices"
+                :key="name"
                 @click="userAnswer = name"
                 :disabled="userAnswer === name"
                 :class="{
-                  selected: userAnswer === name
+                  selected: userAnswer === name,
                 }"
-              >{{ name }}</button>
+              >
+                {{ name }}
+              </button>
             </div>
           </div>
 
           <div class="text-hint">
-            <button v-if="!textHintDisplayed" class="hint-button" @click="textHintDisplayed = true">ヒントを見る</button>
-            <button v-if="textHintDisplayed && !selectBoxDisplayed" class="hint-button"
-              @click="selectBoxDisplayed = true">もっとヒントを見る</button>
+            <button
+              v-if="!textHintDisplayed"
+              class="hint-button"
+              @click="textHintDisplayed = true"
+            >
+              ヒントを見る
+            </button>
+            <button
+              v-if="textHintDisplayed && !selectBoxDisplayed"
+              class="hint-button"
+              @click="selectBoxDisplayed = true"
+            >
+              もっとヒントを見る
+            </button>
           </div>
 
           <div class="text-hint-container" v-if="textHintDisplayed">
@@ -51,12 +88,15 @@
             <p class="text-hint-text">{{ selectedHint }}</p>
           </div>
 
-          <RouterLink to="/answer" class="show-answer-link">答えを見る</RouterLink>
+          <RouterLink to="/answer" class="show-answer-link"
+            >答えを見る</RouterLink
+          >
         </div>
-
       </div>
     </main>
-    <div style="text-align: center; margin-bottom: 15px;">2023©Japan Search Hackathon Team-B</div>
+    <div style="text-align: center; margin-bottom: 15px">
+      2023©Japan Search Hackathon Team-B
+    </div>
   </div>
 </template>
 
@@ -64,7 +104,7 @@
 import { RouterLink } from "vue-router";
 import { useQuestionStore } from "../stores/question";
 import { ref, computed } from "vue";
-import { shuffleArray } from "../composables/util"
+import { shuffleArray } from "../composables/util";
 
 const questionStore = useQuestionStore();
 const currentQuestionNumber = questionStore.currentQuestionNum;
@@ -87,30 +127,52 @@ const changeHintImg = (newIndex) => {
 const userAnswer = ref("");
 const textHintDisplayed = ref(false);
 const selectBoxDisplayed = ref(false);
-const textHints = ref(["1542-1616, 戦国時代～安土桃山時代の武将、戦国大名、江戸幕府初代将軍。", "岡崎城主・松平広忠の子。", "幼名は竹千代。", "初名は元信、元康。", "法号は安国院。"])
-const selectedHint = textHints.value[Math.floor(Math.random()*textHints.value.length)]
+const textHints = ref([
+  "1542-1616, 戦国時代～安土桃山時代の武将、戦国大名、江戸幕府初代将軍。",
+  "岡崎城主・松平広忠の子。",
+  "幼名は竹千代。",
+  "初名は元信、元康。",
+  "法号は安国院。",
+]);
+const selectedHint =
+  textHints.value[Math.floor(Math.random() * textHints.value.length)];
 
-const choices = ref(["徳川家康","徳川秀忠","徳川家光","徳川家綱","徳川綱吉","徳川家宣","徳川家継","徳川吉宗","徳川家重","徳川家治","徳川家斉","徳川家慶","徳川家定","徳川家茂","徳川慶喜"])
+const choices = ref([
+  "徳川家康",
+  "徳川秀忠",
+  "徳川家光",
+  "徳川家綱",
+  "徳川綱吉",
+  "徳川家宣",
+  "徳川家継",
+  "徳川吉宗",
+  "徳川家重",
+  "徳川家治",
+  "徳川家斉",
+  "徳川家慶",
+  "徳川家定",
+  "徳川家茂",
+  "徳川慶喜",
+]);
 const pickedChoices = computed(() => {
-  const dummyChoices = shuffleArray(choices.value).filter((name) => {
-    return name !== questionStore[currentQuestionNumber]
-  }).slice(0, 4)
+  const dummyChoices = shuffleArray(choices.value)
+    .filter((name) => {
+      return name !== questionStore[currentQuestionNumber];
+    })
+    .slice(0, 4);
 
   const allCanditates = [
     questionStore.questionIds[currentQuestionNumber],
-    ...dummyChoices
-  ]
+    ...dummyChoices,
+  ];
 
-  return shuffleArray(allCanditates)
-
-})
-
-
+  return shuffleArray(allCanditates);
+});
 </script>
 
 <style scoped>
 .body {
-  background: #FBF8F0;
+  background: #fbf8f0;
 }
 
 main {
@@ -123,7 +185,7 @@ h1 {
   font-size: 24px;
   line-height: 35px;
   font-weight: 900;
-  color: #38322C;
+  color: #38322c;
 }
 
 h1 span {
@@ -134,18 +196,18 @@ h1 span {
   width: 100%;
   height: 6px;
   border-radius: 10px;
-  -webkit-appearance: none;
+  appearance: none;
 }
 .progress-bar::-webkit-progress-bar {
-  background-color: #ECE2B0;
+  background-color: #ece2b0;
   border-radius: 6px;
 }
 .progress-bar::-webkit-progress-value {
-  background-color: #E6C620;
+  background-color: #e6c620;
   border-radius: 6px;
 }
 .progress-bar::-moz-progress-bar {
-  background-color: #ECE2B0;
+  background-color: #ece2b0;
   border-radius: 6px;
 }
 
@@ -179,8 +241,8 @@ h1 span {
   padding: 10px;
   height: 44px;
   box-sizing: border-box;
-  background: #FDFDFD;
-  border: 1px solid #AAAAAA;
+  background: #fdfdfd;
+  border: 1px solid #aaaaaa;
   border-radius: 6px;
 }
 
@@ -200,7 +262,7 @@ h1 span {
   font-size: 16px;
   margin-right: 10px;
   height: 47px;
-  border: 1px solid #38322C;
+  border: 1px solid #38322c;
   border-radius: 6px;
   padding: 12px 24px;
   width: max-content;
@@ -208,8 +270,8 @@ h1 span {
 }
 
 .select-button.selected {
-  background: #38322C;
-  color: #FFFFFF;
+  background: #38322c;
+  color: #ffffff;
   cursor: default;
 }
 
@@ -238,26 +300,26 @@ button {
 }
 
 .long-round-button {
-  background: #FDFDFD;
-  border: 1px solid #38322C;
-  color: #38322C;
+  background: #fdfdfd;
+  border: 1px solid #38322c;
+  color: #38322c;
   border-radius: 50px;
   padding: 12px 24px;
 }
 
 .hint-button {
-  background: #FDFDFD;
-  border: 1px solid #38322C;
-  color: #38322C;
+  background: #fdfdfd;
+  border: 1px solid #38322c;
+  color: #38322c;
   border-radius: 50px;
   padding: 6px 24px;
   font-size: 12px;
 }
 
 .round-button {
-  background: #FDFDFD;
-  border: 1px solid #38322C;
-  color: #38322C;
+  background: #fdfdfd;
+  border: 1px solid #38322c;
+  color: #38322c;
   border-radius: 50px;
   width: 37px;
   height: 37px;
@@ -272,11 +334,10 @@ button {
   margin-right: 20px;
 }
 
-
 /* user input */
 .user-inputs-container {
-  background: #FDFDFD;
-  border: 1px solid #DFD6CD;
+  background: #fdfdfd;
+  border: 1px solid #dfd6cd;
   border-radius: 10px;
   padding: 40px 0;
 }
@@ -287,10 +348,10 @@ button {
 }
 
 .show-answer-link {
-  background: #3C436A;
+  background: #3c436a;
   display: flex;
   border-radius: 8px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 298px;
   height: 56px;
   justify-content: center;
@@ -300,7 +361,7 @@ button {
 }
 
 .text-hint-container {
-  background: #F0EEEC;
+  background: #f0eeec;
   border-radius: 6px;
   width: 100%;
   padding: 16px 19px;
@@ -314,13 +375,13 @@ button {
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
-  color: #38322C;
+  color: #38322c;
 }
 
 .text-hint-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
-  color: #38322C;
+  color: #38322c;
 }
 </style>
