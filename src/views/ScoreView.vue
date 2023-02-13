@@ -1,24 +1,31 @@
 <template>
-  <h1>あなたの得点は{{ totalScore }}点です！</h1>
-  <div class="user-inputs-container">
-    <p>レベル</p>
+  <div class="body">
+    <main>
+      <h1>あなたの得点は{{ totalScore }}点です！</h1>
+      <div class="user-inputs-container">
+        <p>レベル</p>
+      </div>
+      <p>わかったのはどの人物？チェックしておこう</p>
+      <ul>
+        <li v-for="question in questions">
+          {{ question }}
+        </li>
+      </ul>
+      <div class="user-inputs-container flexbox">
+        <img src="../assets/japansearch.gif" class="jps-gif">
+        <article class="explain-jps">
+          <h2>ジャパンサーチで歴史マスターになろう</h2>
+          <p>ジャパンサーチの説明</p>
+          <a href="https://jpsearch.go.jp/" target="_blank">ジャパンサーチを見る</a>
+        </article>
+      </div>
+      <RouterLink to="/question?q=1" tag="button" class="show-answer-link">もう一回遊ぶ</RouterLink>
+      <RouterLink to="/home">トップページに戻る</RouterLink>
+    </main>
+    <div style="text-align: center; margin-bottom: 15px">
+      2023©Japan Search Hackathon Team-B
+    </div>
   </div>
-  <p>わかったのはどの人物？チェックしておこう</p>
-  <ul>
-    <li v-for="question in questions">
-      {{ question }}
-    </li>
-  </ul>
-  <div class="user-inputs-container">
-    <article>
-      <h2>ジャパンサーチで歴史マスターになろう</h2>
-      <p>ジャパンサーチの説明</p>
-      <a href="https://jpsearch.go.jp/" target="_blank">ジャパンサーチを見る</a>
-    </article>
-    
-  </div>
-  <RouterLink to="/question?q=1" tag="button" class="show-answer-link">もう一回遊ぶ</RouterLink>
-  <RouterLink to="/home">トップページに戻る</RouterLink>
 </template>
 
 <script setup>
@@ -248,6 +255,15 @@ const questions = questionStore.questionIds;
     font-size: 14px;
     line-height: 160%;
     color: #38322c;
+  }
+
+  .flexbox {
+    display: flex;
+  }
+
+  .jps-gif {
+    width: 100px;
+    height: 100px;
   }
   </style>
   
