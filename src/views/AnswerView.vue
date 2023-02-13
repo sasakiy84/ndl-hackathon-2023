@@ -18,7 +18,7 @@
         v-if="totalQuestionNumber > currentQuestionNumber"
         >次の問題</RouterLink
       >
-      <a href="/" v-else>結果を見る</a>
+      <a href="/score" v-else>結果を見る</a>
     </main>
   </div>
 </template>
