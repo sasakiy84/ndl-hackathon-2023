@@ -3,12 +3,11 @@ import { RouterLink } from "vue-router";
 import { ref } from "vue";
 import { useQuestionStore } from "../stores/question";
 import ScoreList from "../components/ScoreList.vue"
+import ScoreclassContainer from "../components/ScoreclassContainer.vue"
+import JpsDescriptionContainer from "../components/JpsDescriptionContainer.vue"
 
 const questionStore = useQuestionStore();
-const currentQuestionNumber = questionStore.currentQuestionNum;
-const totalQuestionNumber = questionStore.totalQuestionNum;
 const totalScore = questionStore.totalScore;
-const answer = questionStore.questionIds[currentQuestionNumber];
   
 </script>
 
@@ -18,21 +17,14 @@ const answer = questionStore.questionIds[currentQuestionNumber];
       <div class="total-score-wrapper">
         <h1 class="total-score-text">あなたの得点は{{ totalScore }}点です！</h1>
       </div>
-      <div class="user-inputs-container">
-        <p>レベル</p>
-      </div>
+      <ScoreclassContainer />
       <p>わかったのはどの人物？チェックしておこう</p>
       <ScoreList />
-      <div class="user-inputs-container flexbox">
-        <img src="../assets/japansearch.gif" class="jps-gif">
-        <article class="explain-jps">
-          <h2>ジャパンサーチで歴史マスターになろう</h2>
-          <p>ジャパンサーチの説明</p>
-          <a href="https://jpsearch.go.jp/" target="_blank">ジャパンサーチを見る</a>
-        </article>
-      </div>
+      <JpsDescriptionContainer />
       <RouterLink to="/question?q=1" tag="button" class="show-answer-link">もう一回遊ぶ</RouterLink>
-      <RouterLink to="/">トップページに戻る</RouterLink>
+      <div class="home-link">
+        <RouterLink to="/">トップページに戻る</RouterLink>
+      </div>
     </main>
     <div style="text-align: center; margin-bottom: 15px">
       2023©Japan Search Hackathon Team-B
@@ -72,19 +64,6 @@ const answer = questionStore.questionIds[currentQuestionNumber];
     appearance: none;
   }
   
-  /* user input */
-  .user-inputs-container {
-    background: #fdfdfd;
-    border: 1px solid #dfd6cd;
-    border-radius: 10px;
-    padding: 40px 0;
-  }
-  
-  .user-inputs-wrapper {
-    width: 400px;
-    margin: 0 auto;
-  }
-  
   .show-answer-link {
     background: #3c436a;
     display: flex;
@@ -98,22 +77,16 @@ const answer = questionStore.questionIds[currentQuestionNumber];
     margin: 50px auto 0;
   }
 
-  .flexbox {
-    display: flex;
-  }
-
-  .jps-gif {
-    width: 15%;
-    height: 50%;
-    margin: 1rem;
-  }
-
   .total-score-wrapper {
     margin: 3rem auto;
   }
 
   .total-score-text {
     text-align: center;
+  }
+
+  .home-link {
+    margin-top: 3rem;
   }
   </style>
   
