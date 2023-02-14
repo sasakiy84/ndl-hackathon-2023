@@ -15,7 +15,9 @@ const answer = questionStore.questionIds[currentQuestionNumber];
 <template>
   <div class="body">
     <main>
-      <h1 class="total-score-text">あなたの得点は{{ totalScore }}点です！</h1>
+      <div class="total-score-wrapper">
+        <h1 class="total-score-text">あなたの得点は{{ totalScore }}点です！</h1>
+      </div>
       <div class="user-inputs-container">
         <p>レベル</p>
       </div>
@@ -95,14 +97,19 @@ const answer = questionStore.questionIds[currentQuestionNumber];
     text-decoration: none;
     margin: 50px auto 0;
   }
-  
+
   .flexbox {
     display: flex;
   }
 
   .jps-gif {
-    width: 20%;
+    width: 15%;
     height: 50%;
+    margin: 1rem;
+  }
+
+  .total-score-wrapper {
+    margin: 3rem auto;
   }
 
   .total-score-text {
