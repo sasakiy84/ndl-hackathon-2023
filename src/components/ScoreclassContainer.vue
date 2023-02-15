@@ -6,12 +6,12 @@
 
   const scoreclasses = [
     {
-      grade: 1,
+      grade: 5,
       className: 'プラチナマスター',
       description: 'すばらしい！　知識は宝物。どんどんふやそう'
     },
     {
-      grade: 2,
+      grade: 4,
       className: 'ゴールドマスター',
       description: 'すごい！　好きな人物がいたら、とことん調べてみよう'
     },
@@ -21,28 +21,28 @@
       description: '知識は十分。あと少し学ぶとすぐにゴールドに昇格だ！'
     },
     {
-      grade: 4,
+      grade: 2,
       className: 'ブロンズマスター',
       description: 'おしい！　歴史の教科書を見たら、もっとわかるかも'
     },
     {
-      grade: 5,
+      grade: 1,
       className: 'マスター',
       description: 'まだまだ伸びしろのあるきみ。ゆっくり学んでてっぺんをめざそう！'
     }
   ]
 
   const getScoreclass = (score) => {
-    if (score <= 20) {
-      return scoreclasses.find(({grade}) => grade === 5)
-    } else if (score > 20 && score <= 40) {
-      return scoreclasses.find(({grade}) => grade === 4)
-    } else if (score > 40 && score <= 60) {
-      return scoreclasses.find(({grade}) => grade === 3)
-    } else if (score > 60 && score <= 80) {
+    if (score <= 10) {
+      return scoreclasses.find(({grade}) => grade === 1)
+    } else if (score > 10 && score <= 20) {
       return scoreclasses.find(({grade}) => grade === 2)
+    } else if (score > 20 && score <= 50) {
+      return scoreclasses.find(({grade}) => grade === 3)
+    } else if (score > 50 && score <= 75) {
+      return scoreclasses.find(({grade}) => grade === 4)
     } else {
-      return  scoreclasses.find(({grade}) => grade === 1)
+      return  scoreclasses.find(({grade}) => grade === 5)
     } 
   }
 
