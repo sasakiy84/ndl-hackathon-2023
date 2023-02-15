@@ -1,40 +1,29 @@
 <script setup>
+import { ref } from "vue"
+import ParagraphWrapper from "../ParagraphWrapper.vue"
 
 </script>
 
 <template>
-  <div class="paragraph-container">
-    <div class="paragraph-wrapper flexbox">
-      <img src="../assets/japansearch.gif" class="jps-gif">
+  <ParagraphWrapper 
+  :isFlex=true
+  >
+    <img src="../../assets/japansearch_logo_text.svg" class="jps-logo">
       <article class="explain-jps">
-        <h2>ジャパンサーチで歴史マスターになろう</h2>
+        <h1>ジャパンサーチで歴史マスターになろう</h1>
         <p>このゲームはジャパンサーチのデータを使っています。ジャパンサーチは、図書館、博物館、美術館、公文書館、大学などがもっているコンテンツ、国宝や重要文化財の画像などを検索できるしくみ。面白いビジュアルがたくさんかくれているデジタル館です。検索ワードを打ち込むと、いろいろなことを調べられます。きっと見たことのある画像があるはず！</p>
         <a href="https://jpsearch.go.jp/" target="_blank">ジャパンサーチを見る</a>
       </article>
-    </div>
-  </div>
+  </ParagraphWrapper>
 </template>
 
 <style scoped>
-  .paragraph-container {
-    background: #fdfdfd;
-    border: 1px solid #dfd6cd;
-    border-radius: 10px;
-    padding: 40px 0;
+  h1 {
+    font-size: large;
   }
-
-  .paragraph-wrapper {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .flexbox {
-    display: flex;
-  }
-
-  .jps-gif {
-    width: 15%;
-    height: 50%;
-    margin-right: 1rem;
+  .jps-logo {
+    /* width: 15%; */
+    /* height: 50%; */
+    /* margin-right: 1rem; */
   }
 </style>

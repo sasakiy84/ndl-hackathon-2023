@@ -1,5 +1,5 @@
 <script setup>
-  import { useQuestionStore } from "../stores/question";
+  import { useQuestionStore } from "../../stores/question";
   
   const questionStore = useQuestionStore();
   const totalScore = questionStore.totalScore;
@@ -51,8 +51,8 @@
   </script>
   
   <template>
-    <div class="paragraph-container">
-      <div class="paragraph-wrapper">
+    <div class="scoreclass-container">
+      <div class="scoreclass-wrapper">
         <p>レベル　{{ scoreclass.className }}</p>
         <p>{{ scoreclass.description }}</p>
       </div>
@@ -60,14 +60,14 @@
   </template>
   
   <style scoped>
-    .paragraph-container {
+    .scoreclass-container {
       background: #fdfdfd;
       border: 1px solid #dfd6cd;
       border-radius: 10px;
       padding: 40px 0;
     }
 
-    .paragraph-wrapper {
+    .scoreclass-wrapper {
       width: 90%;
       margin: 0 auto;
     }

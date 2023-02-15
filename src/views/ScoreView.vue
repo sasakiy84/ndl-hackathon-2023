@@ -2,9 +2,9 @@
 import { RouterLink } from "vue-router";
 import { ref } from "vue";
 import { useQuestionStore } from "../stores/question";
-import ScoreList from "../components/ScoreList.vue"
-import ScoreclassContainer from "../components/ScoreclassContainer.vue"
-import JpsDescriptionContainer from "../components/JpsDescriptionContainer.vue"
+import ScoreList from "../components/ScoreView/ScoreList.vue"
+import ScoreclassContainer from "../components/ScoreView/ScoreclassContainer.vue"
+import JpsDescriptionContainer from "../components/ScoreView/JpsDescriptionContainer.vue"
 
 const questionStore = useQuestionStore();
 const totalScore = questionStore.totalScore;
