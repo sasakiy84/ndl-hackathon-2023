@@ -13,9 +13,9 @@ const scores = questionStore.scores;
   <ParagraphWrapper>
     <ul>
       <li v-for="n in totalQuestionNumber">
-        <p class="question-number-text">Q.{{ n }}</p>
-        <p class="answer-text">{{ answers[n - 1] }}</p>
-        <p class="score-text">{{ scores[n - 1] }}点</p>
+          <p class="question-number-text">Q.{{ n }}</p>
+          <p class="answer-text">{{ answers[n - 1] }}</p>
+          <p class="score-text">{{ scores[n - 1] }}点</p>
       </li>
     </ul>
   </ParagraphWrapper>
@@ -29,6 +29,7 @@ const scores = questionStore.scores;
   li {
     list-style: none;
     display: flex;
+    flex-direction: row;
     border-bottom: 0.1rem solid;
   }
 
@@ -38,10 +39,10 @@ const scores = questionStore.scores;
   }
 
   .answer-text {
-    width: 20rem;
+    flex: auto;
   }
 
   .score-text {
-    width: 5rem;
+    width: 4rem;
   }
 </style>
