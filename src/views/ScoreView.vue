@@ -1,10 +1,10 @@
 <script setup>
 import { RouterLink } from "vue-router";
-import { ref } from "vue";
 import { useQuestionStore } from "../stores/question";
 import ScoreList from "../components/ScoreView/ScoreList.vue"
 import ScoreclassContainer from "../components/ScoreView/ScoreclassContainer.vue"
 import JpsDescriptionContainer from "../components/ScoreView/JpsDescriptionContainer.vue"
+import Footer from "../components/Footer.vue"
 
 const questionStore = useQuestionStore();
 const totalScore = questionStore.totalScore;
@@ -33,9 +33,7 @@ const totalScore = questionStore.totalScore;
         <RouterLink to="/">トップページに戻る</RouterLink>
       </div>
     </main>
-    <div style="text-align: center; margin-bottom: 15px">
-      2023©Japan Search Hackathon Team-B
-    </div>
+    <Footer />
   </div>
 </template>
 
