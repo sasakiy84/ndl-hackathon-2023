@@ -24,10 +24,10 @@ const totalScore = questionStore.totalScore;
       <RouterLink 
         to="/question?q=1" 
         tag="button" 
-        class="show-answer-link"
+        class="play-again-button"
         @click="questionStore.$reset()"
       >
-        もう一回遊ぶ
+        もう一度遊ぶ
       </RouterLink>
       <div class="home-link">
         <RouterLink to="/">トップページに戻る</RouterLink>
@@ -69,11 +69,12 @@ const totalScore = questionStore.totalScore;
     appearance: none;
   }
   
-  .show-answer-link {
-    background: #3c436a;
+  .play-again-button {
+    background: none;
     display: flex;
+    border: 2px solid #3c436a;
     border-radius: 8px;
-    color: #ffffff;
+    color: #3c436a;
     width: 298px;
     height: 56px;
     justify-content: center;

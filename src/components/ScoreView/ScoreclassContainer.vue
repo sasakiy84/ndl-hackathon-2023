@@ -53,22 +53,33 @@
   <template>
     <div class="scoreclass-container">
       <div class="scoreclass-wrapper">
-        <p>レベル　{{ scoreclass.className }}</p>
-        <p>{{ scoreclass.description }}</p>
+        <img class="scoreclass-icon" src="../../assets/japansearch_logo_text.svg"/>
+        <div class="scoreclass-text">
+          <p class="level">レベル　{{ scoreclass.className }}</p>
+          <p class="descripsion">{{ scoreclass.description }}</p>
+        </div>
       </div>
     </div>
   </template>
   
   <style scoped>
     .scoreclass-container {
-      background: #fdfdfd;
-      border: 1px solid #dfd6cd;
-      border-radius: 10px;
-      padding: 40px 0;
+      background: #EDEAE2;
+      border-radius: 12px;
+      padding: 10px 0;
     }
 
     .scoreclass-wrapper {
       width: 90%;
       margin: 0 auto;
+      display: flex;
+    }
+
+    .scoreclass-icon {
+
+    }
+
+    .scoreclass-text {
+
     }
   </style>
