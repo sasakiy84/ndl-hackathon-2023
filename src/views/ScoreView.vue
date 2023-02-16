@@ -21,7 +21,14 @@ const totalScore = questionStore.totalScore;
       <p>わかったのはどの人物？チェックしておこう</p>
       <ScoreList />
       <JpsDescriptionContainer />
-      <RouterLink to="/question?q=1" tag="button" class="show-answer-link">もう一回遊ぶ</RouterLink>
+      <RouterLink 
+        to="/question?q=1" 
+        tag="button" 
+        class="show-answer-link"
+        @click="questionStore.$reset()"
+      >
+        もう一回遊ぶ
+      </RouterLink>
       <div class="home-link">
         <RouterLink to="/">トップページに戻る</RouterLink>
       </div>
