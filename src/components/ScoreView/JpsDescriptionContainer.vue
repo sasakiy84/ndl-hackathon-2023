@@ -15,9 +15,12 @@ import ParagraphWrapper from "../ParagraphWrapper.vue"
         <p>このゲームはジャパンサーチのデータを使っています。ジャパンサーチは、図書館、博物館、美術館、公文書館、大学などがもっているコンテンツ、国宝や重要文化財の画像などを検索できるしくみ。面白いビジュアルがたくさんかくれているデジタル館です。検索ワードを打ち込むと、いろいろなことを調べられます。きっと見たことのある画像があるはず！</p>
       </article>
     </div>
-    <a href="https://jpsearch.go.jp/" target="_blank">
-      <button class="jps-link-button">ジャパンサーチを見る</button>
-    </a>
+    <div class="jps-link-wrapper">
+      <a href="https://jpsearch.go.jp/" target="_blank">
+        <button class="jps-link-button">ジャパンサーチを見る</button>
+      </a>
+    </div>
+    
   </ParagraphWrapper>
 </template>
 
@@ -33,9 +36,16 @@ import ParagraphWrapper from "../ParagraphWrapper.vue"
 
   a {
     text-decoration: none;
+    display: inline-block;
   }
 
   .jps-link-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
     background: #3c436a;
     display: flex;
     border-radius: 8px;
@@ -46,9 +56,12 @@ import ParagraphWrapper from "../ParagraphWrapper.vue"
     align-items: center;
     text-decoration: none;
     margin: 5px auto 0;
-    cursor: pointer;
   }
 
+  .jps-link-wrapper {
+    text-align: center;
+  }
+ 
   .jps-article-wrapper {
     display: flex;
   }
