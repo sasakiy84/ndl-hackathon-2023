@@ -11,17 +11,24 @@ const scores = questionStore.scores;
 
 <template>
   <ParagraphWrapper>
-    <ul>
-      <li v-for="n in totalQuestionNumber">
-          <p class="question-number-text">Q.{{ n }}</p>
-          <p class="answer-text">{{ answers[n - 1] }}</p>
-          <p class="score-text">{{ scores[n - 1] }}点</p>
-      </li>
-    </ul>
+    <div class="scorelist-wrapper">
+      <p>わかったのはどの人物？チェックしておこう</p>
+      <ul>
+        <li v-for="n in totalQuestionNumber">
+            <p class="question-number-text">Q.{{ n }}</p>
+            <p class="answer-text">{{ answers[n - 1] }}</p>
+            <p class="score-text">{{ scores[n - 1] }}点</p>
+        </li>
+      </ul>
+    </div>
   </ParagraphWrapper>
 </template>
 
 <style scoped>
+  .scorelist-wrapper {
+    padding: 0 2rem;
+  }
+
   ul {
     padding-left: 0;
   }

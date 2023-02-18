@@ -12,7 +12,7 @@ import ParagraphWrapper from "../ParagraphWrapper.vue"
       <img src="../../assets/japansearch_logo_text.svg" class="jps-logo">
       <article class="explain-jps">
         <h1>ジャパンサーチで歴史マスターになろう</h1>
-        <p>このゲームはジャパンサーチのデータを使っています。ジャパンサーチは、図書館、博物館、美術館、公文書館、大学などがもっているコンテンツ、国宝や重要文化財の画像などを検索できるしくみ。面白いビジュアルがたくさんかくれているデジタル館です。検索ワードを打ち込むと、いろいろなことを調べられます。きっと見たことのある画像があるはず！</p>
+        <p class="description-text">このゲームはジャパンサーチのデータを使っています。ジャパンサーチは、図書館、博物館、美術館、公文書館、大学などがもっているコンテンツ、国宝や重要文化財の画像などを検索できるしくみ。面白いビジュアルがたくさんかくれているデジタル館です。検索ワードを打ち込むと、いろいろなことを調べられます。きっと見たことのある画像があるはず！</p>
       </article>
     </div>
     <div class="jps-link-wrapper">
@@ -27,16 +27,20 @@ import ParagraphWrapper from "../ParagraphWrapper.vue"
 <style scoped>
   h1 {
     font-size: large;
+    font-weight: 500;
   }
   .jps-logo {
-    /* width: 15%; */
-    /* height: 50%; */
-    /* margin-right: 1rem; */
+    
   }
 
   a {
     text-decoration: none;
     display: inline-block;
+  }
+
+  .description-text {
+    font-weight: 400;
+    line-height: 1.6;
   }
 
   .jps-link-button {
@@ -56,6 +60,7 @@ import ParagraphWrapper from "../ParagraphWrapper.vue"
     align-items: center;
     text-decoration: none;
     margin: 5px auto 0;
+    font-weight: 700;
   }
 
   .jps-link-wrapper {

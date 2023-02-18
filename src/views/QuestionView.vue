@@ -9,11 +9,13 @@
       <p class="progress-text">
         あと{{ totalQuestionNumber - currentQuestionNumber }}問
       </p>
-      <h1>
-        <span class="question-number">{{ `Q.${currentQuestionNumber + 1}` }}</span
-        >この人物は誰でしょう？
-      </h1>
-      <p>現在の得点: {{ totalScore }}</p>
+      <div class="question-title">
+        <h1>
+          <span class="question-number">{{ `Q.${currentQuestionNumber + 1}` }}</span
+          >この人物は誰でしょう？
+        </h1>
+      </div>
+      <p class="current-score-text">現在の得点: {{ totalScore }}</p>
       <div class="img-wrapper">
         <img class="hint-img" :src="hintImgLinks[currentHintImgIndex]" alt="" />
       </div>
@@ -37,65 +39,58 @@
           {{ index }}
         </button>
       </div>
-
-      <!-- <div class="user-inputs-container">
-        <div class="user-inputs-wrapper"> -->
-        <ParagraphWrapper>
-          <div class="answer-input-wrapper" v-if="!selectBoxDisplayed">
-            <input
-              class="answer-input"
-              type="text"
-              v-model="userAnswer"
-              placeholder="人物名を入力する"
-            />
-          </div>
-          <div class="select-input-wrapper" v-else>
-            <p>この中の誰でしょう</p>
-            <div class="select-button-wrapper">
-              <button
-                class="select-button"
-                v-for="name in pickedChoices"
-                :key="name"
-                @click="userAnswer = name"
-                :disabled="userAnswer === name"
-                :class="{
-                  selected: userAnswer === name,
-                }"
-              >
-                {{ name }}
-              </button>
-            </div>
-          </div>
-          <div class="text-hint">
+      <ParagraphWrapper>
+        <div class="answer-input-wrapper" v-if="!selectBoxDisplayed">
+          <input
+            class="answer-input"
+            type="text"
+            v-model="userAnswer"
+            placeholder="人物名を入力する"
+          />
+        </div>
+        <div class="select-input-wrapper" v-else>
+          <p>この中の誰でしょう</p>
+          <div class="select-button-wrapper">
             <button
-              v-if="!textHintDisplayed"
-              class="hint-button"
-              @click="textHintDisplayed = true"
+              class="select-button"
+              v-for="name in pickedChoices"
+              :key="name"
+              @click="userAnswer = name"
+              :disabled="userAnswer === name"
+              :class="{
+                selected: userAnswer === name,
+              }"
             >
-              ヒントを表示する
-            </button>
-            <button
-              v-if="textHintDisplayed && !selectBoxDisplayed"
-              class="hint-button"
-              @click="selectBoxDisplayed = true"
-            >
-              もっとヒントを表示する
+              {{ name }}
             </button>
           </div>
-
-          <div class="text-hint-container" v-if="textHintDisplayed">
-            <p class="text-hint-title">ヒント</p>
-            <p class="text-hint-text">{{ selectedHint }}</p>
-          </div>
-          <p class="show-answer-text">\\ 答えを見て次の問題へGO！ //</p>
-          <button @click="submitAnswer" class="show-answer-link">
-            回答する
+        </div>
+        <div class="text-hint">
+          <button
+            v-if="!textHintDisplayed"
+            class="hint-button"
+            @click="textHintDisplayed = true"
+          >
+            ヒントを表示する
           </button>
-        </ParagraphWrapper>
+          <button
+            v-if="textHintDisplayed && !selectBoxDisplayed"
+            class="hint-button"
+            @click="selectBoxDisplayed = true"
+          >
+            もっとヒントを表示する
+          </button>
+        </div>
 
-          
-        <!-- </div>
-      </div> -->
+        <div class="text-hint-container" v-if="textHintDisplayed">
+          <p class="text-hint-title">ヒント</p>
+          <p class="text-hint-text">{{ selectedHint }}</p>
+        </div>
+        <p class="show-answer-text">\\ 答えを見て次の問題へGO！ //</p>
+        <button @click="submitAnswer" class="show-answer-link">
+          回答する
+        </button>
+      </ParagraphWrapper>
     </main>
     <HomeLink />
     <JpsHackathonFooter />
@@ -188,10 +183,6 @@ const submitAnswer = async () => {
 </script>
 
 <style scoped>
-.body {
-  background: #fbf8f0;
-}
-
 main {
   max-width: 600px;
   margin: 0 auto 60px;
@@ -208,8 +199,16 @@ h1 span {
   margin-right: 15px;
 }
 
+.question-title {
+  margin-left: 3rem;
+}
+
 .question-number {
   font-weight: 900;
+}
+
+.current-score-text {
+  margin-left: 3rem;
 }
 
 .progress-bar {
@@ -233,6 +232,7 @@ h1 span {
 
 .progress-text {
   margin-top: 10px;
+  font-size: small;
 }
 
 .img-wrapper {

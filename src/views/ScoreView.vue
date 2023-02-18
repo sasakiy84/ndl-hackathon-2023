@@ -18,7 +18,6 @@ const totalScore = questionStore.totalScore;
         <h1 class="total-score-text">あなたの得点は{{ totalScore }}点です！</h1>
       </div>
       <ScoreclassContainer />
-      <p>わかったのはどの人物？チェックしておこう</p>
       <ScoreList />
       <JpsDescriptionContainer />
       <RouterLink to="/question?q=1" class="question-link">
@@ -33,10 +32,6 @@ const totalScore = questionStore.totalScore;
 
 
 <style scoped>
-  .body {
-    background: #fbf8f0;
-  }
-  
   main {
     max-width: 600px;
     margin: 0 auto 60px;
@@ -75,6 +70,7 @@ const totalScore = questionStore.totalScore;
     align-items: center;
     text-decoration: none;
     margin: 50px auto 0;
+    font-weight: 700;
   }
 
   .total-score-wrapper {
