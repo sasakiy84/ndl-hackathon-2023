@@ -10,7 +10,7 @@
         あと{{ totalQuestionNumber - currentQuestionNumber }}問
       </p>
       <h1>
-        <span>{{ `Q.${currentQuestionNumber + 1}` }}</span
+        <span class="question-number">{{ `Q.${currentQuestionNumber + 1}` }}</span
         >この人物は誰でしょう？
       </h1>
       <p>現在の得点: {{ totalScore }}</p>
@@ -72,7 +72,7 @@
               class="hint-button"
               @click="textHintDisplayed = true"
             >
-              ヒントを見る
+              ヒントを表示する
             </button>
             <button
               v-if="textHintDisplayed && !selectBoxDisplayed"
@@ -87,16 +87,15 @@
             <p class="text-hint-title">ヒント</p>
             <p class="text-hint-text">{{ selectedHint }}</p>
           </div>
-
+          <p class="show-answer-text">\\ 答えを見て次の問題へGO！ //</p>
           <button @click="submitAnswer" class="show-answer-link">
-            答えを見る
+            回答する
           </button>
         </div>
       </div>
     </main>
-    <div style="text-align: center; margin-bottom: 15px">
-      2023©Japan Search Hackathon Team-B
-    </div>
+    <HomeLink />
+    <JpsHackathonFooter />
   </div>
 </template>
 
@@ -105,6 +104,9 @@ import { useQuestionStore } from "../stores/question";
 import { ref, computed } from "vue";
 import { shuffleArray } from "../composables/util";
 import { useRouter } from "vue-router";
+
+import HomeLink from "../components/HomeLink.vue"
+import JpsHackathonFooter from "../components/JpsHackathonFooter.vue"
 
 const questionStore = useQuestionStore();
 const currentQuestionNumber = questionStore.currentQuestionNum;
@@ -188,19 +190,22 @@ const submitAnswer = async () => {
 
 main {
   max-width: 600px;
-  margin: 0 auto 70px;
+  margin: 0 auto 60px;
 }
 
 h1 {
   font-weight: 500;
   font-size: 24px;
   line-height: 35px;
-  font-weight: 900;
   color: #38322c;
 }
 
 h1 span {
   margin-right: 15px;
+}
+
+.question-number {
+  font-weight: 900;
 }
 
 .progress-bar {
@@ -368,7 +373,12 @@ button {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  margin: 50px auto 0;
+  margin: 20px auto 0;
+}
+
+.show-answer-text {
+  margin-top: 30px;
+  text-align: center;
 }
 
 .text-hint-container {

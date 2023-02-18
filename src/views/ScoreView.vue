@@ -4,7 +4,7 @@ import { useQuestionStore } from "../stores/question";
 import ScoreList from "../components/ScoreView/ScoreList.vue"
 import ScoreclassContainer from "../components/ScoreView/ScoreclassContainer.vue"
 import JpsDescriptionContainer from "../components/ScoreView/JpsDescriptionContainer.vue"
-import Footer from "../components/Footer.vue"
+import JpsHackathonFooter from "../components/JpsHackathonFooter.vue"
 
 const questionStore = useQuestionStore();
 const totalScore = questionStore.totalScore;
@@ -26,11 +26,8 @@ const totalScore = questionStore.totalScore;
           もう一度遊ぶ
         </button>
       </RouterLink>
-      <div class="home-link">
-        <RouterLink to="/">トップページに戻る</RouterLink>
-      </div>
     </main>
-    <Footer />
+    <JpsHackathonFooter />
   </div>
 </template>
 
@@ -42,14 +39,14 @@ const totalScore = questionStore.totalScore;
   
   main {
     max-width: 600px;
-    margin: 0 auto 70px;
+    margin: 0 auto 60px;
   }
   
   h1 {
-    font-weight: 500;
+    /* font-weight: 500; */
     font-size: 24px;
     line-height: 35px;
-    font-weight: 900;
+    font-weight: 700;
     color: #38322c;
   }
   
@@ -86,10 +83,6 @@ const totalScore = questionStore.totalScore;
 
   .total-score-text {
     text-align: center;
-  }
-
-  .home-link {
-    margin-top: 3rem;
   }
 
   .question-link {

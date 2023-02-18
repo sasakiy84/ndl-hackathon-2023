@@ -11,6 +11,6 @@
 <style scoped>
   div {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 2rem;
   }
 </style>
