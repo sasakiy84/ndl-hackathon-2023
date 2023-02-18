@@ -8,27 +8,32 @@
     {
       grade: 5,
       className: 'プラチナマスター',
-      description: 'すばらしい！　知識は宝物。どんどんふやそう'
+      description: 'すばらしい！　知識は宝物。どんどんふやそう',
+      icon: '../../assets/medal_platinum.svg'
     },
     {
       grade: 4,
       className: 'ゴールドマスター',
-      description: 'すごい！　好きな人物がいたら、とことん調べてみよう'
+      description: 'すごい！　好きな人物がいたら、とことん調べてみよう',
+      icon: '../../assets/medal_gold.svg'
     },
     {
       grade: 3,
       className: 'シルバーマスター',
-      description: '知識は十分。あと少し学ぶとすぐにゴールドに昇格だ！'
+      description: '知識は十分。あと少し学ぶとすぐにゴールドに昇格だ！',
+      icon: '../../assets/medal_silver.svg'
     },
     {
       grade: 2,
       className: 'ブロンズマスター',
-      description: 'おしい！　歴史の教科書を見たら、もっとわかるかも'
+      description: 'おしい！　歴史の教科書を見たら、もっとわかるかも',
+      icon: '../../assets/medal_bronze.svg'
     },
     {
       grade: 1,
       className: 'マスター',
-      description: 'まだまだ伸びしろのあるきみ。ゆっくり学んでてっぺんをめざそう！'
+      description: 'まだまだ伸びしろのあるきみ。ゆっくり学んでてっぺんをめざそう！',
+      icon: '../../assets/medal_master.svg'
     }
   ]
 
@@ -47,16 +52,19 @@
   }
 
   const scoreclass = getScoreclass(totalScore)
+  const icon = new URL(getScoreclass(totalScore).icon, import.meta.url).href
 
   </script>
   
   <template>
     <div class="scoreclass-container">
       <div class="scoreclass-wrapper">
-        <img class="scoreclass-icon" src="../../assets/japansearch_logo_text.svg"/>
-        <div class="scoreclass-text">
-          <p class="level">レベル　{{ scoreclass.className }}</p>
-          <p class="descripsion">{{ scoreclass.description }}</p>
+        <div class="scoreclass-inner-wrapper">
+          <img class="scoreclass-icon" :src="icon"/>
+          <div class="scoreclass-text">
+            <p class="scoreclass-level">レベル　{{ scoreclass.className }}</p>
+            <p class="scoreclass-descripsion">{{ scoreclass.description }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -67,19 +75,28 @@
       background: #FCFCFC;
       border-radius: 12px;
       padding: 10px 0;
+      margin-bottom: 1rem;
     }
 
     .scoreclass-wrapper {
       width: 90%;
       margin: 0 auto;
+    }
+
+    .scoreclass-inner-wrapper {
       display: flex;
+      padding: 0 2rem;
     }
 
     .scoreclass-icon {
-
+      margin-right: 1rem;
     }
 
     .scoreclass-text {
+
+    }
+
+    .scoreclass-description {
 
     }
   </style>
