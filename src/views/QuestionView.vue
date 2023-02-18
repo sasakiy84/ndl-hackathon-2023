@@ -38,8 +38,9 @@
         </button>
       </div>
 
-      <div class="user-inputs-container">
-        <div class="user-inputs-wrapper">
+      <!-- <div class="user-inputs-container">
+        <div class="user-inputs-wrapper"> -->
+        <ParagraphWrapper>
           <div class="answer-input-wrapper" v-if="!selectBoxDisplayed">
             <input
               class="answer-input"
@@ -65,7 +66,6 @@
               </button>
             </div>
           </div>
-
           <div class="text-hint">
             <button
               v-if="!textHintDisplayed"
@@ -91,8 +91,11 @@
           <button @click="submitAnswer" class="show-answer-link">
             回答する
           </button>
-        </div>
-      </div>
+        </ParagraphWrapper>
+
+          
+        <!-- </div>
+      </div> -->
     </main>
     <HomeLink />
     <JpsHackathonFooter />
@@ -107,6 +110,7 @@ import { useRouter } from "vue-router";
 
 import HomeLink from "../components/HomeLink.vue"
 import JpsHackathonFooter from "../components/JpsHackathonFooter.vue"
+import ParagraphWrapper from "../components/ParagraphWrapper.vue"
 
 const questionStore = useQuestionStore();
 const currentQuestionNumber = questionStore.currentQuestionNum;
@@ -215,15 +219,15 @@ h1 span {
   appearance: none;
 }
 .progress-bar::-webkit-progress-bar {
-  background-color: #ece2b0;
+  background-color: #F9F7F3;
   border-radius: 6px;
 }
 .progress-bar::-webkit-progress-value {
-  background-color: #e6c620;
+  background-color: #C23C11;
   border-radius: 6px;
 }
 .progress-bar::-moz-progress-bar {
-  background-color: #ece2b0;
+  background-color: #F9F7F3;
   border-radius: 6px;
 }
 
@@ -316,7 +320,7 @@ button {
 }
 
 .long-round-button {
-  background: #fdfdfd;
+  background: #F9F7F3;
   border: 1px solid #38322c;
   color: #38322c;
   border-radius: 50px;
@@ -324,7 +328,7 @@ button {
 }
 
 .hint-button {
-  background: #fdfdfd;
+  background: #F9F7F3;
   border: 1px solid #38322c;
   color: #38322c;
   border-radius: 50px;
@@ -333,7 +337,7 @@ button {
 }
 
 .round-button {
-  background: #fdfdfd;
+  background: #F9F7F3;
   border: 1px solid #38322c;
   color: #38322c;
   border-radius: 50px;

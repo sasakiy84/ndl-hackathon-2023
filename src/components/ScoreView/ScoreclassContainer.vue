@@ -64,7 +64,7 @@
   
   <style scoped>
     .scoreclass-container {
-      background: #EDEAE2;
+      background: #FCFCFC;
       border-radius: 12px;
       padding: 10px 0;
     }

@@ -21,8 +21,8 @@ const props = defineProps({
 
 <style scoped>
   .paragraph-container {
-    background: #fdfdfd;
-    border: 1px solid #dfd6cd;
+    background: #F9F7F3;
+    border: 1px solid #968D84;
     border-radius: 10px;
     padding: 40px 0;
     margin-bottom: 1rem;
