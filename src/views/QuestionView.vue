@@ -79,7 +79,7 @@
               class="hint-button"
               @click="selectBoxDisplayed = true"
             >
-              もっとヒントを見る
+              もっとヒントを表示する
             </button>
           </div>
 
