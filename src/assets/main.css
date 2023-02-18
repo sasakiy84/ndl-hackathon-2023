@@ -1,7 +1,9 @@
 @import "./base.css";
 
 body {
-  background: #FBF8F0;
+  /* background: #FBF8F0; */
+  background-image: url('./background.png');
+  background-repeat: repeat;
   font-family: 'Zen Maru Gothic', sans-serif;
 }
 
