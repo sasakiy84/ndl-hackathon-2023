@@ -103,6 +103,19 @@ export const useQuestionStore = defineStore({
         previousQuestionData: (state) => {
             const questionId = state.questionIds[state.currentQuestionNum - 1]
             return questions.find((q) => q.chname === questionId)
+        },
+        allAnswerName: (state) => {
+
+            const data = state.questionIds.map((questionId) => {
+
+                const choises = questions.find((q) => q.chname === questionId).choise
+                const answer = choises.find(answerCanditate => {
+                    return md5(answerCanditate) === questionId
+                })
+                return answer
+            })
+
+            return data
         }
     },
     actions: {
