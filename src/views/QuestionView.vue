@@ -18,7 +18,6 @@
         <p class="current-score-text">現在の得点: {{ totalScore }}</p>
       </div>
       <img class="jpskun-question" src="../assets/jpskun_question.svg" alt="" />
-      
       <div class="img-wrapper">
         <!-- <div class="img-background"> -->
           <img class="hint-img" :src="hintImgLinks[currentHintImgIndex]" alt="" />
@@ -96,6 +95,9 @@
           回答する
         </button>
       </ParagraphWrapper>
+      <ScorePopup 
+        :showPopup="showPopup"
+      />
       <HomeLink />
     </main>
     <JpsHackathonFooter />
@@ -123,9 +125,9 @@ const hintImgLinks = questionStore.getHintImages;
 const selectedHint = questionStore.getTextHint
 const pickedChoices = questionStore.getChoises
 
-const isDebuct = ref(false);
+const showPopup = ref(false);
 const showDebuctionScore = () => {
-  isDebuct.value = true
+  showPopup.value = true
 }
 
 const currentHintImgIndex = ref(0);
