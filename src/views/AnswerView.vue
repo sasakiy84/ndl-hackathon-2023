@@ -31,7 +31,7 @@ const questionStore = useQuestionStore();
 const currentQuestionNumber = questionStore.currentQuestionNum;
 const totalQuestionNumber = questionStore.totalQuestionNum;
 const totalScore = questionStore.totalScore;
-const answer = questionStore.questionIds[currentQuestionNumber - 1];
+const answer = questionStore.previousAnswer;
 const isCorrect = questionStore.scores[currentQuestionNumber - 1] > 0;
 </script>
 
