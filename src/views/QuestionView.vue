@@ -132,7 +132,16 @@ const availableScore = computed(() => {
   return score
 });
 const changeHintImg = (newIndex) => {
-  currentHintImgIndex.value = newIndex;
+
+  if (alreadyDisplayedImageIndex.value < newIndex - 1) {
+    alreadyDisplayedImageIndex.value = newIndex - 1
+  }
+
+  if (hintImgLinks.length > newIndex) {
+    currentHintImgIndex.value = newIndex;
+  } else {
+    currentHintImgIndex.value = 0
+  }
 };
 
 const userAnswer = ref("");
