@@ -65,7 +65,7 @@
         id="next-question"
         >次の問題へ進む</RouterLink
       >
-      <RouterLink to="/score" v-else>結果を見る</RouterLink>
+      <RouterLink id="next-question" to="/score" v-else>結果を見る</RouterLink>
 
       <div id="questionimage-infomation-container">
         <h3 id="questionimage-infomation-title-text">画像の情報</h3>
