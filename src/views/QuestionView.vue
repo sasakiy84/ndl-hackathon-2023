@@ -9,15 +9,20 @@
       <p class="progress-text">
         あと{{ totalQuestionNumber - currentQuestionNumber }}問
       </p>
-      <div class="question-title">
-        <h1>
-          <span class="question-number">{{ `Q.${currentQuestionNumber + 1}` }}</span
-          >この人物は誰でしょう？
-        </h1>
+      <div class="question-title-wrapper">
+        <p class="question-title">
+          <h1>
+            <span class="question-number">{{ `Q.${currentQuestionNumber + 1}` }}</span>この人物は誰でしょう？
+          </h1>
+        </p>
+        <p class="current-score-text">現在の得点: {{ totalScore }}</p>
       </div>
-      <p class="current-score-text">現在の得点: {{ totalScore }}</p>
+      <img class="jpskun-question" src="../assets/jpskun_question.svg" alt="" />
+      
       <div class="img-wrapper">
-        <img class="hint-img" :src="hintImgLinks[currentHintImgIndex]" alt="" />
+        <!-- <div class="img-background"> -->
+          <img class="hint-img" :src="hintImgLinks[currentHintImgIndex]" alt="" />
+        <!-- </div> -->
       </div>
       <div class="img-buttons">
         <button
@@ -91,8 +96,8 @@
           回答する
         </button>
       </ParagraphWrapper>
+      <HomeLink />
     </main>
-    <HomeLink />
     <JpsHackathonFooter />
   </div>
 </template>
@@ -199,8 +204,14 @@ h1 span {
   margin-right: 15px;
 }
 
-.question-title {
+.question-title-wrapper {
   margin-left: 3rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.question-title {
+  flex: auto;
 }
 
 .question-number {
@@ -208,7 +219,8 @@ h1 span {
 }
 
 .current-score-text {
-  margin-left: 3rem;
+  flex: initial;
+  
 }
 
 .progress-bar {
@@ -235,11 +247,23 @@ h1 span {
   font-size: small;
 }
 
+.jpskun-question {
+  margin-left: 3rem;
+}
+
 .img-wrapper {
-  width: 100%;
+  width: 98%;
+  padding: 3rem 0;
+  background: #7D7F78;
+  background-image: url('../assets/hintimg_background.svg');
+  /* border-radius: 12px; */
   height: 385px;
-  background: #999898;
-  border-radius: 12px;
+}
+
+.img-background {
+  height: 385px;
+  background-image: url('../assets/hintimg_side.svg');
+  background-repeat: repeat;
 }
 
 .hint-img {
