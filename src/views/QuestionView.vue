@@ -104,8 +104,7 @@
 
 <script setup>
 import { useQuestionStore } from "../stores/question";
-import { ref, computed } from "vue";
-import { shuffleArray } from "../composables/util";
+import { ref } from "vue";
 import { useRouter } from "vue-router";
 
 import HomeLink from "../components/HomeLink.vue"
@@ -116,19 +115,15 @@ const questionStore = useQuestionStore();
 const currentQuestionNumber = questionStore.currentQuestionNum;
 const totalQuestionNumber = questionStore.totalQuestionNum;
 const totalScore = questionStore.totalScore;
-const answer = questionStore.questionIds[currentQuestionNumber];
+const answer = questionStore.currentAnswer;
 
-const availableScore = ref(10);
+
+const hintImgLinks = questionStore.getHintImages;
+const selectedHint = questionStore.getTextHint
+const pickedChoices = questionStore.getChoises
 
 const currentHintImgIndex = ref(0);
-const hintImgLinks = [
-  "https://archive.library.metro.tokyo.lg.jp/da/download/?id=0000000003-00012400&size=listThumb&type=image&file=2421-K001.jpg",
-  "https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08306/bunko10_08306_p0001.jpg",
-  "https://colbase.nich.go.jp/media/tnm/F-20102/image/slideshow_s/F-20102_C0006042.jpg",
-  "https://museumcollection.tokyo/wp-content/uploads/2021/10/12833-L.jpg",
-  "https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/002720914%2F002720914-0001.tif/full/110,/0/default.jpg",
-];
-
+const availableScore = ref(10);
 const changeHintImg = (newIndex) => {
   currentHintImgIndex.value = newIndex;
 };
@@ -136,44 +131,7 @@ const changeHintImg = (newIndex) => {
 const userAnswer = ref("");
 const textHintDisplayed = ref(false);
 const selectBoxDisplayed = ref(false);
-const textHints = ref([
-  "1542-1616, 戦国時代～安土桃山時代の武将、戦国大名、江戸幕府初代将軍。",
-  "岡崎城主・松平広忠の子。",
-  "幼名は竹千代。",
-  "初名は元信、元康。",
-  "法号は安国院。",
-]);
-const selectedHint =
-  textHints.value[Math.floor(Math.random() * textHints.value.length)];
 
-const choices = ref([
-  "徳川家康",
-  "徳川秀忠",
-  "徳川家光",
-  "徳川家綱",
-  "徳川綱吉",
-  "徳川家宣",
-  "徳川家継",
-  "徳川吉宗",
-  "徳川家重",
-  "徳川家治",
-  "徳川家斉",
-  "徳川家慶",
-  "徳川家定",
-  "徳川家茂",
-  "徳川慶喜",
-]);
-const pickedChoices = computed(() => {
-  const dummyChoices = shuffleArray(choices.value)
-    .filter((name) => {
-      return name !== answer;
-    })
-    .slice(0, 4);
-
-  const allCanditates = [answer, ...dummyChoices];
-
-  return shuffleArray(allCanditates);
-});
 
 const router = useRouter();
 const submitAnswer = async () => {
@@ -182,6 +140,8 @@ const submitAnswer = async () => {
   } else {
     questionStore.appendScore(0);
   }
+
+  questionStore.nextQuestion()
 
   await router.push("/answer");
 };
