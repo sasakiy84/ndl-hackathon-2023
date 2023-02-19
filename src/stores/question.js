@@ -64,6 +64,20 @@ export const useQuestionStore = defineStore({
 
             return hintImageURLs
         },
+        /**
+         * @param {*} state 
+         * @return {string[]}
+         */
+        getPreviousHintImages: (state) => {
+            const questionId = state.questionIds[state.currentQuestionNum - 1]
+            const hintImages = questions.find((q) => q.chname === questionId).image
+            const hintImageURLs = []
+            for (const key in hintImages) {
+                hintImageURLs.push(hintImages[key])
+            }
+
+            return hintImageURLs
+        },
         getChoises: (state) => {
             const questionId = state.questionIds[state.currentQuestionNum]
             const choises = questions.find((q) => q.chname === questionId).choise
@@ -81,6 +95,14 @@ export const useQuestionStore = defineStore({
             const textHints = questions.find((q) => q.chname === questionId).hint
             const selectedTextHint = shuffleArray(textHints)[0]
             return selectedTextHint
+        },
+        currentQuestionData: (state) => {
+            const questionId = state.questionIds[state.currentQuestionNum]
+            return questions.find((q) => q.chname === questionId)
+        },
+        previousQuestionData: (state) => {
+            const questionId = state.questionIds[state.currentQuestionNum - 1]
+            return questions.find((q) => q.chname === questionId)
         }
     },
     actions: {
