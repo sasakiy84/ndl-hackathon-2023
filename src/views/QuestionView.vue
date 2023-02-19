@@ -9,20 +9,24 @@
       <p class="progress-text">
         あと{{ totalQuestionNumber - currentQuestionNumber }}問
       </p>
-      <div class="question-title">
-        <h1>
-          <span class="question-number">{{ `Q.${currentQuestionNumber + 1}` }}</span
-          >この人物は誰でしょう？
-        </h1>
+      <div class="question-title-wrapper">
+        <p class="question-title">
+          <h1>
+            <span class="question-number">{{ `Q.${currentQuestionNumber + 1}` }}</span>この人物は誰でしょう？
+          </h1>
+        </p>
+        <p class="current-score-text">現在の得点: {{ totalScore }}</p>
       </div>
-      <p class="current-score-text">現在の得点: {{ totalScore }}</p>
+      <img class="jpskun-question" src="../assets/jpskun_question.svg" alt="" />
       <div class="img-wrapper">
-        <img class="hint-img" :src="hintImgLinks[currentHintImgIndex]" alt="" />
+        <!-- <div class="img-background"> -->
+          <img class="hint-img" :src="hintImgLinks[currentHintImgIndex]" alt="" />
+        <!-- </div> -->
       </div>
       <div class="img-buttons">
         <button
           class="long-round-button next-button"
-          @click.prevent="changeHintImg(currentHintImgIndex + 1)"
+          @click.prevent="changeHintImg(currentHintImgIndex + 1); showDebuctionScore();"
         >
           次の画像を見る
         </button>
@@ -91,8 +95,11 @@
           回答する
         </button>
       </ParagraphWrapper>
+      <ScorePopup 
+        :showPopup="showPopup"
+      />
+      <HomeLink />
     </main>
-    <HomeLink />
     <JpsHackathonFooter />
   </div>
 </template>
@@ -100,75 +107,55 @@
 <script setup>
 import { useQuestionStore } from "../stores/question";
 import { ref, computed } from "vue";
-import { shuffleArray } from "../composables/util";
 import { useRouter } from "vue-router";
 
 import HomeLink from "../components/HomeLink.vue"
 import JpsHackathonFooter from "../components/JpsHackathonFooter.vue"
 import ParagraphWrapper from "../components/ParagraphWrapper.vue"
+import ScorePopup from "../components/QuestionView/ScorePopup.vue"
 
 const questionStore = useQuestionStore();
 const currentQuestionNumber = questionStore.currentQuestionNum;
 const totalQuestionNumber = questionStore.totalQuestionNum;
 const totalScore = questionStore.totalScore;
-const answer = questionStore.questionIds[currentQuestionNumber];
+const answer = questionStore.currentAnswer;
 
-const availableScore = ref(10);
+
+
+const hintImgLinks = questionStore.getHintImages;
+const selectedHint = questionStore.getTextHint
+const pickedChoices = questionStore.getChoises
+
+const showPopup = ref(false);
+const showDebuctionScore = () => {
+  showPopup.value = true
+}
 
 const currentHintImgIndex = ref(0);
-const hintImgLinks = [
-  "https://archive.library.metro.tokyo.lg.jp/da/download/?id=0000000003-00012400&size=listThumb&type=image&file=2421-K001.jpg",
-  "https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08306/bunko10_08306_p0001.jpg",
-  "https://colbase.nich.go.jp/media/tnm/F-20102/image/slideshow_s/F-20102_C0006042.jpg",
-  "https://museumcollection.tokyo/wp-content/uploads/2021/10/12833-L.jpg",
-  "https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/002720914%2F002720914-0001.tif/full/110,/0/default.jpg",
-];
-
+const alreadyDisplayedImageIndex = ref(0)
+const availableScore = computed(() => {
+  const maxScore = 10
+  const substractPoint = alreadyDisplayedImageIndex.value + Number(textHintDisplayed.value) * 2 + Number(selectBoxDisplayed.value) * 4 
+  const score = maxScore - substractPoint
+  return score
+});
 const changeHintImg = (newIndex) => {
-  currentHintImgIndex.value = newIndex;
+
+  if (alreadyDisplayedImageIndex.value < newIndex - 1) {
+    alreadyDisplayedImageIndex.value = newIndex - 1
+  }
+
+  if (hintImgLinks.length > newIndex) {
+    currentHintImgIndex.value = newIndex;
+  } else {
+    currentHintImgIndex.value = 0
+  }
 };
 
 const userAnswer = ref("");
 const textHintDisplayed = ref(false);
 const selectBoxDisplayed = ref(false);
-const textHints = ref([
-  "1542-1616, 戦国時代～安土桃山時代の武将、戦国大名、江戸幕府初代将軍。",
-  "岡崎城主・松平広忠の子。",
-  "幼名は竹千代。",
-  "初名は元信、元康。",
-  "法号は安国院。",
-]);
-const selectedHint =
-  textHints.value[Math.floor(Math.random() * textHints.value.length)];
 
-const choices = ref([
-  "徳川家康",
-  "徳川秀忠",
-  "徳川家光",
-  "徳川家綱",
-  "徳川綱吉",
-  "徳川家宣",
-  "徳川家継",
-  "徳川吉宗",
-  "徳川家重",
-  "徳川家治",
-  "徳川家斉",
-  "徳川家慶",
-  "徳川家定",
-  "徳川家茂",
-  "徳川慶喜",
-]);
-const pickedChoices = computed(() => {
-  const dummyChoices = shuffleArray(choices.value)
-    .filter((name) => {
-      return name !== answer;
-    })
-    .slice(0, 4);
-
-  const allCanditates = [answer, ...dummyChoices];
-
-  return shuffleArray(allCanditates);
-});
 
 const router = useRouter();
 const submitAnswer = async () => {
@@ -177,6 +164,8 @@ const submitAnswer = async () => {
   } else {
     questionStore.appendScore(0);
   }
+
+  questionStore.nextQuestion()
 
   await router.push("/answer");
 };
@@ -199,8 +188,14 @@ h1 span {
   margin-right: 15px;
 }
 
-.question-title {
+.question-title-wrapper {
   margin-left: 3rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.question-title {
+  flex: auto;
 }
 
 .question-number {
@@ -208,7 +203,8 @@ h1 span {
 }
 
 .current-score-text {
-  margin-left: 3rem;
+  flex: initial;
+  
 }
 
 .progress-bar {
@@ -235,11 +231,23 @@ h1 span {
   font-size: small;
 }
 
+.jpskun-question {
+  margin-left: 3rem;
+}
+
 .img-wrapper {
-  width: 100%;
+  width: 98%;
+  padding: 3rem 0;
+  background: #7D7F78;
+  background-image: url('../assets/hintimg_background.svg');
+  /* border-radius: 12px; */
   height: 385px;
-  background: #999898;
-  border-radius: 12px;
+}
+
+.img-background {
+  height: 385px;
+  background-image: url('../assets/hintimg_side.svg');
+  background-repeat: repeat;
 }
 
 .hint-img {

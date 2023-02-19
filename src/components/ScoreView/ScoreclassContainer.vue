@@ -9,31 +9,31 @@
       grade: 5,
       className: 'プラチナマスター',
       description: 'すばらしい！　知識は宝物。どんどんふやそう',
-      icon: '../../assets/medal_platinum.svg'
+      icon: new URL('../../assets/medal_platinum.svg', import.meta.url).href
     },
     {
       grade: 4,
       className: 'ゴールドマスター',
       description: 'すごい！　好きな人物がいたら、とことん調べてみよう',
-      icon: '../../assets/medal_gold.svg'
+      icon: new URL('../../assets/medal_gold.svg', import.meta.url).href
     },
     {
       grade: 3,
       className: 'シルバーマスター',
       description: '知識は十分。あと少し学ぶとすぐにゴールドに昇格だ！',
-      icon: '../../assets/medal_silver.svg'
+      icon: new URL('../../assets/medal_silver.svg', import.meta.url).href
     },
     {
       grade: 2,
       className: 'ブロンズマスター',
       description: 'おしい！　歴史の教科書を見たら、もっとわかるかも',
-      icon: '../../assets/medal_bronze.svg'
+      icon: new URL('../../assets/medal_blonze.svg', import.meta.url).href
     },
     {
       grade: 1,
       className: 'マスター',
       description: 'まだまだ伸びしろのあるきみ。ゆっくり学んでてっぺんをめざそう！',
-      icon: '../../assets/medal_master.svg'
+      icon: new URL('../../assets/medal_master.svg', import.meta.url).href
     }
   ]
 
@@ -52,7 +52,6 @@
   }
 
   const scoreclass = getScoreclass(totalScore)
-  const icon = new URL(getScoreclass(totalScore).icon, import.meta.url).href
 
   </script>
   
@@ -60,7 +59,7 @@
     <div class="scoreclass-container">
       <div class="scoreclass-wrapper">
         <div class="scoreclass-inner-wrapper">
-          <img class="scoreclass-icon" :src="icon"/>
+          <img class="scoreclass-icon" :src="scoreclass.icon"/>
           <div class="scoreclass-text">
             <p class="scoreclass-level">レベル　{{ scoreclass.className }}</p>
             <p class="scoreclass-descripsion">{{ scoreclass.description }}</p>
