@@ -19,14 +19,16 @@
       </div>
       <img class="jpskun-question" src="../assets/jpskun_question.svg" alt="" />
       <div class="img-wrapper">
-        <!-- <div class="img-background"> -->
-          <img class="hint-img" :src="hintImgLinks[currentHintImgIndex]" alt="" />
-        <!-- </div> -->
+          <img  class="hint-img" :src="hintImgLinks[currentHintImgIndex]" alt="" />
+          <div v-show="isPopupDisplayed" class="deducation-card">
+            <p class="minus-score-text">{{ availableScore - 10 }}点</p>
+            <p class="available-score-text">獲得できる点数は{{ availableScore }}点です</p>
+          </div>
       </div>
       <div class="img-buttons">
         <button
           class="long-round-button next-button"
-          @click.prevent="changeHintImg(currentHintImgIndex + 1); showDebuctionScore();"
+          @click.prevent="changeHintImg(currentHintImgIndex + 1)"
         >
           次の画像を見る
         </button>
@@ -73,14 +75,14 @@
           <button
             v-if="!textHintDisplayed"
             class="hint-button"
-            @click="textHintDisplayed = true"
+            @click="textHintDisplayed = true; displayPopup()"
           >
             ヒントを表示する
           </button>
           <button
             v-if="textHintDisplayed && !selectBoxDisplayed"
             class="hint-button"
-            @click="selectBoxDisplayed = true"
+            @click="selectBoxDisplayed = true; displayPopup()"
           >
             もっとヒントを表示する
           </button>
@@ -95,9 +97,6 @@
           回答する
         </button>
       </ParagraphWrapper>
-      <ScorePopup 
-        :showPopup="showPopup"
-      />
       <HomeLink />
     </main>
     <JpsHackathonFooter />
@@ -112,7 +111,6 @@ import { useRouter } from "vue-router";
 import HomeLink from "../components/HomeLink.vue"
 import JpsHackathonFooter from "../components/JpsHackathonFooter.vue"
 import ParagraphWrapper from "../components/ParagraphWrapper.vue"
-import ScorePopup from "../components/QuestionView/ScorePopup.vue"
 
 const questionStore = useQuestionStore();
 const currentQuestionNumber = questionStore.currentQuestionNum;
@@ -120,15 +118,18 @@ const totalQuestionNumber = questionStore.totalQuestionNum;
 const totalScore = questionStore.totalScore;
 const answer = questionStore.currentAnswer;
 
-
-
 const hintImgLinks = questionStore.getHintImages;
 const selectedHint = questionStore.getTextHint
 const pickedChoices = questionStore.getChoises
 
-const showPopup = ref(false);
-const showDebuctionScore = () => {
-  showPopup.value = true
+const isPopupDisplayed = ref(false);
+const timeoutId = ref(-1)
+const displayPopup = () => {
+  isPopupDisplayed.value = true
+  if(timeoutId.value >= 0) clearTimeout(timeoutId.value) 
+  timeoutId.value = setTimeout(() => {
+    isPopupDisplayed.value = false
+  }, 3000)
 }
 
 const currentHintImgIndex = ref(0);
@@ -139,10 +140,12 @@ const availableScore = computed(() => {
   const score = maxScore - substractPoint
   return score
 });
+
 const changeHintImg = (newIndex) => {
 
-  if (alreadyDisplayedImageIndex.value < newIndex - 1) {
-    alreadyDisplayedImageIndex.value = newIndex - 1
+  if (alreadyDisplayedImageIndex.value < newIndex) {
+    displayPopup()
+    alreadyDisplayedImageIndex.value = newIndex
   }
 
   if (hintImgLinks.length > newIndex) {
@@ -242,13 +245,40 @@ h1 span {
   background-image: url('../assets/hintimg_background.svg');
   /* border-radius: 12px; */
   height: 385px;
+  position: relative;
 }
 
-.img-background {
-  height: 385px;
-  background-image: url('../assets/hintimg_side.svg');
-  background-repeat: repeat;
+
+.deducation-card {
+  position: absolute;
+  top: -26px;
+  right: 0;
+  background: #FBFBFB;
+  border: 1px solid #DFD6CD;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 25px 66px;
 }
+
+.deducation-card .minus-score-text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.04em;
+  margin: 0;
+  text-align: center;
+}
+
+.deducation-card .available-score-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  margin: 0;
+  text-align: center;
+}
+
+
 
 .hint-img {
   width: 100%;
