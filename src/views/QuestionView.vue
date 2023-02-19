@@ -27,7 +27,7 @@
       <div class="img-buttons">
         <button
           class="long-round-button next-button"
-          @click.prevent="changeHintImg(currentHintImgIndex + 1)"
+          @click.prevent="changeHintImg(currentHintImgIndex + 1); showDebuctionScore();"
         >
           次の画像を見る
         </button>
@@ -111,6 +111,7 @@ import { useRouter } from "vue-router";
 import HomeLink from "../components/HomeLink.vue"
 import JpsHackathonFooter from "../components/JpsHackathonFooter.vue"
 import ParagraphWrapper from "../components/ParagraphWrapper.vue"
+import ScorePopup from "../components/QuestionView/ScorePopup.vue"
 
 const questionStore = useQuestionStore();
 const currentQuestionNumber = questionStore.currentQuestionNum;
@@ -119,6 +120,11 @@ const totalScore = questionStore.totalScore;
 const answer = questionStore.questionIds[currentQuestionNumber];
 
 const availableScore = ref(10);
+
+const isDebuct = ref(false);
+const showDebuctionScore = () => {
+  isDebuct.value = true
+}
 
 const currentHintImgIndex = ref(0);
 const hintImgLinks = [
