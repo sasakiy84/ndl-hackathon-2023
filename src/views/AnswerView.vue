@@ -13,6 +13,7 @@
       <h1>{{ isCorrect ? "正解" : "不正解" }}</h1>
       <p>正解は、{{ answer }}</p>
       <p>現在の得点は {{ totalScore }}</p>
+      <img class="hint-img" :src="garalyImage" alt="" />
       <RouterLink
         to="/question"
         v-if="totalQuestionNumber > currentQuestionNumber"
@@ -33,13 +34,12 @@ const totalQuestionNumber = questionStore.totalQuestionNum;
 const totalScore = questionStore.totalScore;
 const answer = questionStore.previousAnswer;
 const isCorrect = questionStore.scores[currentQuestionNumber - 1] > 0;
+const garalyUrl = questionStore.getGaralyUrl;
+const garalyImage = questionStore.getGaralyImage;
+
 </script>
 
 <style scoped>
-.body {
-  background: #fbf8f0;
-}
-
 main {
   max-width: 600px;
   margin: 0 auto 70px;
@@ -78,5 +78,11 @@ h1 span {
 
 .progress-text {
   margin-top: 10px;
+}
+
+.hint-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 </style>

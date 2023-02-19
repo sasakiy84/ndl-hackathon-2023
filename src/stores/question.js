@@ -64,6 +64,18 @@ export const useQuestionStore = defineStore({
 
             return hintImageURLs
         },
+        getGaralyUrl: (state) => {
+            const questionId = state.questionIds[state.currentQuestionNum]
+            const gararyUrl = questions.find((q) => q.chname === questionId).garalyurl
+            // console.log(gararyUrl)
+            return gararyUrl
+        },
+        getGaralyImage: (state) => {
+            const questionId = state.questionIds[state.currentQuestionNum]
+            const gararyImage = questions.find((q) => q.chname === questionId).garalyimage
+            console.log(questions.find((q) => q.chname === questionId))
+            return gararyImage
+        },
         getChoises: (state) => {
             const questionId = state.questionIds[state.currentQuestionNum]
             const choises = questions.find((q) => q.chname === questionId).choise
