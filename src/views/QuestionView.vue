@@ -106,7 +106,7 @@
 
 <script setup>
 import { useQuestionStore } from "../stores/question";
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import { useRouter } from "vue-router";
 
 import HomeLink from "../components/HomeLink.vue"
@@ -121,6 +121,7 @@ const totalScore = questionStore.totalScore;
 const answer = questionStore.currentAnswer;
 
 
+
 const hintImgLinks = questionStore.getHintImages;
 const selectedHint = questionStore.getTextHint
 const pickedChoices = questionStore.getChoises
@@ -131,9 +132,24 @@ const showDebuctionScore = () => {
 }
 
 const currentHintImgIndex = ref(0);
-const availableScore = ref(10);
+const alreadyDisplayedImageIndex = ref(0)
+const availableScore = computed(() => {
+  const maxScore = 10
+  const substractPoint = alreadyDisplayedImageIndex.value + Number(textHintDisplayed.value) * 2 + Number(selectBoxDisplayed.value) * 4 
+  const score = maxScore - substractPoint
+  return score
+});
 const changeHintImg = (newIndex) => {
-  currentHintImgIndex.value = newIndex;
+
+  if (alreadyDisplayedImageIndex.value < newIndex - 1) {
+    alreadyDisplayedImageIndex.value = newIndex - 1
+  }
+
+  if (hintImgLinks.length > newIndex) {
+    currentHintImgIndex.value = newIndex;
+  } else {
+    currentHintImgIndex.value = 0
+  }
 };
 
 const userAnswer = ref("");
