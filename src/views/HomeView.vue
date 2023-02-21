@@ -48,7 +48,7 @@ import ParagraphWrapper from "../components/ParagraphWrapper.vue"
           <div id="japansearch-description-text">
             ジャパンサーチは、図書館、博物館、美術館、公文書館、大学などがもっているコンテンツ、国宝や重要文化財の画像などを検索できるしくみ。面白いビジュアルがたくさんかくれているデジタル館です。検索ワードを打ち込むと、いろいろなことを調べられます。きっと見たことのある画像があるはず！
           </div>
-          <div id="japansearch-description-link"><a href="https://jpsearch.go.jp/">ジャパンサーチを見る</a></div>
+          <div id="japansearch-description-link"><a target="_blank" href="https://jpsearch.go.jp/">ジャパンサーチを見る</a></div>
         </div>
       </div>
       <div class="img-center is-hidden-on-pc-and-tab">

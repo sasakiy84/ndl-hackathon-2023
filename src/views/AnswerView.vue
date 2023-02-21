@@ -22,7 +22,7 @@
         <p id="answer-description-sub-text">
           {{ questionData.hint.join("").replaceAll("****", answer) }}
         </p>
-        <a :href="questionData.garalyurl" id="answer-description-gallery-btn">{{ answer }}のギャラリーを見る</a><br />
+        <a target="_blank" :href="questionData.garalyurl" id="answer-description-gallery-btn">{{ answer }}のギャラリーを見る</a><br />
       </div>
 
       <RouterLink to="/question" v-if="totalQuestionNumber > currentQuestionNumber" id="next-question">次の問題へ進む
@@ -36,7 +36,7 @@
             <p class="questionimage_infomation_imagenum_text">
               {{ index + 1 }}枚目
             </p>
-            <a :href="imageUrl" class="questionimage_infomation_description_text">{{ imageUrl }}</a>
+            <a target="_blank" :href="imageUrl" class="questionimage_infomation_description_text">{{ imageUrl }}</a>
           </li>
         </ul>
       </div>
