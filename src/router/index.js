@@ -1,41 +1,41 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHistory } from "vue-router";
+import HomeView from "../views/HomeView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: HomeView
+      path: "/",
+      name: "home",
+      component: HomeView,
     },
     {
-      path: '/question',
-      name: 'qustion',
+      path: "/question",
+      name: "qustion",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/QuestionView.vue')
+      component: () => import("../views/QuestionView.vue"),
     },
     {
-      path: '/answer',
-      name: 'answer',
+      path: "/answer",
+      name: "answer",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AnswerView.vue'),
+      component: () => import("../views/AnswerView.vue"),
       beforeEnter: (_to, from) => {
-        if (from.name === undefined) return {name: "home"}
-        else return true
-      }
+        if (from.name === undefined) return { name: "home" };
+        else return true;
+      },
     },
     {
-      path: '/score',
-      name: 'score',
+      path: "/score",
+      name: "score",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/ScoreView.vue')
+      component: () => import("../views/ScoreView.vue"),
     },
   ],
   scrollBehavior: (to, from, savedPosition) => {
@@ -52,6 +52,6 @@ const router = createRouter({
       return { top: 0, behavior: "smooth" };
     }
   },
-})
+});
 
-export default router
+export default router;

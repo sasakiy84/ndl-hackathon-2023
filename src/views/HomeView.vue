@@ -11,15 +11,17 @@ import ParagraphWrapper from "../components/ParagraphWrapper.vue"
     <div id="top-container">
       <div class="top-title-band">
         <p>
-          <h1 id="top-title-text">クイズ この人はだれ？</h1>
+        <h1 id="top-title-text">クイズ この人はだれ？</h1>
         </p>
         <p>
-          <h3 id="top-subtitle-text">小学教科書にでてくる歴史人物３９人</h3>
+        <h3 id="top-subtitle-text">小学教科書にでてくる歴史人物３９人</h3>
         </p>
       </div>
     </div>
     <div class="home-section-container">
-      <p id="game-introduction-text">ジャパンサーチにすむサーチ君が、歴史好きのみなさんに、小学校の教科書にでてくる人物のビジュアルからクイズをつくってくれました。一人の人物にヒントとなる画像は５つ。早くわかると高得点になるので、どんどんチャレンジ解答してください。</p>
+      <p id="game-introduction-text">
+        ジャパンサーチにすむサーチ君が、歴史好きのみなさんに、小学校の教科書にでてくる人物のビジュアルからクイズをつくってくれました。一人の人物にヒントとなる画像は５つ。早くわかると高得点になるので、どんどんチャレンジ解答してください。
+      </p>
     </div>
     <div id="rule-container">
       <div class="home-section-container">
@@ -30,22 +32,22 @@ import ParagraphWrapper from "../components/ParagraphWrapper.vue"
             <li>画像は5枚あります。見た枚数が少ないほど高得点！</li>
             <li>分からなかったら、ヒントを表示できます。</li>
             <li>テキスト入力で答えられるとGOOD！難しかったら5つの選択肢の中から答えてみましょう。</li>
-          </ol>        
+          </ol>
         </div>
       </div>
     </div>
     <RouterLink to="/question?q=1" id="game-start-btn-inner">ゲームを始める</RouterLink>
-    <ParagraphWrapper
-      :isFlex=false
-    >
+    <ParagraphWrapper :isFlex=false>
       <div class="jp-description-title-wrapper">
         <div class="is-hidden-on-sp">
           <img id="japansearch-description-logo" src="../assets/japansearch_logo_text.svg">
         </div>
-        
+
         <div>
           <h2 id="japansearch-description-title">ジャパンサーチとは？</h2>
-          <div id="japansearch-description-text">ジャパンサーチは、図書館、博物館、美術館、公文書館、大学などがもっているコンテンツ、国宝や重要文化財の画像などを検索できるしくみ。面白いビジュアルがたくさんかくれているデジタル館です。検索ワードを打ち込むと、いろいろなことを調べられます。きっと見たことのある画像があるはず！</div>
+          <div id="japansearch-description-text">
+            ジャパンサーチは、図書館、博物館、美術館、公文書館、大学などがもっているコンテンツ、国宝や重要文化財の画像などを検索できるしくみ。面白いビジュアルがたくさんかくれているデジタル館です。検索ワードを打ち込むと、いろいろなことを調べられます。きっと見たことのある画像があるはず！
+          </div>
           <div id="japansearch-description-link"><a href="https://jpsearch.go.jp/">ジャパンサーチを見る</a></div>
         </div>
       </div>
@@ -64,11 +66,13 @@ main {
   padding: 0 10px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0 !important;
 }
 
-#top-container{
+#top-container {
   width: auto;
   height: auto;
   background-image: url('../assets/main.jpg');
@@ -76,14 +80,14 @@ h1, h2, h3 {
   padding: 151px 0 186.12px;
 }
 
-.top-title-band{
+.top-title-band {
   background: rgba(0, 0, 0, 0.45);
   width: auto;
   height: auto;
   padding: 0.5rem 0;
 }
 
-#top-title-text{
+#top-title-text {
   font-weight: 700;
   font-size: 32px;
   line-height: 46px;
@@ -91,7 +95,7 @@ h1, h2, h3 {
   color: #ffffff;
 }
 
-#top-subtitle-text{
+#top-subtitle-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 23px;
@@ -100,13 +104,13 @@ h1, h2, h3 {
   color: #ffffff;
 }
 
-.home-section-container{
+.home-section-container {
   max-width: 600px;
   margin: 0 auto;
   padding: 30px;
 }
 
-#game-introduction-text{
+#game-introduction-text {
   margin: 0;
   font-style: normal;
   font-weight: 500;
@@ -115,10 +119,12 @@ h1, h2, h3 {
   letter-spacing: 0.04em;
   color: #38322C;
 }
-#rule-container{
+
+#rule-container {
   background: #E2D1BD;
 }
-#rule-title-text{
+
+#rule-title-text {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -126,7 +132,7 @@ h1, h2, h3 {
   color: #38322C;
 }
 
-#rule-list{
+#rule-list {
   padding-left: 25px;
   margin: 0;
   font-weight: 400;
@@ -135,11 +141,13 @@ h1, h2, h3 {
   letter-spacing: 0.04em;
   color: #38322C;
 }
-#rule-outline-text{
+
+#rule-outline-text {
   margin: 0.5rem 0 0;
   display: block;
 }
-#rule-outline-text{
+
+#rule-outline-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
@@ -147,7 +155,7 @@ h1, h2, h3 {
   color: #38322C;
 }
 
-#game-start-btn-inner{
+#game-start-btn-inner {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -163,12 +171,14 @@ h1, h2, h3 {
   background: #3c436a;
   margin: 40px auto;
 }
-#japansearch-description-container{
+
+#japansearch-description-container {
   box-sizing: border-box;
   background: #FDFDFD;
   border: 1px solid #DFD6CD;
   border-radius: 12px;
 }
+
 .jp-description-title-wrapper {
   display: flex;
   align-items: center;
@@ -179,20 +189,22 @@ h1, h2, h3 {
   justify-content: center;
 }
 
-#japansearch-description-title{
+#japansearch-description-title {
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
   color: #38322C;
 }
-#japansearch-description-text{
+
+#japansearch-description-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   letter-spacing: 0.04em;
   color: #38322C;
 }
-#japansearch-description-link{
+
+#japansearch-description-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;

@@ -1,62 +1,57 @@
 <script setup>
-import { ref, computed, watchEffect } from 'vue'
+import { ref, computed, watchEffect } from "vue";
 const props = defineProps({
   debuctionScore: {
     type: Number,
-    default: 10
+    default: 10,
   },
   showPopup: {
     type: Boolean,
-    default: false
-  }
-})
+    default: false,
+  },
+});
 
-const showPopup = ({
+const showPopup = {
   get() {
-    return props.showPopup
+    return props.showPopup;
   },
   set(newValue) {
     // console.log(newValue)
-    return newValue
-  }
-});
-
+    return newValue;
+  },
+};
 </script>
 
 <template>
   <p>{{ showPopup }}</p>
-  <div class="score-container" 
-    v-if="showPopup === true"
-  >
-    <div 
-    class="paragraph-wrapper" 
-    >
+  <div class="score-container" v-if="showPopup === true">
+    <div class="paragraph-wrapper">
       <p>-{{ debuctionScore }}点</p>
       <p>獲得できる点数は{{ debuctionScore }}点です</p>
     </div>
     <!-- <button @click="showPopup = false">
-      close
-    </button> -->
+          close
+        </button> -->
   </div>
 </template>
 
 <style scoped>
-  .score-container {
-    background: #F9F7F3;
-    /* border: 1px solid #968D84; */
-    border-radius: 10px;
-    /* padding: 40px 0; */
-    margin-bottom: 1rem;
-    width: 320px;
-    height: 140px;
-  }
+.score-container {
+  background: #f9f7f3;
+  /* border: 1px solid #968D84; */
+  border-radius: 10px;
+  /* padding: 40px 0; */
+  margin-bottom: 1rem;
+  width: 320px;
+  height: 140px;
+}
 
-  .paragraph-wrapper {
-    width: 90%;
-    margin: 0 auto;
-  }
+.paragraph-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
 
-  .flex {
-    display: flex;
-  }
+.flex {
+  display: flex;
+}
 </style>

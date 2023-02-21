@@ -12,8 +12,8 @@ const questionStore = useQuestionStore();
 </template>
 
 <style scoped>
-  .home-link {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
+.home-link {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 </style>

@@ -1,54 +1,32 @@
 <template>
   <div class="body">
     <main>
-      <progress
-        class="progress-bar"
-        :max="totalQuestionNumber"
-        :value="currentQuestionNumber"
-      ></progress>
+      <progress class="progress-bar" :max="totalQuestionNumber" :value="currentQuestionNumber"></progress>
       <p class="progress-text">
         あと{{ totalQuestionNumber - currentQuestionNumber }}問
       </p>
 
-      <h1 class="text-center">
-        {{ isCorrect ? "正解" : "不正解" }}！
-      </h1>
+      <h1 class="text-center">{{ isCorrect ? "正解" : "不正解" }}！</h1>
       <p class="text-center">{{ answer }}でした。</p>
       <p class="text-right">現在の得点は{{ totalScore }}点</p>
 
       <div id="answer-image-conainer">
-        <img
-          v-show="isCorrect"
-            id="answer-top-searchkun-logo"
-            src="../assets/jpskun_correct.gif"
-          />
-          <img
-          v-show="!isCorrect"
-            id="answer-top-searchkun-logo"
-            src="../assets/jpskun_incorrect.svg"
-          />
+        <img v-show="isCorrect" id="answer-top-searchkun-logo" src="../assets/jpskun_correct.gif" />
+        <img v-show="!isCorrect" id="answer-top-searchkun-logo" src="../assets/jpskun_incorrect.svg" />
 
-        <img
-          id="answer-img"
-          :src="questionData.garalyimg"
-          alt="answer"
-        />
+        <img id="answer-img" :src="questionData.garalyimg" alt="answer" />
       </div>
 
       <div id="answer-description-container">
         <h2 id="answer-description-main-text">人物説明</h2>
-        <p id="answer-description-sub-text">{{ questionData.hint.join("").replaceAll("****", answer) }}</p>
-        <a :href="questionData.garalyurl" id="answer-description-gallery-btn"
-          >{{ answer }}のギャラリーを見る</a
-        ><br />
+        <p id="answer-description-sub-text">
+          {{ questionData.hint.join("").replaceAll("****", answer) }}
+        </p>
+        <a :href="questionData.garalyurl" id="answer-description-gallery-btn">{{ answer }}のギャラリーを見る</a><br />
       </div>
 
-      <RouterLink
-        to="/question"
-        v-if="totalQuestionNumber > currentQuestionNumber"
-        id="next-question"
-        >次の問題へ進む</RouterLink
-      >
+      <RouterLink to="/question" v-if="totalQuestionNumber > currentQuestionNumber" id="next-question">次の問題へ進む
+      </RouterLink>
       <RouterLink id="next-question" to="/score" v-else>結果を見る</RouterLink>
 
       <div id="questionimage-infomation-container">
@@ -58,11 +36,7 @@
             <p class="questionimage_infomation_imagenum_text">
               {{ index + 1 }}枚目
             </p>
-            <a
-              :href="imageUrl"
-              class="questionimage_infomation_description_text"
-              >{{ imageUrl }}</a
-            >
+            <a :href="imageUrl" class="questionimage_infomation_description_text">{{ imageUrl }}</a>
           </li>
         </ul>
       </div>
@@ -76,16 +50,16 @@
 import { useQuestionStore } from "../stores/question";
 import { RouterLink, useRouter } from "vue-router";
 import { onBeforeMount } from "vue";
-import HomeLink from "../components/HomeLink.vue"
-import JpsHackathonFooter from "../components/JpsHackathonFooter.vue"
+import HomeLink from "../components/HomeLink.vue";
+import JpsHackathonFooter from "../components/JpsHackathonFooter.vue";
 
 const questionStore = useQuestionStore();
-const router = useRouter()
+const router = useRouter();
 onBeforeMount(async () => {
-  if(questionStore.scores.length === 0) {
-    await router.push("/")
+  if (questionStore.scores.length === 0) {
+    await router.push("/");
   }
-})
+});
 
 const currentQuestionNumber = questionStore.currentQuestionNum;
 const totalQuestionNumber = questionStore.totalQuestionNum;
@@ -96,8 +70,7 @@ const isCorrect = questionStore.scores[currentQuestionNumber - 1] > 0;
 const questionData = questionStore.previousQuestionData;
 const hintImageURLs = questionStore.getPreviousHintImages;
 
-onBeforeMount()
-
+onBeforeMount();
 </script>
 
 <style scoped>
@@ -125,14 +98,17 @@ h1 span {
   border-radius: 10px;
   appearance: none;
 }
+
 .progress-bar::-webkit-progress-bar {
   background-color: #ece2b0;
   border-radius: 6px;
 }
+
 .progress-bar::-webkit-progress-value {
-  background-color: #C23C11;
+  background-color: #c23c11;
   border-radius: 6px;
 }
+
 .progress-bar::-moz-progress-bar {
   background-color: #ece2b0;
   border-radius: 6px;
@@ -145,6 +121,7 @@ h1 span {
 .text-center {
   text-align: center;
 }
+
 .text-right {
   text-align: right;
 }
@@ -156,12 +133,14 @@ h1 span {
   top: -95px;
   z-index: -1;
 }
+
 #answer-top-totalscore-container {
   width: 100px;
   height: 100px;
   margin: 0 !important;
   position: relative;
 }
+
 #answer-top-totalscore-text {
   font-style: normal;
   font-weight: 400;
@@ -180,6 +159,7 @@ h1 span {
   text-align: center;
   line-height: 80px;
 }
+
 #answer-top-totalscore-text-container {
   position: absolute;
   top: 50%;
@@ -187,6 +167,7 @@ h1 span {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
+
 #answer-top-totalscore-text {
   margin: 0;
   font-style: normal;
@@ -195,6 +176,7 @@ h1 span {
   line-height: 14px;
   color: #38322c;
 }
+
 #answer-top-totalscore-score-text {
   margin: 0;
   font-style: normal;
@@ -210,7 +192,7 @@ h1 span {
   height: 432.64px;
   background-color: #edeae2;
   border-radius: 12px;
-  position:relative;
+  position: relative;
 }
 
 #answer-img {
@@ -232,6 +214,7 @@ h1 span {
   border: 1px solid #968d84;
   border-radius: 12px;
 }
+
 #answer-description-main-text {
   font-style: normal;
   font-weight: 500;
@@ -239,6 +222,7 @@ h1 span {
   line-height: 160%;
   color: #38322c;
 }
+
 #answer-description-sub-text {
   margin: 10px 0;
   font-style: normal;
@@ -247,6 +231,7 @@ h1 span {
   line-height: 160%;
   color: #38322c;
 }
+
 #answer-description-gallery-btn-container,
 #answer-description-ai-desc-btn-container {
   min-width: 208px;
@@ -328,6 +313,7 @@ h1 span {
 
   color: #38322c;
 }
+
 .questionimage_infomation_imagenum_text {
   margin: 0;
   font-style: normal;
@@ -337,6 +323,7 @@ h1 span {
 
   color: #38322c;
 }
+
 .questionimage_infomation_description_text {
   margin: 0px;
   font-style: normal;
@@ -346,9 +333,11 @@ h1 span {
   color: #38322c;
   word-break: break-all;
 }
+
 #questionimage-infomation-container {
   padding: 0 30px 30px 30px;
 }
+
 #questionimage-infomation-container ul {
   margin-top: 15px;
   list-style: none;
@@ -359,6 +348,7 @@ h1 span {
   line-height: 20px;
   color: #38322c;
 }
+
 #questionimage-infomation-container ul li {
   margin: 15px 0;
   font-style: normal;
@@ -367,6 +357,7 @@ h1 span {
   line-height: 160%;
   color: #38322c;
 }
+
 #answerview-toppage-link {
   margin: 30px 0;
   font-family: "Inter";
@@ -378,6 +369,7 @@ h1 span {
   text-decoration-line: underline;
   color: #1d73f3;
 }
+
 #answerview-footer-text {
   margin-top: 60px;
   text-align: center;
