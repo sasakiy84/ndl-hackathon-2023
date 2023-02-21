@@ -1,89 +1,85 @@
 <template>
   <div class="body">
     <main>
-      <progress
-        class="progress-bar"
-        :max="totalQuestionNumber"
-        :value="currentQuestionNumber"
-      ></progress>
+      <progress class="progress-bar" :max="totalQuestionNumber" :value="currentQuestionNumber"></progress>
       <p class="progress-text">
         あと{{ totalQuestionNumber - currentQuestionNumber }}問
       </p>
-      <div class="question-title-wrapper">
+      <div class="question-title-wrapper is-hidden-on-sp">
         <p class="question-title">
-          <h1>
-            <span class="question-number">{{ `Q.${currentQuestionNumber + 1}` }}</span>この人物は誰でしょう？
-          </h1>
+        <h1>
+          <span class="question-number">{{ `Q.${currentQuestionNumber + 1}` }}</span>この人物は誰でしょう？
+        </h1>
         </p>
         <p class="current-score-text">現在の得点: {{ totalScore }}</p>
       </div>
-      <img class="jpskun-question" src="../assets/jpskun_question.svg" alt="" />
-      <div class="img-wrapper">
-          <img  class="hint-img" :src="hintImgLinks[currentHintImgIndex]" alt="" />
-          <div v-show="isPopupDisplayed" class="deducation-card">
-            <p class="minus-score-text">{{ availableScore - 10 }}点</p>
-            <p class="available-score-text">獲得できる点数は{{ availableScore }}点です</p>
-          </div>
+      <div class="question-title-wrapper is-hidden-on-pc-and-tab">
+        <h1>
+          <span class="question-number">{{ `Q.${currentQuestionNumber + 1}` }}</span>この人物は誰でしょう？
+        </h1>
+        <p class="current-score-text">現在の得点: {{ totalScore }}</p>
       </div>
+      <img class="jpskun-question" src="../assets/jpskun_question.svg" alt="" />
+
+      <div class="img-container">
+        <div class="hint-img-wrapper">
+          <img
+            v-for="(link, index) in hintImgLinks"
+            v-show="index === currentHintImgIndex"
+            loading="lazy"
+            class="hint-img" :src="link" alt="hint image" />
+        </div>
+        <div class="upper-stick stick"></div>
+        <div class="lower-stick stick"></div>
+        <div class="upper-fold-line fold-line"></div>
+        <div class="lower-fold-line fold-line"></div>
+        <div v-show="isPopupDisplayed" class="deducation-card">
+          <p class="minus-score-text">{{ availableScore - 10 }}点</p>
+          <p class="available-score-text">獲得できる点数は{{ availableScore }}点です</p>
+        </div>
+      </div>
+
       <div class="img-buttons">
-        <button
-          class="long-round-button next-button"
-          @click.prevent="changeHintImg(currentHintImgIndex + 1)"
-        >
+        <button v-for="index in hintImgLinks.length" :class="{
+          disabled: index === currentHintImgIndex + 1,
+        }" @click.prevent="changeHintImg(index - 1)" :disabled="index === currentHintImgIndex + 1"
+          class="round-button is-hidden-on-pc-and-tab" :key="index">
+          {{ index }}
+        </button>
+      </div>
+
+      <div class="img-buttons">
+        <button class="long-round-button next-button" @click.prevent="changeHintImg(currentHintImgIndex + 1)">
           次の画像を見る
         </button>
-        <button
-          v-for="index in hintImgLinks.length"
-          :class="{
-            disabled: index === currentHintImgIndex + 1,
-          }"
-          @click.prevent="changeHintImg(index - 1)"
-          :disabled="index === currentHintImgIndex + 1"
-          class="round-button"
-          :key="index"
-        >
+        <button v-for="index in hintImgLinks.length" :class="{
+          disabled: index === currentHintImgIndex + 1,
+        }" @click.prevent="changeHintImg(index - 1)" :disabled="index === currentHintImgIndex + 1"
+          class="round-button is-hidden-on-sp" :key="index">
           {{ index }}
         </button>
       </div>
       <ParagraphWrapper>
         <div class="answer-input-wrapper" v-if="!selectBoxDisplayed">
-          <input
-            class="answer-input"
-            type="text"
-            v-model="userAnswer"
-            placeholder="人物名を入力する"
-          />
+          <input class="answer-input" type="text" v-model="userAnswer" placeholder="人物名を入力する" />
         </div>
         <div class="select-input-wrapper" v-else>
           <p>この中の誰でしょう</p>
           <div class="select-button-wrapper">
-            <button
-              class="select-button"
-              v-for="name in pickedChoices"
-              :key="name"
-              @click="userAnswer = name"
-              :disabled="userAnswer === name"
-              :class="{
+            <button class="select-button" v-for="name in pickedChoices" :key="name" @click="userAnswer = name"
+              :disabled="userAnswer === name" :class="{
                 selected: userAnswer === name,
-              }"
-            >
+              }">
               {{ name }}
             </button>
           </div>
         </div>
         <div class="text-hint">
-          <button
-            v-if="!textHintDisplayed"
-            class="hint-button"
-            @click="textHintDisplayed = true; displayPopup()"
-          >
+          <button v-if="!textHintDisplayed" class="hint-button" @click="textHintDisplayed = true; displayPopup()">
             ヒントを表示する
           </button>
-          <button
-            v-if="textHintDisplayed && !selectBoxDisplayed"
-            class="hint-button"
-            @click="selectBoxDisplayed = true; displayPopup()"
-          >
+          <button v-if="textHintDisplayed && !selectBoxDisplayed" class="hint-button"
+            @click="selectBoxDisplayed = true; displayPopup()">
             もっとヒントを表示する
           </button>
         </div>
@@ -126,7 +122,7 @@ const isPopupDisplayed = ref(false);
 const timeoutId = ref(-1)
 const displayPopup = () => {
   isPopupDisplayed.value = true
-  if(timeoutId.value >= 0) clearTimeout(timeoutId.value) 
+  if (timeoutId.value >= 0) clearTimeout(timeoutId.value)
   timeoutId.value = setTimeout(() => {
     isPopupDisplayed.value = false
   }, 3000)
@@ -136,7 +132,7 @@ const currentHintImgIndex = ref(0);
 const alreadyDisplayedImageIndex = ref(0)
 const availableScore = computed(() => {
   const maxScore = 10
-  const substractPoint = alreadyDisplayedImageIndex.value + Number(textHintDisplayed.value) * 2 + Number(selectBoxDisplayed.value) * 4 
+  const substractPoint = alreadyDisplayedImageIndex.value + Number(textHintDisplayed.value) * 2 + Number(selectBoxDisplayed.value) * 4
   const score = maxScore - substractPoint
   return score
 });
@@ -178,6 +174,7 @@ const submitAnswer = async () => {
 main {
   max-width: 600px;
   margin: 0 auto 60px;
+  padding: 0 10px;
 }
 
 h1 {
@@ -197,6 +194,12 @@ h1 span {
   align-items: flex-end;
 }
 
+.question-title-wrapper.is-hidden-on-pc-and-tab {
+  display: block;
+  text-align: center;
+  margin-left: unset;
+}
+
 .question-title {
   flex: auto;
 }
@@ -207,7 +210,10 @@ h1 span {
 
 .current-score-text {
   flex: initial;
-  
+}
+
+.is-hidden-on-pc-and-tab .current-score-text {
+  text-align: right;
 }
 
 .progress-bar {
@@ -216,14 +222,17 @@ h1 span {
   border-radius: 10px;
   appearance: none;
 }
+
 .progress-bar::-webkit-progress-bar {
   background-color: #F9F7F3;
   border-radius: 6px;
 }
+
 .progress-bar::-webkit-progress-value {
   background-color: #C23C11;
   border-radius: 6px;
 }
+
 .progress-bar::-moz-progress-bar {
   background-color: #F9F7F3;
   border-radius: 6px;
@@ -231,22 +240,83 @@ h1 span {
 
 .progress-text {
   margin-top: 10px;
+  margin-bottom: 5px;
   font-size: small;
 }
 
 .jpskun-question {
-  margin-left: 3rem;
+  margin-left: 1rem;
+  margin-bottom: -3px;
 }
 
-.img-wrapper {
-  width: 98%;
-  padding: 3rem 0;
+.img-container {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  padding: 30px 0;
   background: #7D7F78;
   background-image: url('../assets/hintimg_background.svg');
   /* border-radius: 12px; */
   height: 385px;
   position: relative;
 }
+
+.hint-img-wrapper {
+  width: calc(100% - 1rem);
+  margin: 0 auto;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #B1A87C;
+
+}
+
+
+
+.hint-img {
+  width: 100%;
+  height: calc(100% - 1rem);
+  object-fit: contain;
+  margin: 0.5rem 0;
+  background-color: #F3EFD5;
+}
+
+
+.stick {
+  background-color: #604825;
+  height: 18px;
+  width: 100%;
+  padding: 0 10px;
+  position: absolute;
+}
+
+.upper-stick {
+  top: 1px;
+  left: -10px;
+  z-index: -1;
+}
+
+.lower-stick {
+  bottom: 1px;
+  left: -10px;
+  z-index: -1;
+}
+
+.fold-line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  opacity: 0.2;
+  position: absolute;
+}
+
+.upper-fold-line {
+  top: 19px;
+}
+
+.lower-fold-line {
+  bottom: 19px;
+}
+
 
 
 .deducation-card {
@@ -280,12 +350,6 @@ h1 span {
 
 
 
-.hint-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
 .answer-input-wrapper {
   width: 100%;
   display: flex;
@@ -315,6 +379,7 @@ h1 span {
   justify-content: flex-start;
   flex-wrap: wrap;
 }
+
 .select-button {
   font-weight: 500;
   font-size: 16px;

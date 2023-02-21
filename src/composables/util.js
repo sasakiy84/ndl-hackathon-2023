@@ -1,6 +1,5 @@
-
-export const shuffleArray = array => {
-  const arr = [...array]
+export const shuffleArray = (array) => {
+  const arr = [...array];
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     const temp = arr[i];
@@ -8,5 +7,5 @@ export const shuffleArray = array => {
     arr[j] = temp;
   }
 
-  return arr
-}
+  return arr;
+};
