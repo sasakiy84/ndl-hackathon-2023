@@ -32,8 +32,22 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/ScoreView.vue')
+    },
+  ],
+  scrollBehavior: (to, from, savedPosition) => {
+    if (savedPosition) {
+      return new Promise((resolve, _reject) => {
+        setTimeout(() => {
+          resolve({
+            ...savedPosition,
+            behavior: "smooth",
+          });
+        }, 10);
+      });
+    } else {
+      return { top: 0, behavior: "smooth" };
     }
-  ]
+  },
 })
 
 export default router

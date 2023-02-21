@@ -64,17 +64,19 @@ export const useQuestionStore = defineStore({
 
             return hintImageURLs
         },
-        getGaralyUrl: (state) => {
-            const questionId = state.questionIds[state.currentQuestionNum]
-            const gararyUrl = questions.find((q) => q.chname === questionId).garalyurl
-            // console.log(gararyUrl)
-            return gararyUrl
-        },
-        getGaralyImage: (state) => {
-            const questionId = state.questionIds[state.currentQuestionNum]
-            const gararyImage = questions.find((q) => q.chname === questionId).garalyimage
-            console.log(questions.find((q) => q.chname === questionId))
-            return gararyImage
+        /**
+         * @param {*} state 
+         * @return {string[]}
+         */
+        getPreviousHintImages: (state) => {
+            const questionId = state.questionIds[state.currentQuestionNum - 1]
+            const hintImages = questions.find((q) => q.chname === questionId).image
+            const hintImageURLs = []
+            for (const key in hintImages) {
+                hintImageURLs.push(hintImages[key])
+            }
+
+            return hintImageURLs
         },
         getChoises: (state) => {
             const questionId = state.questionIds[state.currentQuestionNum]
@@ -93,6 +95,27 @@ export const useQuestionStore = defineStore({
             const textHints = questions.find((q) => q.chname === questionId).hint
             const selectedTextHint = shuffleArray(textHints)[0]
             return selectedTextHint
+        },
+        currentQuestionData: (state) => {
+            const questionId = state.questionIds[state.currentQuestionNum]
+            return questions.find((q) => q.chname === questionId)
+        },
+        previousQuestionData: (state) => {
+            const questionId = state.questionIds[state.currentQuestionNum - 1]
+            return questions.find((q) => q.chname === questionId)
+        },
+        allAnswerName: (state) => {
+
+            const data = state.questionIds.map((questionId) => {
+
+                const choises = questions.find((q) => q.chname === questionId).choise
+                const answer = choises.find(answerCanditate => {
+                    return md5(answerCanditate) === questionId
+                })
+                return answer
+            })
+
+            return data
         }
     },
     actions: {
