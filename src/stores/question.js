@@ -62,7 +62,7 @@ export const useQuestionStore = defineStore({
                 hintImageURLs.push(hintImages[key])
             }
 
-            return hintImageURLs
+            return hintImageURLs.slice(0,5)
         },
         /**
          * @param {*} state 
@@ -76,7 +76,7 @@ export const useQuestionStore = defineStore({
                 hintImageURLs.push(hintImages[key])
             }
 
-            return hintImageURLs
+            return hintImageURLs.slice(0,5)
         },
         getChoises: (state) => {
             const questionId = state.questionIds[state.currentQuestionNum]
