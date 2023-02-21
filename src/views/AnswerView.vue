@@ -48,18 +48,11 @@
 
 <script setup>
 import { useQuestionStore } from "../stores/question";
-import { RouterLink, useRouter } from "vue-router";
-import { onBeforeMount } from "vue";
+import { RouterLink } from "vue-router";
 import HomeLink from "../components/HomeLink.vue";
 import JpsHackathonFooter from "../components/JpsHackathonFooter.vue";
 
 const questionStore = useQuestionStore();
-const router = useRouter();
-onBeforeMount(async () => {
-  if (questionStore.scores.length === 0) {
-    await router.push("/");
-  }
-});
 
 const currentQuestionNumber = questionStore.currentQuestionNum;
 const totalQuestionNumber = questionStore.totalQuestionNum;
@@ -70,7 +63,6 @@ const isCorrect = questionStore.scores[currentQuestionNumber - 1] > 0;
 const questionData = questionStore.previousQuestionData;
 const hintImageURLs = questionStore.getPreviousHintImages;
 
-onBeforeMount();
 </script>
 
 <style scoped>
