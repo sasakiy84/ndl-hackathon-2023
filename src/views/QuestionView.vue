@@ -23,7 +23,11 @@
 
       <div class="img-container">
         <div class="hint-img-wrapper">
-          <img class="hint-img" :src="hintImgLinks[currentHintImgIndex]" alt="" />
+          <img
+            v-for="(link, index) in hintImgLinks"
+            v-show="index === currentHintImgIndex"
+            loading="lazy"
+            class="hint-img" :src="link" alt="hint image" />
         </div>
         <div class="upper-stick stick"></div>
         <div class="lower-stick stick"></div>
