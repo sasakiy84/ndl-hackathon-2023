@@ -13,7 +13,7 @@ const questionStore = useQuestionStore();
 
 <style scoped>
   .home-link {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 </style>

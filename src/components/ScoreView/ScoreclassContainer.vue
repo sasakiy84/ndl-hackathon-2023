@@ -91,11 +91,4 @@
       margin-right: 1rem;
     }
 
-    .scoreclass-text {
-
-    }
-
-    .scoreclass-description {
-
-    }
   </style>

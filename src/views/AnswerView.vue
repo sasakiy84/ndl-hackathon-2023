@@ -10,55 +10,39 @@
         あと{{ totalQuestionNumber - currentQuestionNumber }}問
       </p>
 
-      <div id="answer-top-container">
-        <div id="answer-top-left-container">
-          <!--仮で正解のgifを挿入しています-->
-          <img
-            id="answer-top-searchkun-logo"
-            src="../assets/jpskun_correct.gif"
-          />
-        </div>
-        <div id="answer-top-center-container">
-          <div id="answer-top-center-texts-container">
-            <h1 id="answer-top-result-text">
-              {{ isCorrect ? "正解" : "不正解" }}！
-            </h1>
-            <p>{{ answer }}でした。</p>
-          </div>
-        </div>
-        <div id="answer-top-right-container">
-          <div id="answer-top-totalscore-container">
-            <div id="answer-top-totalscore-text-container">
-              <p id="answer-top-totalscore-text">現在の得点は</p>
-              <p id="answer-top-totalscore-score-text">{{ totalScore }}点</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <h1 class="text-center">
+        {{ isCorrect ? "正解" : "不正解" }}！
+      </h1>
+      <p class="text-center">{{ answer }}でした。</p>
+      <p class="text-right">現在の得点は{{ totalScore }}点</p>
 
       <div id="answer-image-conainer">
         <img
-          style="width: 100%; object-fit: contain; height: 100%"
+          v-show="isCorrect"
+            id="answer-top-searchkun-logo"
+            src="../assets/jpskun_correct.gif"
+          />
+          <img
+          v-show="!isCorrect"
+            id="answer-top-searchkun-logo"
+            src="../assets/jpskun_incorrect.svg"
+          />
+
+        <img
+          id="answer-img"
           :src="questionData.garalyimg"
-          alt=""
+          alt="answer"
         />
       </div>
 
       <div id="answer-description-container">
         <h2 id="answer-description-main-text">人物説明</h2>
-        <p id="answer-description-sub-text">{{ questionData.hint.join("") }}</p>
+        <p id="answer-description-sub-text">{{ questionData.hint.join("").replaceAll("****", answer) }}</p>
         <a :href="questionData.garalyurl" id="answer-description-gallery-btn"
           >{{ answer }}のギャラリーを見る</a
         ><br />
-        <!--未実装-->
-        <!-- <a id="answer-description-ai-desc-btn">AIが書いた解説を読む</a> -->
-        <!-- <h3 id="answer-description-ai-desc-title-text">ChatGPTによる解説</h3>
-        <p id="answer-description-ai-desc-main-text">
-          ChatGPTによる解説の本文ChatGPTによる解説の本文ChatGPTによる解説の本文ChatGPTによる解説の本文ChatGPTによる解説の本文
-        </p> -->
       </div>
 
-      <!--次の問題にすすむ-->
       <RouterLink
         to="/question"
         v-if="totalQuestionNumber > currentQuestionNumber"
@@ -72,7 +56,7 @@
         <ul>
           <li v-for="(imageUrl, index) in hintImageURLs">
             <p class="questionimage_infomation_imagenum_text">
-              {{ index }}枚目
+              {{ index + 1 }}枚目
             </p>
             <a
               :href="imageUrl"
@@ -82,19 +66,27 @@
           </li>
         </ul>
       </div>
-
-      <!--トップページへ戻る リンク張ってないです-->
-      <a id="answerview-toppage-link">トップページへ戻る</a>
-      <p id="answerview-footer-text">2023©️Japan Search Hackathon Team-B</p>
+      <HomeLink />
     </main>
+    <JpsHackathonFooter />
   </div>
 </template>
 
 <script setup>
 import { useQuestionStore } from "../stores/question";
-import { RouterLink } from "vue-router";
+import { RouterLink, useRouter } from "vue-router";
+import { onBeforeMount } from "vue";
+import HomeLink from "../components/HomeLink.vue"
+import JpsHackathonFooter from "../components/JpsHackathonFooter.vue"
 
 const questionStore = useQuestionStore();
+const router = useRouter()
+onBeforeMount(async () => {
+  if(questionStore.scores.length === 0) {
+    await router.push("/")
+  }
+})
+
 const currentQuestionNumber = questionStore.currentQuestionNum;
 const totalQuestionNumber = questionStore.totalQuestionNum;
 const totalScore = questionStore.totalScore;
@@ -103,12 +95,16 @@ const isCorrect = questionStore.scores[currentQuestionNumber - 1] > 0;
 
 const questionData = questionStore.previousQuestionData;
 const hintImageURLs = questionStore.getPreviousHintImages;
+
+onBeforeMount()
+
 </script>
 
 <style scoped>
 main {
   max-width: 600px;
-  margin: 0 auto 70px;
+  margin: 0 auto 60px;
+  padding: 0 10px;
 }
 
 h1 {
@@ -134,7 +130,7 @@ h1 span {
   border-radius: 6px;
 }
 .progress-bar::-webkit-progress-value {
-  background-color: #e6c620;
+  background-color: #C23C11;
   border-radius: 6px;
 }
 .progress-bar::-moz-progress-bar {
@@ -146,35 +142,19 @@ h1 span {
   margin-top: 10px;
 }
 
-#answer-top-container {
-  display: flex;
-}
-#answer-top-left-container,
-#answer-top-center-container,
-#answer-top-right-container {
-  width: 33%;
-  height: 123px;
-  position: relative;
-}
-#answer-top-right-container {
-  display: flex;
-  justify-content: flex-end;
-}
-#answer-top-center-container {
+.text-center {
   text-align: center;
-  vertical-align: middle;
+}
+.text-right {
+  text-align: right;
+}
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#answer-top-center-texts-container p {
-  margin: 7px 0;
-}
 #answer-top-searchkun-logo {
-  width: 126px;
-  height: 123px;
-  margin-left: 0px;
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: -95px;
+  z-index: -1;
 }
 #answer-top-totalscore-container {
   width: 100px;
@@ -183,7 +163,6 @@ h1 span {
   position: relative;
 }
 #answer-top-totalscore-text {
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -210,7 +189,6 @@ h1 span {
 }
 #answer-top-totalscore-text {
   margin: 0;
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -219,7 +197,6 @@ h1 span {
 }
 #answer-top-totalscore-score-text {
   margin: 0;
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -232,6 +209,16 @@ h1 span {
   width: 100%;
   height: 432.64px;
   background-color: #edeae2;
+  border-radius: 12px;
+  position:relative;
+}
+
+#answer-img {
+  width: 100%;
+  padding: 3px;
+  object-fit: contain;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 #answer-description-container {
@@ -246,7 +233,6 @@ h1 span {
   border-radius: 12px;
 }
 #answer-description-main-text {
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -255,7 +241,6 @@ h1 span {
 }
 #answer-description-sub-text {
   margin: 10px 0;
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -267,7 +252,6 @@ h1 span {
   min-width: 208px;
   height: 23px;
   padding: 10px 15px;
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -291,7 +275,6 @@ h1 span {
   text-decoration: none;
   letter-spacing: 0.1rem;
 
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -306,7 +289,6 @@ h1 span {
 
 #answer-description-ai-desc-title-text {
   margin-top: 10px !important;
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -315,7 +297,6 @@ h1 span {
 }
 
 #answer-description-ai-desc-main-text {
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -340,7 +321,6 @@ h1 span {
 }
 
 #questionimage-infomation-title-text {
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -350,7 +330,6 @@ h1 span {
 }
 .questionimage_infomation_imagenum_text {
   margin: 0;
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -360,7 +339,6 @@ h1 span {
 }
 .questionimage_infomation_description_text {
   margin: 0px;
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -375,7 +353,6 @@ h1 span {
   margin-top: 15px;
   list-style: none;
   padding: 0;
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -384,7 +361,6 @@ h1 span {
 }
 #questionimage-infomation-container ul li {
   margin: 15px 0;
-  font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;

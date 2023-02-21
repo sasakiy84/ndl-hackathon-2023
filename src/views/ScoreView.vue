@@ -34,7 +34,8 @@ const totalScore = questionStore.totalScore;
 <style scoped>
   main {
     max-width: 600px;
-    margin: 0 auto 60px;
+  margin: 0 auto 60px;
+  padding: 0 10px;
   }
   
   h1 {
