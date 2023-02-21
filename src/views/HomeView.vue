@@ -37,6 +37,7 @@ import ParagraphWrapper from "../components/ParagraphWrapper.vue"
       </div>
     </div>
     <RouterLink to="/question?q=1" id="game-start-btn-inner">ゲームを始める</RouterLink>
+    <RouterLink to="/credit">トップページに使った画像のクレジット</RouterLink>
     <ParagraphWrapper :isFlex=false>
       <div class="jp-description-title-wrapper">
         <div class="is-hidden-on-sp">
