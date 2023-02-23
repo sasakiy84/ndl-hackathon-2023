@@ -19,10 +19,8 @@ const totalScore = questionStore.totalScore;
       <ScoreclassContainer />
       <ScoreList />
       <JpsDescriptionContainer />
-      <RouterLink to="/question?q=1" class="question-link">
-        <button class="play-again-button" @click="questionStore.$reset()">
-          もう一度遊ぶ
-        </button>
+      <RouterLink to="/question?q=1" class="question-link" @click="questionStore.$reset()">
+        もう一度遊ぶ
       </RouterLink>
     </main>
     <JpsHackathonFooter />
@@ -57,7 +55,15 @@ button {
   appearance: none;
 }
 
-.play-again-button {
+.total-score-wrapper {
+  margin: 3rem auto;
+}
+
+.total-score-text {
+  text-align: center;
+}
+
+.question-link {
   background: none;
   display: flex;
   border: 2px solid #3c436a;
@@ -70,17 +76,5 @@ button {
   text-decoration: none;
   margin: 50px auto 0;
   font-weight: 700;
-}
-
-.total-score-wrapper {
-  margin: 3rem auto;
-}
-
-.total-score-text {
-  text-align: center;
-}
-
-.question-link {
-  text-decoration: none;
 }
 </style>

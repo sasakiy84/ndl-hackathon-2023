@@ -92,7 +92,7 @@ h1 span {
 }
 
 .progress-bar::-webkit-progress-bar {
-  background-color: #ece2b0;
+  background-color: #f9f7f3;
   border-radius: 6px;
 }
 
@@ -102,7 +102,7 @@ h1 span {
 }
 
 .progress-bar::-moz-progress-bar {
-  background-color: #ece2b0;
+  background-color: #f9f7f3;
   border-radius: 6px;
 }
 

@@ -27,7 +27,7 @@ const scoreclasses = [
     grade: 2,
     className: "ブロンズマスター",
     description: "おしい！　歴史の教科書を見たら、もっとわかるかも",
-    icon: new URL("../../assets/medal_blonze.svg", import.meta.url).href,
+    icon: new URL("../../assets/medal_bronze.svg", import.meta.url).href,
   },
   {
     grade: 1,
