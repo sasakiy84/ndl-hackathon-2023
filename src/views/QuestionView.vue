@@ -322,7 +322,7 @@ h1 span {
 .deducation-card {
   position: fixed;
   top: 30px;
-  right: 30px;
+  right: calc(50% - 300px);
   background: #FBFBFB;
   border: 1px solid #DFD6CD;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
