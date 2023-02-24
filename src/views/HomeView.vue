@@ -7,17 +7,17 @@ import ParagraphWrapper from "../components/ParagraphWrapper.vue"
 </script>
 
 <template>
-  <main>
-    <div id="top-container">
-      <div class="top-title-band">
-        <p>
+  <div id="top-container">
+    <div class="top-title-band">
+      <p>
         <h1 id="top-title-text">クイズ この人はだれ？</h1>
-        </p>
-        <p>
+      </p>
+      <p>
         <h3 id="top-subtitle-text">小学教科書にでてくる歴史人物３９人</h3>
-        </p>
-      </div>
+      </p>
     </div>
+  </div>
+  <main>
     <div class="home-section-container">
       <p id="game-introduction-text">
         ジャパンサーチにすむサーチ君が、歴史好きのみなさんに、小学校の教科書にでてくる人物のビジュアルからクイズをつくってくれました。一人の人物にヒントとなる画像は５つ。早くわかると高得点になるので、どんどんチャレンジ解答してください。
@@ -41,6 +41,9 @@ import ParagraphWrapper from "../components/ParagraphWrapper.vue"
       <RouterLink to="/credit">トップページに使った画像のクレジット</RouterLink>
     </div>
     <ParagraphWrapper :isFlex=false>
+      <div class="img-center is-hidden-on-pc-and-tab">
+        <img id="japansearch-description-logo" src="../assets/japansearch_logo_text.svg">
+      </div>
       <div class="jp-description-title-wrapper">
         <div class="is-hidden-on-sp">
           <img id="japansearch-description-logo" src="../assets/japansearch_logo_text.svg">
@@ -53,9 +56,6 @@ import ParagraphWrapper from "../components/ParagraphWrapper.vue"
           </div>
           <div id="japansearch-description-link"><a target="_blank" href="https://jpsearch.go.jp/">ジャパンサーチを見る</a></div>
         </div>
-      </div>
-      <div class="img-center is-hidden-on-pc-and-tab">
-        <img id="japansearch-description-logo" src="../assets/japansearch_logo_text.svg">
       </div>
     </ParagraphWrapper>
   </main>
@@ -78,7 +78,10 @@ h3 {
 #top-container {
   width: auto;
   height: auto;
+  margin: 0 auto;
+  max-width: 834px;
   background-image: url('../assets/main.jpg');
+  background-position: 50% 50%;
   background-size: cover;
   padding: 151px 0 186.12px;
 }

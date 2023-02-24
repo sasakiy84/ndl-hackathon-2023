@@ -1,7 +1,7 @@
 <template>
   <div class="body">
     <main>
-      <progress class="progress-bar" :max="totalQuestionNumber" :value="currentQuestionNumber"></progress>
+      <progress class="progress-bar" :max="totalQuestionNumber" :value="currentQuestionNumber + 1"></progress>
       <p class="progress-text">
         あと{{ totalQuestionNumber - currentQuestionNumber }}問
       </p>
@@ -125,7 +125,7 @@ const displayPopup = () => {
   if (timeoutId.value >= 0) clearTimeout(timeoutId.value)
   timeoutId.value = setTimeout(() => {
     isPopupDisplayed.value = false
-  }, 3000)
+  },1500)
 }
 
 const currentHintImgIndex = ref(0);
@@ -320,9 +320,9 @@ h1 span {
 
 
 .deducation-card {
-  position: absolute;
-  top: -26px;
-  right: 0;
+  position: fixed;
+  top: 30px;
+  right: 30px;
   background: #FBFBFB;
   border: 1px solid #DFD6CD;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

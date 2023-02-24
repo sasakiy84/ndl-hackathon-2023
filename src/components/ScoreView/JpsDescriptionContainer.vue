@@ -5,6 +5,7 @@ import ParagraphWrapper from "../ParagraphWrapper.vue";
 
 <template>
   <ParagraphWrapper :isFlex="false">
+    <img src="../../assets/japansearch_logo_text.svg" class="jps-logo is-hidden-on-pc-and-tab" />
     <div class="jps-article-wrapper">
       <img src="../../assets/japansearch_logo_text.svg" class="jps-logo is-hidden-on-sp" />
       <article class="explain-jps">
@@ -14,7 +15,6 @@ import ParagraphWrapper from "../ParagraphWrapper.vue";
         </p>
       </article>
     </div>
-    <img src="../../assets/japansearch_logo_text.svg" class="jps-logo is-hidden-on-pc-and-tab" />
     <div class="jps-link-wrapper">
       <a href="https://jpsearch.go.jp/" target="_blank">
         <button class="jps-link-button">ジャパンサーチを見る</button>
