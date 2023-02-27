@@ -12,7 +12,7 @@
 
       <div id="answer-image-conainer">
         <img v-show="isCorrect" id="answer-top-searchkun-logo" src="../assets/jpskun_correct.gif" />
-        <img v-show="!isCorrect" id="answer-top-searchkun-logo" src="../assets/jpskun_incorrect.svg" />
+        <img v-show="!isCorrect" id="answer-top-searchkun-logo" src="../assets/jpskun_incorrect.gif" />
 
         <img id="answer-img" :src="questionData.garalyimg" alt="answer" />
       </div>

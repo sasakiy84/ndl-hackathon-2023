@@ -19,7 +19,7 @@
         </h1>
         <p class="current-score-text">現在の得点: {{ totalScore }}</p>
       </div>
-      <img class="jpskun-question" src="../assets/jpskun_question.svg" alt="" />
+      <img class="jpskun-question" src="../assets/jpskun_question.gif" alt="" />
 
       <div class="img-container">
         <div class="hint-img-wrapper">
@@ -170,7 +170,8 @@ const submitAnswer = async () => {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import "../assets/util.scss";
 main {
   max-width: 600px;
   margin: 0 auto 60px;
@@ -247,6 +248,8 @@ h1 span {
 .jpskun-question {
   margin-left: 1rem;
   margin-bottom: -3px;
+  max-width: 280px;
+  margin-top: 1rem;
 }
 
 .img-container {
@@ -328,6 +331,10 @@ h1 span {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   padding: 25px 66px;
+  @include sp {
+    padding: 18px 40px;
+    right: calc(50% - 150px);
+  }
 }
 
 .deducation-card .minus-score-text {
