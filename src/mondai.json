@@ -1,41 +1,2324 @@
 [
-    { "chname":"533782a54d65fc811198c579f8cd6ff5","sha1":"e078390631dd657abb7c6294827702422ec1a375","image":{"1":"https://colbase.nich.go.jp/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSWhlak5sTlRSMU5ucDFiV1pvWm04MmNUSm9NVEoxZEdwNGMyWm5jZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpVVdsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtFdE9URTJORjlGTURBek56WTBOUzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowRXRPVEUyTkY5Rk1EQXpOelkwTlM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZBPT0iLCJleHAiOiIyMTIzLTAyLTE5VDAzOjQxOjMxLjQzMloiLCJwdXIiOiJibG9iX2tleSJ9fQ==--19abd5654dae61cf79ada96c91d74a15005b16d2/A-9164_E0037645.jpg"},"hint":["奈良時代の天皇。国家安泰のため仏教を重んじて諸国に国分寺を建立し、大仏造営を発願した"],"choise":["弘文天皇","元正天皇","文武天皇","聖武天皇","孝謙天皇","称徳天皇","天武天皇","元明天皇"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-1oZKO9d9vKUrrwP","garalyimg":"https://image.tnm.jp/image/1024/C0029407.jpg"},
-    { "chname":"13d1acb4a95cfbe36a709e182704bc5b","sha1":"362f6aef55515acc3435bc67a1fcc437c5851b71","image":{"1":"https://colbase.nich.go.jp/media/narahaku/1424-1/image/slideshow/788f58f5c4314bac1cf9834b80faa506.jpg","2":"http://www9.nhk.or.jp/das/image/D0004500/D0004500235_00000_S_001.jpg","3":"https://colbase.nich.go.jp/media/tnm/A-9208/image/slideshow/A-9208_E0105000.jpg","4":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/15012.tif/full/full/0/default.jpg","5":"http://www9.nhk.or.jp/das/image/D0004500/D0004500230_00000_S_001.jpg"},"hint":["飛鳥時代、推古天皇の摂政だった皇子。政治で大きな業績を残す一方、仏教隆盛に貢献したといわれる。"],"choise":["用明天皇","当麻皇子","来目皇子","殖栗皇子","茨田皇子","聖徳太子","酢香手姫皇女","佐富女王","山背大兄王"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-19olgvG91dN","garalyimg":"https://colbase.nich.go.jp/media/tnm/A-9208/image/slideshow_s/A-9208_E0105000.jpg"},
-    { "chname":"1aa6ccd49d77a208d3c0bc95dd7858c2","sha1":"5759ad74b110aca141cc0cfa3e4e86b93dc998a2","image":{"1":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/13802.tif/full/full/0/default.jpg","2":"https://api.ro-da.jp/v1/shinshu-dcommons/museum_history/03OD0622101200/thumbnails/large.png"},"hint":["日本文学のはじまりと発達。"],"choise":["舒明天皇","皇極天皇","倭姫王","天智天皇","越道君伊羅都売","持統天皇","建皇子","元明天皇"],"garalyurl":"https://jpsearch.go.jp/item/arc_nishikie-4136_002_001_01","garalyimg":"https://upload.wikimedia.org/wikipedia/commons/1/1b/Emperor_Tenji.jpg"},
-    { "chname":"2befdcd17fab0065f075a2e75aa7d7be","sha1":"0991af30dcb02c7149ee4369117f569a39389786","image":{"1":"https://colbase.nich.go.jp/media/narahaku/1424-2/image/slideshow/660bdafa2cfadb9b54481517abadc40e.jpg","2":"https://bunka.nii.ac.jp/heritage/43967/_364451/43967_364451284344710089451_300.jpg","3":"http://www9.nhk.or.jp/das/image/D0004500/D0004500335_00000_S_001.jpg"},"hint":["日本への渡来に5回失敗し、失明した"],"choise":["孝謙天皇","鑑真","藤原清河","阿倍仲麻呂","如海","栄叡","霊佑","清河"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-lN7OM96qDjtXOjl","garalyimg":"https://upload.wikimedia.org/wikipedia/commons/c/ce/Ganjin_wajyo_portrait.JPG"},
-    { "chname":"6895f05104a44720b1092bdf208342d0","sha1":"68742e86f33e014338559bfa01fba0abed298dba","image":{"1":"https://colbase.nich.go.jp/media/tnm/R-1425/image/slideshow/R-1425_C0093793.jpg","2":"https://colbase.nich.go.jp/media/tnm/G-4424/image/slideshow/G-4424_C0059545.jpg","3":"https://museumcollection.tokyo/wp-content/uploads/2021/03/40922.jpg"},"hint":["奈良時代の高僧。","仏教修行のかたわら、土木技術を学び、庶民に仏教を広めながら、橋や道路をつくり、農地を開きました"],"choise":["道昭","義淵","光信","行基","景静","真成","法義"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-8oMvKPQYpQuRv9","garalyimg":"https://upload.wikimedia.org/wikipedia/commons/8/8d/Gyouki_1.jpg"},
-    { "chname":"73c24b4cae4af47671dae850414a5865","sha1":"3aeeb1a5e4d4d61de9e8c954492413fe3cffd277","image":{"1":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/BM/Prints/UNMTD06A/BM-1906_12-20_1384.jpg","2":"http://www9.nhk.or.jp/das/image/D0004990/D0004990756_00000_S_001.jpg","3":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/Leiden/Drawings/RV-3513-0089.jpg","4":"https://colbase.nich.go.jp/media/narahaku/693-0/image/slideshow/67ec57764ad97df3ed73abd320c31280.jpg"},"hint":["飛鳥時代の政治家。","藤原氏の初代にあたる人"],"choise":["藤原行成","藤原鎌足","藤原頼通","藤原道長","藤原佐理"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-1oZKO9d9vKUrrwP","garalyimg":"https://colbase.nich.go.jp/media/tnm/A-9222/image/slideshow/A-9222_E0037656.jpg"},
-    { "chname":"f60dbc3c8ef66e925f799000b3aa4857","sha1":"8dab68c79d71d1d8aa089fbea56664af3eb32857","image":{"1":"https://colbase.nich.go.jp/media/tnm/A-10569-775/image/slideshow/A-10569-775_C0088557.jpg","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2555026","3":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1286860","4":"https://data.ukiyo-e.org/metro/scaled/4136-002-002-14.jpg"},"hint":["一条天皇の中宮定子に仕えた。","平安時代の歌人、随筆家。","日本で最初の随筆文学『枕草子』をあらわしました。"],"choise":["清少納言","橘則光","小豆大納言","藤原棟世","橘則長","小馬命婦"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-plZ27mlWQ1P","garalyimg":"https://colbase.nich.go.jp/media/tnm/A-952/image/slideshow/7002fb02d7af56b619dfac183588bca4.jpg"},
-    { "chname":"ae8b0893bbe08879c623597db2104999","sha1":"e723f506bb45a91a102da3f0ff875dd00af1e23e","image":{"1":"https://colbase.nich.go.jp/media/tnm/A-10569-778/image/slideshow/A-10569-778_C0088558.jpg","2":"https://colbase.nich.go.jp/media/tnm/A-12402/image/slideshow/A-12402_E0043600.jpg","3":"https://www.artic.edu/iiif/2/34b0ee28-cfe5-6fb6-1a9e-5bf2b5d46569/full/843,/0/default.jpg","4":"https://image.tnm.jp/image/thumb/C0087319.jpg","5":"https://da.dl.itc.u-tokyo.ac.jp/portal/sites/default/files/styles/large/public/images/assets/ikansoku/6bb16b19-41b2-8791-6167-001fff929580_1.jpg"},"hint":["日本最古の長編小説『源氏物語』を生み出した、平安時代の女流作家","貴公子光源氏を主役とした華やかな物語は、絵画芸術にも影響を与 えた。"],"choise":["光源氏","藤原宣孝","紫式部","大弐三位","藤原為時","上原作和"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-2lA7JXOnjmK","garalyimg":"https://colbase.nich.go.jp/media/tnm/A-10569-778/image/slideshow_s/A-10569-778_C0088558.jpg"},
-    { "chname":"87d226d0679bc30914543a961432d23b","sha1":"ff07863a30b781ac048466237e3be0de002d9016","image":{"1":"https://colbase.nich.go.jp/media/tnm/A-12091/image/slideshow/A-12091_E0048821.jpg","2":"https://colbase.nich.go.jp/media/narahaku/693-0/image/slideshow/67ec57764ad97df3ed73abd320c31280.jpg","3":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/marega/MM0501/MM0501-06/MM0501-06_01(P).jpg","4":"https://photo-archive.jp/database/makeThumb.php?filename1=./image/00040/00040-Frame/00040-03144-0008.jpg&size=900"},"hint":["３人の娘を天皇家にとつがせ、栄華をほこった平安時代の貴族"],"choise":["藤原行成","藤原鎌足","藤原頼通","藤原道長","藤原佐理"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-G7gBQ4dOBYQ","garalyimg":"https://upload.wikimedia.org/wikipedia/commons/f/f3/Fujiwaranomichinaga.jpg?20060925005014"},
-    { "chname":"1f358d8ec793aeb7e50fc3537f655289","sha1":"c7af4dbe394aa3516174250022464aee7c51e3c7","image":{"1":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/kokkai/rarebook.ndl.go.jp/pre/image/gazou/W0000010/w0000190/w0000001/w0000094.jpg","2":"https://colbase.nich.go.jp/media/tnm/A-884/image/slideshow/A-884_C0058783.jpg","3":"http://ibmuseum.mapps.ne.jp/files/adachitokyo/media_files/large/593.jpg","4":"http://www9.nhk.or.jp/das/image/D0004230/D0004230020_00000_S_001.jpg"},"hint":["鎌倉幕府を開いた初代将軍で、全国に軍事支配体制を敷いた"],"choise":["源義家","源義仲","源義経","源為朝","北条時政","源頼朝"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-KMoVWPr1Nkz","garalyimg":"https://image.tnm.jp/image/1024/C0004679.jpg"},
-    { "chname":"6477989c5f840c8c54eda1ca5626d016","sha1":"d983d131b2d1f636ebf91e90bb1ba7f1eb8e4f95","image":{"1":"https://colbase.nich.go.jp/media/tnm/A-1637/image/slideshow/A-1637_C0096957.jpg","2":"https://colbase.nich.go.jp/media/tnm/A-11779/image/slideshow/A-11779_C0078313.jpg","3":"http://ibmuseum.mapps.ne.jp/files/adachitokyo/media_files/large/895.jpg"},"hint":["鎌倉幕府の第8代執権。","元寇を乗り切り、国の防備を増強しました"],"choise":["北条時頼","北条重時","北条時輔","北条時宗","北条宗政","北条宗時","北条政頼","北条宗頼","桜田時厳"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-xao0Pn7B06k","garalyimg":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/H%C5%8Dj%C5%8D_Tokimune.jpg/1024px-H%C5%8Dj%C5%8D_Tokimune.jpg"},
-    { "chname":"1073c09672578a32e8481285d5673093","sha1":"7c45ee22841d92979e070672b318505d90fb697c","image":{"1":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/kokkai/rarebook.ndl.go.jp/pre/image/gazou/W0000008/w0000104/w0000000/w0000070.jpg","2":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/BM/Prints/AM/BM-AM15306.jpg","3":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/BM/Prints/TRIPTYCHS11/BM-1906_12-20_1335(2).jpg","4":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/arc/Prints/arcUP/arcUP8207.jpg","5":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/Leiden/Prints/Lei-S13/Lei-2488-44b.jpg","6":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/arc/Prints/arcUP/arcUP7865.jpg"},"hint":["平安時代末期の日本の武将、公卿、棟梁。","伊勢平氏の棟梁・平忠盛の嫡男として生まれ、平氏棟梁となる"],"choise":["平将門","平重盛","平忠常","後白河法皇","平忠盛","平清盛"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-BnGj90W3KP2","garalyimg":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Taira_no_Kiyomori%2CTenshiSekkanMiei.jpg/540px-Taira_no_Kiyomori%2CTenshiSekkanMiei.jpg"},
-    { "chname":"a5b78dec6245526c9ec0262aac9ef7af","sha1":"02ce60265e635431a4aa6206a3610451040a28c5","image":{"1":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1168524","2":"https://bunka.nii.ac.jp/heritage/285011/_367306/285011_367306571740015229574_900.jpg","3":"https://photo-archive.jp/database/makeThumb.php?filename1=./image/00040/00040-Frame/00040-03146-0003.jpg&size=900","4":"https://www.library-archives.pref.fukui.lg.jp/archive/ics/viewer/iipsrv.fcgi?IIIF=/ikou/X0280000/X0280009/2943936_2014010100002800009.jpx/full/!5100,200/0/default.jpg"},"hint":["「判官（ほうがん）びいき」で知られる伝説多き悲劇の武将"],"choise":["源義家","源義仲","源義経","源為朝","北条時政","源頼朝"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-3pBRw3QY23V","garalyimg":"https://colbase.nich.go.jp/media/tnm/A-307/image/slideshow/A-307_C0055150.jpg"},
-    { "chname":"8bca4faa05bee30b3064332b98751f58","sha1":"3c238d87b8f7fafac46e9bd46621be25314ae977","image":{"1":"https://colbase.nich.go.jp/media/tnm/A-9221/image/slideshow/A-9221_E0037674.jpg","2":"https://colbase.nich.go.jp/media/kyohaku/H%E7%94%B249/image/slideshow/14975_p.jpg","3":"https://colbase.nich.go.jp/media/tnm/C-170/image/slideshow/C-170_C0016700.jpg","4":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/arc/Prints/arcUP/arcUP2547.jpg"},"hint":["室町幕府第3代将軍。","公家・武家両勢力の頂点に君臨し、金閣を建立した"],"choise":["足利義視","足利義昭","足利尊氏","足利義満","足利直義"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-JVK2pJ3xwPu34K","garalyimg":"https://image.tnm.jp/image/1024/C0029453.jpg"},
-    { "chname":"b34b6fd4ec96efec2e599fd9e966e420","sha1":"ec0feae0a6e49baee8dcf36931b2216b3d08d0e0","image":{"1":"https://colbase.nich.go.jp/media/tnm/A-11868/image/slideshow/A-11868_C0038080.jpg","2":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/13850.tif/full/full/0/default.jpg","3":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/marega/MM0644/MM0644_15.jpg","4":"https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2815/image/slideshow/28123_3.jpg","5":"https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2228/image/slideshow/287152_d.jpg"},"hint":["室町時代の画僧。","明に渡り水墨画を大成した","墨一色を基調とした東洋絵画の様式。****が日本的様式を大成"],"choise":["如拙","長谷川等伯","雪村","周文","雪舟"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-1oz6RvaXONT4wk","garalyimg":"https://colbase.nich.go.jp/media/tnm/A-11868/image/slideshow/A-11868_C0038080.jpg"},
-    { "chname":"00f46819ea1c7c0fcd2c0dd4fa4232ab","sha1":"89dd6e537b1c78b6676dd8fecf7b459471a86467","image":{"1":"https://colbase.nich.go.jp/media/tnm/A-9265/image/slideshow/A-9265_E0105008.jpg","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1303499","3":"https://colbase.nich.go.jp/media/kyohaku/H%E7%94%B249/image/slideshow/14975_p.jpg","4":"https://colbase.nich.go.jp/media/tnm/C-170/image/slideshow/C-170_C0016700.jpg","5":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/arc/Prints/arcUP/arcUP2547.jpg"},"hint":["室町幕府第8代将軍。","銀閣を建立した。","東山文化の庇護者"],"choise":["足利尊氏","足利義満","足利義視","足利義政","足利義尚","足利基氏"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-Ym0ZZjQJKOSjZ3q","garalyimg":"https://colbase.nich.go.jp/media/tnm/A-45/image/slideshow_s/A-45_C0053851.jpg"},
-    { "chname":"e5c25af1eec35088e88b1e008d2bb944","sha1":"6eaf66c3d7c81872e8f34fb363e5dc4e4022cc74","image":{"1":"https://colbase.nich.go.jp/media/tnm/A-9204/image/slideshow/A-9204_C0073506.jpg","2":"https://colbase.nich.go.jp/media/tnm/A-9168/image/slideshow/A-9168_E0037650.jpg","3":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/kokkai/rarebook.ndl.go.jp/pre/image/gazou/W0000010/w0000404/w0000000/w0000003.jpg","4":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/kokkai/rarebook.ndl.go.jp/pre/image/gazou/W0000010/w0000404/w0000000/w0000002.jpg","5":"https://colbase.nich.go.jp/media/tnm/I-3478/image/slideshow/I-3478_C0094877.jpg","6":"https://www.artic.edu/iiif/2/536f1cfd-d21d-75f8-9313-bacacf7325f1/full/843,/0/default.jpg","7":"https://colbase.nich.go.jp/media/tnm/A-9271/image/slideshow/A-9271_C0050923.jpg","8":"https://www.fujibi.or.jp/assets/images/collection/thumb_c/thumb_c_04146.jpg"},"hint":["戦国時代・安土桃山時代の武将。","天下統一を目指したが、本能寺に宿泊中、家臣の明智光秀に襲撃され、自害した。"],"choise":["織田幹雄","明智光秀","織田信秀","織田信広","織田信孝","織田信雄","織田信長","織田信忠","織田信雄"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-wamZdxorZdZ","garalyimg":"https://colbase.nich.go.jp/media/tnm/A-9204/image/slideshow/A-9204_C0073506.jpg"},
-    { "chname":"ec80ecad1b9ff8ce71682fbb9a08d01e","sha1":"f47391608dbb1420117b57c5da5f67c35af7a1b9","image":{"1":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/14676.tif/full/full/0/default.jpg","2":"http://www9.nhk.or.jp/das/image/D0004990/D0004990256_00000_S_001.jpg","3":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/Leiden/Albums/Lei-2685-2/Lei-2685-2-34.jpg","4":"https://colbase.nich.go.jp/media/tnm/A-9276/image/slideshow/A-9276_E0053152.jpg","5":"https://colbase.nich.go.jp/media/tnm/E-20084/image/slideshow/E-20084_C0065985.jpg"},"hint":["下賤の身から天下人へと成り上がった、安土桃山時代の武将"],"choise":["柴田勝家","明智光秀","豊臣秀頼","豊臣秀次","豊臣秀吉"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-AE4jD0DKdrZ","garalyimg":"https://image.tnm.jp/image/1024/C0029977.jpg"},
-    { "chname":"8152d4c714d4c6f2814e3aa58bde452a","sha1":"a7bb09927601e39e8b47b560eabc62cc8f0002dc","image":{"1":"https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/002720914%2F002720914-0001.tif/full/110,/0/default.jpg","2":"https://archive.library.metro.tokyo.lg.jp/da/download?id=0000000003-00012400&size=view&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2421-K001.jpg","3":"https://colbase.nich.go.jp/media/tnm/F-20102/image/slideshow/F-20102_C0006042.jpg","4":"https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08306/bunko10_08306_p0001.jpg","5":"https://museumcollection.tokyo/wp-content/uploads/2021/10/12833-L.jpg"},"hint":["江戸幕府の礎を築いた。","三河国統一","征夷大将軍","江戸開府"],"choise":["徳川家康","徳川秀忠","徳川家光","徳川家綱","徳川綱吉","徳川家宣","徳川家継","徳川吉宗","徳川家重","徳川家治","徳川家斉","徳川家慶","徳川家定","徳川家茂","徳川慶喜"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-bDW8Y7d2z0W","garalyimg":"https://www.dl.ndl.go.jp/api/iiif/2542434/R0000004/1830,4412,6962,6243/1920,/0/default.jpg"},
-    { "chname":"32893da5bb098c096920c4be9b78d582","sha1":"65a881d7f9ee169686db361e84c6b1e8fb2e2205","image":{"1":"https://archive.library.metro.tokyo.lg.jp/da/download?id=0000000003-00009646&size=high&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2407-003-05.jpg","2":"https://colbase.nich.go.jp/media/tnm/H-361/image/slideshow/H-361_C0027368.jpg","3":"https://adeac.jp/items/city-aizuwakamatsu/catalog/mp500010-100050/t.jpg"},"hint":["江戸幕府の第3代征夷大将軍"],"choise":["徳川家康","徳川秀忠","徳川家光","徳川家綱","徳川綱吉","徳川家宣","徳川家継","徳川吉宗","徳川家重","徳川家治","徳川家斉","徳川家慶","徳川家定","徳川家茂","徳川慶喜"],"garalyurl":"https://ja.wikipedia.org/wiki/%E5%BE%B3%E5%B7%9D%E5%AE%B6%E5%85%89","garalyimg":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Iemitu.jpg/1920px-Iemitu.jpg"},
-    { "chname":"c246bebd0b0a4fd395b9b52d080406df","sha1":"08054a8456fbda73b9af5f16a644b3a1fe0f0176","image":{"1":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/13160.tif/full/full/0/default.jpg","2":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/13412.tif/full/full/0/default.jpg"},"hint":["『古事記』を研究し、国学を大成した18世紀最大の古典研究家。"],"choise":["堀景山","荻生徂徠","契沖","賀茂真淵","平田篤胤","本居宣長","伴信友","長瀬真幸","千家俊信","塙保己一"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-q4WZb9AoX2A","garalyimg":"https://www.bunka.pref.mie.lg.jp/Miebunka/media/00178501/00178522_L.jpg"},
-    { "chname":"06fcf1da1f4f9615d5c0628e4bdc2e2d","sha1":"8898604b570c2829888419c772b126ee0ac44c71","image":{"1":"https://museumcollection.tokyo/wp-content/uploads/2021/10/10459-L.jpg","2":"https://colbase.nich.go.jp/media/tnm/A-10569-861/image/slideshow/A-10569-861_E0097490.jpg","3":"https://colbase.nich.go.jp/media/tnm/A-10569-7387/image/slideshow/A-10569-7387_E0066932.jpg","4":"https://colbase.nich.go.jp/media/tnm/A-12161/image/slideshow/A-12161_C0098829.jpg","5":"https://colbase.nich.go.jp/media/tnm/A-10569-7365/image/slideshow/A-10569-7365_E0098375.jpg"},"hint":["ゴッホにも影響を与えた江戸時代後期の浮世絵師"],"choise":["歌川豊広","葛飾北斎","歌川豊国","歌川豊春","歌川広景","歌川重清","歌川重昌","暁斎重晴","歌川重房","歌川重春","歌川重美","歌川広重","歌川重歳","歌川重光","歌川重丸","歌川芳延"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-rnOErDakbzTR1Yl","garalyimg":"https://mfas3.s3.amazonaws.com/objects/SC145999.jpg"},
-    { "chname":"c302ad8c1db011010f156feab6477f93","sha1":"e4a51fef7071142e4db2d03b381b6334097972bb","image":{"1":"https://colbase.nich.go.jp/media/tnm/P-1147/image/slideshow/P-1147_E0015303.jpg","2":"https://www.dl.ndl.go.jp/api/iiif/1286177/R0000002/full/1800,/0/default.jpg","3":"https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/PVT/tasahi/prints/49703311-01.jpg"},"hint":["日本で初めて実測による日本地図を作製した江戸時代の測量家"],"choise":["高橋景保","間宮林蔵","伊能忠敬","伊能景敬","神保玄二郎","伊能順次"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-ZDW4kdnvjgTk0pN","garalyimg":"https://www.city.katori.lg.jp/sightseeing/museum/tadataka.images/data_ph_tadataka_01.jpg"},
-    { "chname":"ddffe6047c30b352b1b02971bb1e57ea","sha1":"9ac85d0b5ca1b430ae110e75f00fcf9b3749c9bd","image":{"1":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2558890","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1169294","3":"https://www.library-archives.pref.fukui.lg.jp/archive/ics/viewer/iipsrv.fcgi?IIIF=/2005672/3069415/3069415_0000001.jpx/full/!1100,1000/0/default.jpg","4":"https://archive.wul.waseda.ac.jp/kosho/bunko08/bunko08_b0169/bunko08_b0169_p0001.jpg"},"hint":["日本で初めて西洋の解剖学の書物を翻訳した江戸時代の蘭学者。蘭学の発展に寄与"],"choise":["杉田玄甫","杉田伯元","杉田玄白","杉田智和"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-ZrAXvQbXgaUkkY3","garalyimg":"https://archive.wul.waseda.ac.jp/kosho/bunko08/bunko08_a0252/bunko08_a0252_p0001.jpg"},
-    { "chname":"8d3a73d52969973d49688f58cab43bd3","sha1":"dd980e132a98223243f68c59f7335110beb1409a","image":{"1":"https://www.sagalibdb.jp/image/ehagaki/H23-02/thum/H23-181-05.jpg","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2542781","3":"https://www.waseda.jp/enpaku/wp-content/uploads/2015/05/chikamatumonzaemon_ms.jpg"},"hint":["江戸時代の元禄文化を代表する浄瑠璃及び歌舞伎の作者。代表作は『曽根崎心中』など。"],"choise":["杉森信義","近松門左衛門","岡本一抱","松平忠昌","松平昌親","山岡元隣"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-29wbwPZ82bK","garalyimg":"https://mfas3.s3.amazonaws.com/objects/SC226067.jpg"},
-    { "chname":"06c7670a3a0a341a434036fa52beaf26","sha1":"781ba5cd2389fbd6b04cc0cb2a06505080c973ec","image":{"1":"https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2798-108/image/slideshow/11682_2.jpg","2":"https://www.sagalibdb.jp/image/komonjo/saga/thum/54-1591sa939.jpg","3":"https://www.sagalibdb.jp/image/komonjo/2-19/thum/22-19014.jpg","4":"https://archive.library.metro.tokyo.lg.jp/da/download?id=0000000016-00067464&size=high&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI128-002-071.jpg","5":"https://colbase.nich.go.jp/media/tnm/C-512/image/slideshow/C-512_C0081754.jpg"},"hint":["明治維新を経て、近代日本を治めた、わが国初の立憲君主。"],"choise":["明治天皇","大正天皇","昭和天皇","平成天皇","令和天皇"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-mj7BXzgVE0O","garalyimg":"https://museumcollection.tokyo/wp-content/uploads/2021/01/34-scaled.jpg"},
-    { "chname":"ce14715d4ced55c8e06ae8c21c74a53b","sha1":"471fa705728ed1eda4e97f777df357ab3a5a8743","image":{"1":"https://colbase.nich.go.jp/media/tnm/C-242/image/slideshow/C-242_C0027359.jpg","2":"https://colbase.nich.go.jp/media/tnm/B-1080/image/slideshow/B-1080_C0057902.jpg"},"hint":["幕末から明治前期にかけての日本の政治家","初代内務卿","内閣制度発足前の明治日本政府（太政官）の実質的・事実上の首相"],"choise":["大久保利和","大久保利武","大久保利夫","大久保駿熊","大久保利通","大久保七熊","大久保利賢","大久保利敬","大久保利世","大久保利建","大久保利謙","大久保利春","大久保利晃"],"garalyurl":"https://www.ndl.go.jp/portrait/datas/32","garalyimg":"https://www.ndl.go.jp/portrait/img/portrait/0032_1.jpg"},
-    { "chname":"29b3ab0d31af296d941182bd55753347","sha1":"1f62404377f8cbc806e70693ffd7e8759886210c","image":{"1":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/5464.tif/full/full/0/default.jpg","2":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/6020.tif/full/full/0/default.jpg","3":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/5752.tif/full/full/0/default.jpg","4":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/6024.tif/full/full/0/default.jpg"},"hint":["3回の欧米渡航経験により脱亜を説き、慶応義塾を創始した幕末―明治の啓蒙家"],"choise":["福沢百助","福沢諭吉","野本雪巌","帆足万里","伊藤東涯","中村術平","山本物次郎","大村益次郎"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-n4qXpbroN3Uo6X9","garalyimg":"https://www.dl.ndl.go.jp/api/iiif/3514947/R0000047/2033,1778,3290,3229/1920,/0/default.jpg"},
-    { "chname":"1db6cc24ecbdbfd4d5a2e2de95dbcd78","sha1":"d2f4930ac7aca05ede3eb6835fce55c1ce59d703","image":{"1":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11443938","2":"https://colbase.nich.go.jp/media/kyohaku/M%E7%94%B2175/image/slideshow/270319_2.jpg","3":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1174188","4":"https://colbase.nich.go.jp/media/kyohaku/M%E7%94%B2157/image/slideshow/48285_2.jpg"},"hint":["日本の幕末の長州藩士、勤王志士、明治時代初期の政治家"],"choise":["木戸松子","和田昌景","桂孝古","木戸正二郎","木戸孝正","来原良蔵","木戸幸一","和田小六","木戸孝允","岩倉具視","大久保利通","西郷隆盛"],"garalyurl":"https://www.ndl.go.jp/portrait/datas/65","garalyimg":"https://www.ndl.go.jp/portrait/img/portrait/0065_1.jpg"},
-    { "chname":"fb1efb32f79b58574ced69d9031efb76","sha1":"d67db31d59c126b2ccf3fbc9f08a358e0b45281e","image":{"1":"https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2798-159/image/slideshow_s/11733_2.jpg","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1207687","3":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1307901"},"hint":["幕末から明治初期の日本の政治家、軍人"],"choise":["大久保正助","税所喜三左衛門","西郷隆盛","吉井幸輔","伊地知竜右衛門","有村俊斎","中村半次郎"],"garalyurl":"https://www.ndl.go.jp/portrait/datas/85","garalyimg":"https://www.ndl.go.jp/portrait/img/portrait/0085_1.jpg"},
-    { "chname":"69f3d9cf7cfaccfa7cb861bc6419fdec","sha1":"a82482086d8f08de2e36b50aac7d0f0b666bdc95","image":{"1":"https://museumcollection.tokyo/wp-content/uploads/2021/10/38557-L.jpg","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11222151"},"hint":["咸臨丸で太平洋を横断しアメリカを見聞。江戸無血開城に成功した幕末―明治の政治家"],"choise":["勝小吉","勝信","勝海舟","勝元良","勝順子","勝民子"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-wzMVvRXPZlTl9rN","garalyimg":"https://www.dl.ndl.go.jp/api/iiif/3514947/R0000103/2125,1952,2902,3127/1920,/0/default.jpg"},
-    { "chname":"374590fc61fbccc950d3d7a79fe7620a","sha1":"e48cf7952b481ab7837e332f808ea240f5fbced1","image":{"1":"https://colbase.nich.go.jp/media/tnm/A-9953/image/slideshow/A-9953_C0073085.jpg","2":"http://www9.nhk.or.jp/das/image/D0004240/D0004240001_00000_S_001.jpg","3":"https://colbase.nich.go.jp/media/tnm/B-2182/image/slideshow/B-2182_C0073850.jpg","4":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/6042.tif/full/full/0/default.jpg","5":"https://museumcollection.tokyo/wp-content/uploads/2021/10/19748-L.jpg"},"hint":["幕末期に2度来航して開国を迫ったアメリカの海軍軍人。日米和親条約を締結"],"choise":["ペラー","ペリー","ペルー","ペレ―","ペロー"],"garalyurl":"https://jpsearch.go.jp/gallery/ndl-YP0Y76MZxDUwpG","garalyimg":"https://colbase.nich.go.jp/media/tnm/A-9953/image/A-9953_C0073085.jpg"},
-    { "chname":"5a077d29dc2a5b6f3ab72badab07694d","sha1":"4489f4bb4f4cf60a56b2a3c05fb4198578fe6795","image":{"1":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1881624","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1444909","3":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1281384","4":"https://photo-archive.jp/database/makeThumb.php?filename1=./image/00069/00069-Frame/00069-06667-0013.jpg&size=900","5":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11031276"},"hint":["明治時代の日本海軍の指揮官として日清及び日露戦争の勝利に大きく貢献"],"choise":["大塩平八郎","東郷平八郎","小林平八郎","福田平八郎","大竹平八郎","大崎平八郎"],"garalyurl":"https://www.ndl.go.jp/portrait/datas/141","garalyimg":"https://www.ndl.go.jp/portrait/img/portrait/0141_1.jpg"},
-    { "chname":"b32dfa53bcaf9f9f776b9889fdddf974","sha1":"cae33d465f1009dd13fe7470dd045c2dcc15907f","image":{"1":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11609579","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11536627","3":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1307938"},"hint":["外相時代には日英同盟の締結、日露戦争後のポーツマス条約の締結、条約改正の完成（関税自主権の完全回復。治外法権は陸奥宗光が改正）などの業績をのこした"],"choise":["小村寛","小倉処平","小村寿太郎","小村欣一","小村捷治"],"garalyurl":"https://www.ndl.go.jp/portrait/datas/83","garalyimg":"https://www.ndl.go.jp/portrait/img/portrait/0083_1.jpg"},
-    { "chname":"43728d4af9d6ce7c4d3f341d740b229f","sha1":"4b5dc690962a7c10c4c4b630cde6d13c89a2da87","image":{"1":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/8313625","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1277119","3":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1733751"},"hint":["明治維新の元勲、自由民権運動の指導者。","東アジアで初となる帝国議会を樹立し「国会を創った男」として知られる","伊藤博文、大隈重信と並ぶ「憲政の三巨人」の一人。"],"choise":["板垣信方","板垣鉾太郎","板垣孫三郎","板垣退助","板垣正実","板垣信方","板垣信憲"],"garalyurl":"https://www.ndl.go.jp/portrait/datas/10","garalyimg":"https://www.ndl.go.jp/portrait/img/portrait/0010_1.jpg"},
-    { "chname":"3a763a28c6736b15c3b79ef6f10e6610","sha1":"6eba120d01d364d4fddfd6cef33b7ca6752f7ca8","image":{"1":"http://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11445709","2":"https://adeac.jp/items/tamashin/catalog/mp2020e039010-200010/039-010_2.jpg","3":"https://archive.wul.waseda.ac.jp/kosho/i14/i14_a4582/i14_a4582_p0001.jpg"},"hint":["細菌学の研究に従事し、黄熱病や梅毒の研究で知られる。数々の論文を発表し、ノーベル生理学・医学賞の授賞候補に三度名前が挙がったが、後にその業績の多くが否定された"],"choise":["日本武尊","聖徳太子","伊藤博文","夏目漱石","野口英世"],"garalyurl":"https://www.ndl.go.jp/portrait/datas/312","garalyimg":"https://www.ndl.go.jp/portrait/img/portrait/0312_1.jpg"},
-    { "chname":"4e959331a1957fbb48e2182a00fd73be","sha1":"7fd7cf07f8239fd90c7bc0e29b1914b01f3a56e5","image":{"1":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11898546","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11031269","3":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2938190","4":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1270159"},"hint":["通貨・円の制定、日本初の鉄道敷設、政党内閣制を基軸にした即時国会開設を主張するなど議会制推進。","早稲田大学を創設し官学に匹敵する高等教育機関を育成するために力を注いだ。"],"choise":["伊藤博文","黑田清隆","三條實美","山縣有朋","松方正義","大隈重信","西園寺公望","桂太郎","岸田文雄"],"garalyurl":"https://www.ndl.go.jp/portrait/datas/33","garalyimg":"https://www.ndl.go.jp/portrait/img/portrait/0033_1.jpg"},
-    { "chname":"575b45bd66287ff3808446c1c1525e97","sha1":"0a5e3c644a7990a52636726b226fe63b3dfa15a2","image":{"1":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11898546","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11031269","3":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2938190","4":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1270159"},"hint":["日本の幕末の武士。明治期の外交官、政治家"],"choise":["陸奥宗光","陸奥亮子","陸奥廣吉","陸奥丈部","陸奥守吉行"],"garalyurl":"https://www.ndl.go.jp/portrait/datas/199","garalyimg":"https://www.ndl.go.jp/portrait/img/portrait/0199_1.jpg"},
-    { "chname":"5bb7ff7aadaaf452592948597a79552e","sha1":"9e35112b27bf55692b2948e5ad4fac7b0e1919d7","image":{"1":"https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/15682.tif/full/full/0/default.jpg","2":"https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11031142"},"hint":["初代総理大臣　初代枢密院議長、初代貴族院議長、初代韓国統監、元老などを歴任した"],"choise":["伊藤十蔵","伊藤博文","伊藤文吉","伊藤眞一","伊藤弥右衛門"],"garalyurl":"https://www.ndl.go.jp/portrait/datas/12","garalyimg":"https://www.ndl.go.jp/portrait/img/portrait/0012_1.jpg"}
+  {
+    "chname": "533782a54d65fc811198c579f8cd6ff5",
+    "sha1": "e078390631dd657abb7c6294827702422ec1a375",
+    "image": {
+      "1": "https://colbase.nich.go.jp/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSWhlak5sTlRSMU5ucDFiV1pvWm04MmNUSm9NVEoxZEdwNGMyWm5jZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpVVdsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtFdE9URTJORjlGTURBek56WTBOUzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowRXRPVEUyTkY5Rk1EQXpOelkwTlM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZBPT0iLCJleHAiOiIyMTIzLTAyLTE5VDAzOjQxOjMxLjQzMloiLCJwdXIiOiJibG9iX2tleSJ9fQ==--19abd5654dae61cf79ada96c91d74a15005b16d2/A-9164_E0037645.jpg"
+    },
+    "hint": [
+      "奈良時代の天皇。国家安泰のため仏教を重んじて諸国に国分寺を建立し、大仏造営を発願した"
+    ],
+    "choise": [
+      "弘文天皇",
+      "元正天皇",
+      "文武天皇",
+      "聖武天皇",
+      "孝謙天皇",
+      "称徳天皇",
+      "天武天皇",
+      "元明天皇"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-1oZKO9d9vKUrrwP",
+    "garalyimg": "https://image.tnm.jp/image/1024/C0029407.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-46533",
+        "item_url": "https://jpsearch.go.jp/item/cobas-46533",
+        "item_title": "\u8056\u6b66\u5929\u7687\u50cf\uff08\u6a21\u672c\uff09",
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-9164/image/slideshow_s/A-9164_E0037645.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=A-9164"
+      }
     ]
+  },
+  {
+    "chname": "13d1acb4a95cfbe36a709e182704bc5b",
+    "sha1": "362f6aef55515acc3435bc67a1fcc437c5851b71",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/narahaku/1424-1/image/slideshow/788f58f5c4314bac1cf9834b80faa506.jpg",
+      "2": "http://www9.nhk.or.jp/das/image/D0004500/D0004500235_00000_S_001.jpg",
+      "3": "https://colbase.nich.go.jp/media/tnm/A-9208/image/slideshow/A-9208_E0105000.jpg",
+      "4": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/15012.tif/full/full/0/default.jpg",
+      "5": "http://www9.nhk.or.jp/das/image/D0004500/D0004500230_00000_S_001.jpg"
+    },
+    "hint": [
+      "飛鳥時代、推古天皇の摂政だった皇子。政治で大きな業績を残す一方、仏教隆盛に貢献したといわれる。"
+    ],
+    "choise": [
+      "用明天皇",
+      "当麻皇子",
+      "来目皇子",
+      "殖栗皇子",
+      "茨田皇子",
+      "聖徳太子",
+      "酢香手姫皇女",
+      "佐富女王",
+      "山背大兄王"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-19olgvG91dN",
+    "garalyimg": "https://colbase.nich.go.jp/media/tnm/A-9208/image/slideshow_s/A-9208_E0105000.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-16634",
+        "item_url": "https://jpsearch.go.jp/item/cobas-16634",
+        "item_title": [
+          "Shoutokutaishizou\uff08shoutokutaishioyobidoujirisshizounouchi\uff09",
+          "\u3057\u3087\u3046\u3068\u304f\u305f\u3044\u3057\u305e\u3046\uff08\u3057\u3087\u3046\u3068\u304f\u305f\u3044\u3057\u304a\u3088\u3073\u3069\u3046\u3058\u308a\u3063\u3057\u305e\u3046\u306e\u3046\u3061\uff09",
+          "\u8056\u5fb3\u592a\u5b50\u50cf\uff08\u8056\u5fb3\u592a\u5b50\u53ca\u9053\u6148\u5f8b\u5e2b\u50cf\u306e\u3046\u3061\uff09"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/narahaku/1424-1/image/slideshow_s/788f58f5c4314bac1cf9834b80faa506.jpg",
+        "source_name": "\u5948\u826f\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": ""
+      },
+      {
+        "item_id": "michi-D0004500235_00000",
+        "item_url": "https://jpsearch.go.jp/item/michi-D0004500235_00000",
+        "item_title": [
+          "\u304a\u4f1a\u5f0f\u3067\u958b\u5e33\u3055\u308c\u308b\u8056\u970a\u9662\u306e\u672c\u5c0a",
+          "\u6cd5\u9686\u5bfa\u3000\u8056\u5fb3\u592a\u5b50\u5750\u50cf"
+        ],
+        "image_url": "http://www9.nhk.or.jp/das/image/D0004500/D0004500235_00000_S_001.jpg",
+        "source_name": "\u307f\u3061\u3057\u308b",
+        "source_url": "https://www2.nhk.or.jp/archives/michi/cgi/detail.cgi?dasID=D0004500235_00000"
+      },
+      {
+        "item_id": "cobas-46577",
+        "item_url": "https://jpsearch.go.jp/item/cobas-46577",
+        "item_title": [
+          "\u8056\u5fb3\u592a\u5b50\u4e8c\u738b\u5b50\u50cf\uff08\u6a21\u672c\uff09",
+          "Shoutokutaishinioujizou",
+          "\u3057\u3087\u3046\u3068\u304f\u305f\u3044\u3057\u306b\u304a\u3046\u3058\u305e\u3046"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-9208/image/slideshow_s/A-9208_E0105000.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=A-9208"
+      },
+      {
+        "item_id": "keioobjecthub-1812",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-1812",
+        "item_title": [
+          "\u8056\u5fb3\u592a\u5b50\u7d75\u4f1d\u65ad\u7c21",
+          "\u30b7\u30e7\u30a6\u30c8\u30af\u30bf\u30a4\u30b7\u30a8\u30c7\u30f3\u30c0\u30f3\u30ab\u30f3",
+          "Picture Scroll Depicting the Deeds of Prince Shotoku"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_m_15012_15012.jpg",
+        "source_name": "\u6176\u61c9\u30aa\u30d6\u30b8\u30a7\u30af\u30c8\u30cf\u30d6",
+        "source_url": "https://objecthub.keio.ac.jp/ja/object/1812"
+      }
+    ]
+  },
+  {
+    "chname": "1aa6ccd49d77a208d3c0bc95dd7858c2",
+    "sha1": "5759ad74b110aca141cc0cfa3e4e86b93dc998a2",
+    "image": {
+      "1": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/13802.tif/full/full/0/default.jpg",
+      "2": "https://api.ro-da.jp/v1/shinshu-dcommons/museum_history/03OD0622101200/thumbnails/large.png"
+    },
+    "hint": ["626年生まれ。即位前の呼び名は中大兄皇子（なかのおおえのおうじ）。","645年、中臣鎌足とはかり、当時権力を握りつつあった蘇我入鹿を暗殺しました。","663年、白村江の戦いに敗れた中大兄は近江大津宮に遷都（667年）し、その翌年に即位しました。"],
+    "choise": [
+      "舒明天皇",
+      "皇極天皇",
+      "倭姫王",
+      "天智天皇",
+      "越道君伊羅都売",
+      "持統天皇",
+      "建皇子",
+      "元明天皇"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/item/arc_nishikie-4136_002_001_01",
+    "garalyimg": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Emperor_Tenji.jpg",
+    "ref": [
+      {
+        "item_id": "keioobjecthub-1788",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-1788",
+        "item_title": [
+          "\u85e4\u539f\u938c\u8db3\u50cf",
+          "Portrait of Fujiwara no Kamatari",
+          "\u30d5\u30b8\u30ef\u30e9\u30ce\u30ab\u30de\u30bf\u30ea\u30be\u30a6"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_m_13802_13802.jpg",
+        "source_name": "\u6176\u61c9\u7fa9\u587e\u30df\u30e5\u30fc\u30b8\u30a2\u30e0\u30fb\u30b3\u30e2\u30f3\u30ba",
+        "source_url": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/1788/2.1/manifest.json"
+      },
+      {
+        "item_id": "sdcommons_npmh-03OD0622101200",
+        "item_url": "https://jpsearch.go.jp/item/sdcommons_npmh-03OD0622101200",
+        "item_title": [
+          "Matsubarashakomonjo utsushi",
+          "\u30de\u30c4\u30d0\u30e9\u30b7\u30e3\u30b3\u30e2\u30f3\u30b8\u30e7\u3000\u30a6\u30c4\u30b7",
+          "\u677e\u539f\u793e\u53e4\u6587\u66f8\u3000\u5199"
+        ],
+        "image_url": "https://api.ro-da.jp/v1/shinshu-dcommons/museum_history/03OD0622101200/thumbnails/default.png",
+        "source_name": "\u9577\u91ce\u770c\u7acb\u6b74\u53f2\u9928",
+        "source_url": "https://www.ro-da.jp/shinshu-dcommons/museum_history/03OD0622101200"
+      },
+      {
+        "item_id": "narabook-R000000039_I000000273_00",
+        "item_url": "https://jpsearch.go.jp/item/narabook-R000000039_I000000273_00",
+        "item_title": "\u897f\u570b\u7b2c\u4e03\u756a\u5927\u548c\u570b\u9ad8\u5e02\u90e1\u6771\u5149\u5c71\u5ca1\u5bfa\u4e4b\u5716",
+        "image_url": "",
+        "source_name": "\u5948\u826f\u770c\u7acb\u56f3\u66f8\u60c5\u5831\u9928",
+        "source_url": "http://meta01.library.pref.nara.jp/opac/repository/repo/137996/"
+      }
+    ]
+  },
+  {
+    "chname": "2befdcd17fab0065f075a2e75aa7d7be",
+    "sha1": "0991af30dcb02c7149ee4369117f569a39389786",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/narahaku/1424-2/image/slideshow/660bdafa2cfadb9b54481517abadc40e.jpg",
+      "2": "https://bunka.nii.ac.jp/heritage/43967/_364451/43967_364451284344710089451_300.jpg",
+      "3": "http://www9.nhk.or.jp/das/image/D0004500/D0004500335_00000_S_001.jpg"
+    },
+    "hint": ["日本への渡来に5回失敗し、失明した"],
+    "choise": [
+      "孝謙天皇",
+      "鑑真",
+      "藤原清河",
+      "阿倍仲麻呂",
+      "如海",
+      "栄叡",
+      "霊佑",
+      "清河"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-lN7OM96qDjtXOjl",
+    "garalyimg": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ganjin_wajyo_portrait.JPG",
+    "ref": [
+      {
+        "item_id": "cobas-16635",
+        "item_url": "https://jpsearch.go.jp/item/cobas-16635",
+        "item_title": [
+          "\u3069\u3046\u3058\u308a\u3063\u3057\u305e\u3046\uff08\u3057\u3087\u3046\u3068\u304f\u305f\u3044\u3057\u304a\u3088\u3073\u3069\u3046\u3058\u308a\u3063\u3057\u305e\u3046\u306e\u3046\u3061\uff09",
+          "\u9053\u6148\u5f8b\u5e2b\u50cf\uff08\u8056\u5fb3\u592a\u5b50\u53ca\u9053\u6148\u5f8b\u5e2b\u50cf\u306e\u3046\u3061\uff09",
+          "Doujirisshizou\uff08shoutokutaishioyobidoujirisshizounouchi\uff09"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/narahaku/1424-2/image/slideshow_s/660bdafa2cfadb9b54481517abadc40e.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/narahaku/1424-2"
+      },
+      {
+        "item_id": "bunka-400731",
+        "item_url": "https://jpsearch.go.jp/item/bunka-400731",
+        "item_title": [
+          "Toushoudaiji",
+          "\u3068\u3046\u3057\u3087\u3046\u3060\u3044\u3058",
+          "\u5510\u62db\u63d0\u5bfa"
+        ],
+        "image_url": "https://bunka.nii.ac.jp/heritage/43967/_364451/43967_364451284344710089451_300.jpg",
+        "source_name": "\u6587\u5316\u907a\u7523\u30aa\u30f3\u30e9\u30a4\u30f3",
+        "source_url": "https://kunishitei.bunka.go.jp/bsys/maindetails/911/32"
+      },
+      {
+        "item_id": "michi-D0004500335_00000",
+        "item_url": "https://jpsearch.go.jp/item/michi-D0004500335_00000",
+        "item_title": [
+          "\u53d7\u3051\u7d99\u304c\u308c\u308b\u4ecf\u6559\u306e\u6559\u3048",
+          "\u5510\u62db\u63d0\u5bfa\u3000\u9451\u771f\u548c\u4e0a"
+        ],
+        "image_url": "http://www9.nhk.or.jp/das/image/D0004500/D0004500335_00000_S_001.jpg",
+        "source_name": "\u307f\u3061\u3057\u308b",
+        "source_url": "https://www2.nhk.or.jp/archives/michi/cgi/detail.cgi?dasID=D0004500335_00000"
+      }
+    ]
+  },
+  {
+    "chname": "6895f05104a44720b1092bdf208342d0",
+    "sha1": "68742e86f33e014338559bfa01fba0abed298dba",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/R-1425/image/slideshow/R-1425_C0093793.jpg",
+      "2": "https://colbase.nich.go.jp/media/tnm/G-4424/image/slideshow/G-4424_C0059545.jpg",
+      "3": "https://museumcollection.tokyo/wp-content/uploads/2021/03/40922.jpg"
+    },
+    "hint": [
+      "奈良時代の高僧。",
+      "仏教修行のかたわら、土木技術を学び、庶民に仏教を広めながら、橋や道路をつくり、農地を開きました"
+    ],
+    "choise": ["道昭", "義淵", "光信", "行基", "景静", "真成", "法義"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-8oMvKPQYpQuRv9",
+    "garalyimg": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Gyouki_1.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-164738",
+        "item_url": "https://jpsearch.go.jp/item/cobas-164738",
+        "item_title": "\u85ac\u5e2b\u5bfa\u4e09\u91cd\u5854",
+        "image_url": "https://colbase.nich.go.jp/media/tnm/R-1425/image/slideshow_s/R-1425_C0093793.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=R-1425"
+      }
+    ]
+  },
+  {
+    "chname": "73c24b4cae4af47671dae850414a5865",
+    "sha1": "3aeeb1a5e4d4d61de9e8c954492413fe3cffd277",
+    "image": {
+      "1": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/BM/Prints/UNMTD06A/BM-1906_12-20_1384.jpg",
+      "2": "http://www9.nhk.or.jp/das/image/D0004990/D0004990756_00000_S_001.jpg",
+      "3": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/Leiden/Drawings/RV-3513-0089.jpg",
+      "4": "https://colbase.nich.go.jp/media/narahaku/693-0/image/slideshow/67ec57764ad97df3ed73abd320c31280.jpg"
+    },
+    "hint": ["飛鳥時代の政治家。", "藤原氏の初代にあたる人"],
+    "choise": ["藤原行成", "藤原鎌足", "藤原頼通", "藤原道長", "藤原佐理"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-1oZKO9d9vKUrrwP",
+    "garalyimg": "https://colbase.nich.go.jp/media/tnm/A-9222/image/slideshow/A-9222_E0037656.jpg",
+    "ref": [
+      {
+        "item_id": "arc_nishikie-BM_1906_1220_1384",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-BM_1906_1220_1384",
+        "item_title": "\u300c\u5927\u65e5\u672c\u540d\u5c06\u9451\u300d\u300c\u4e2d\u81e3\u938c\u8db3\u300d\u300c\u5927\u5144\u7687\u5b50\u300d\u300c\u5165\u9e7f\u5927\u81e3\u300d",
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/BM/Prints/UNMTD06A/BM-1906_12-20_1384.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/BM-1906_1220_1384/portal/"
+      },
+      {
+        "item_id": "michi-D0004990756_00000",
+        "item_url": "https://jpsearch.go.jp/item/michi-D0004990756_00000",
+        "item_title": [
+          "\u3044\u306b\u3057\u3048\u306e\u90fd\u3092\u7269\u8a9e\u308b\u3001\u6b74\u53f2\u306e\u65ad\u7247",
+          "\u98db\u9ce5\u306e\u767a\u6398"
+        ],
+        "image_url": "http://www9.nhk.or.jp/das/image/D0004990/D0004990756_00000_S_001.jpg",
+        "source_name": "\u307f\u3061\u3057\u308b",
+        "source_url": "https://www2.nhk.or.jp/archives/michi/cgi/detail.cgi?dasID=D0004990756_00000"
+      },
+      {
+        "item_id": "arc_nishikie-RV_3513_0089",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-RV_3513_0089",
+        "item_title": [
+          "Eawaseogurahyakuninisshu\u3001tenchitennou\u3001hiraihoushou",
+          "\u3048\u3042\u308f\u305b\u304a\u3050\u3089\u3072\u3083\u304f\u306b\u3093\u3044\u3063\u3057\u3085\u3001\u3066\u3093\u3061\u3066\u3093\u306e\u3046\u3001\u3072\u3089\u3044\u307b\u3046\u3057\u3087\u3046",
+          "\u300c\u7d75\u5408\u5c0f\u5009\u767e\u4eba\u4e00\u9996\u300d\u300c\u5929\u667a\u5929\u7687\u300d\u300c\u5e73\u4e95\u4fdd\u660c\u300d"
+        ],
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Leiden/Drawings/RV-3513-0089.jpg",
+        "source_name": "\u30e9\u30a4\u30c7\u30f3\u56fd\u7acb\u6c11\u65cf\u5b66\u535a\u7269\u9928",
+        "source_url": "https://hdl.handle.net/20.500.11840/"
+      },
+      {
+        "item_id": "cobas-15107",
+        "item_url": "https://jpsearch.go.jp/item/cobas-15107",
+        "item_title": [
+          "Fujiwaranokamatarizou",
+          "\u3075\u3058\u308f\u3089\u306e\u304b\u307e\u305f\u308a\u305e\u3046",
+          "\u85e4\u539f\u938c\u8db3\u50cf"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/narahaku/693-0/image/slideshow_s/67ec57764ad97df3ed73abd320c31280.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/narahaku/693-0"
+      }
+    ]
+  },
+  {
+    "chname": "f60dbc3c8ef66e925f799000b3aa4857",
+    "sha1": "8dab68c79d71d1d8aa089fbea56664af3eb32857",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/A-10569-775/image/slideshow/A-10569-775_C0088557.jpg",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2555026",
+      "3": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1286860",
+      "4": "https://data.ukiyo-e.org/metro/scaled/4136-002-002-14.jpg"
+    },
+    "hint": [
+      "一条天皇の中宮定子に仕えた。",
+      "平安時代の歌人、随筆家。",
+      "日本で最初の随筆文学『枕草子』をあらわしました。"
+    ],
+    "choise": [
+      "清少納言",
+      "橘則光",
+      "小豆大納言",
+      "藤原棟世",
+      "橘則長",
+      "小馬命婦"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-plZ27mlWQ1P",
+    "garalyimg": "https://colbase.nich.go.jp/media/tnm/A-952/image/slideshow/7002fb02d7af56b619dfac183588bca4.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-49385",
+        "item_url": "https://jpsearch.go.jp/item/cobas-49385",
+        "item_title": [
+          "\u305b\u3044\u3057\u3087\u3046\u306a\u3054\u3093",
+          "Seishounagon",
+          "\u6e05\u5c11\u7d0d\u8a00"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-10569-775/image/slideshow_s/A-10569-775_C0088557.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=A-10569-775"
+      },
+      {
+        "item_id": "arc_nishikie-4136_002_002_14",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-4136_002_002_14",
+        "item_title": "\u300c\u516d\u5341\u4e8c\u756a\u300d\u300c\u6e05\u5c11\u7d0d\u8a00\u300d",
+        "image_url": "https://data.ukiyo-e.org/metro/scaled/4136-002-002-14.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/4136-002-002-14/portal/"
+      }
+    ]
+  },
+  {
+    "chname": "ae8b0893bbe08879c623597db2104999",
+    "sha1": "e723f506bb45a91a102da3f0ff875dd00af1e23e",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/A-10569-778/image/slideshow/A-10569-778_C0088558.jpg",
+      "2": "https://colbase.nich.go.jp/media/tnm/A-12402/image/slideshow/A-12402_E0043600.jpg",
+      "3": "https://www.artic.edu/iiif/2/34b0ee28-cfe5-6fb6-1a9e-5bf2b5d46569/full/843,/0/default.jpg",
+      "4": "https://image.tnm.jp/image/thumb/C0087319.jpg",
+      "5": "https://da.dl.itc.u-tokyo.ac.jp/portal/sites/default/files/styles/large/public/images/assets/ikansoku/6bb16b19-41b2-8791-6167-001fff929580_1.jpg"
+    },
+    "hint": [
+      "日本最古の長編小説『源氏物語』を生み出した、平安時代の女流作家",
+      "貴公子光源氏を主役とした華やかな物語は、絵画芸術にも影響を与 えた。"
+    ],
+    "choise": [
+      "光源氏",
+      "藤原宣孝",
+      "紫式部",
+      "大弐三位",
+      "藤原為時",
+      "上原作和"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-2lA7JXOnjmK",
+    "garalyimg": "https://colbase.nich.go.jp/media/tnm/A-10569-778/image/slideshow_s/A-10569-778_C0088558.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-49388",
+        "item_url": "https://jpsearch.go.jp/item/cobas-49388",
+        "item_title": [
+          "\u7d2b\u5f0f\u90e8",
+          "Murasakishikibu",
+          "\u3080\u3089\u3055\u304d\u3057\u304d\u3076"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-10569-778/image/slideshow_s/A-10569-778_C0088558.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/A-10569-778"
+      },
+      {
+        "item_id": "cobas-158927",
+        "item_url": "https://jpsearch.go.jp/item/cobas-158927",
+        "item_title": [
+          "\u7d2b\u5f0f\u90e8\u56f3",
+          "Murasakishikibuzu",
+          "\u3080\u3089\u3055\u304d\u3057\u304d\u3076\u305a"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-12402/image/slideshow_s/A-12402_E0043600.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/A-12402"
+      },
+      {
+        "item_id": "arc_nishikie-AIC_1943_730_",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-AIC_1943_730_",
+        "item_title": "\u300c\u6e90\u6c0f\u7269\u8a9e\u4e94\u5341\u56db\u5e16\u300d\u300c\u6850\u58fa\u300d",
+        "image_url": "https://www.artic.edu/iiif/2/34b0ee28-cfe5-6fb6-1a9e-5bf2b5d46569/full/!240,240/0/default.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/AIC-1943.730./portal/"
+      },
+      {
+        "item_id": "utokyo_da-6bb16b19_41b2_8791_6167_001fff929580",
+        "item_url": "https://jpsearch.go.jp/item/utokyo_da-6bb16b19_41b2_8791_6167_001fff929580",
+        "item_title": "\u30e0\u30e9\u30b5\u30ad\u30b7\u30ad\u30d6",
+        "image_url": "https://da.dl.itc.u-tokyo.ac.jp/portal/sites/default/files/styles/large/public/images/assets/ikansoku/6bb16b19-41b2-8791-6167-001fff929580_1.jpg?itok=r5FVytjI",
+        "source_name": "\u6771\u4eac\u5927\u5b66\u5b66\u8853\u8cc7\u7523\u30a2\u30fc\u30ab\u30a4\u30d6\u30ba",
+        "source_url": "https://da.dl.itc.u-tokyo.ac.jp/portal/assets/6bb16b19-41b2-8791-6167-001fff929580"
+      }
+    ]
+  },
+  {
+    "chname": "87d226d0679bc30914543a961432d23b",
+    "sha1": "ff07863a30b781ac048466237e3be0de002d9016",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/A-12091/image/slideshow/A-12091_E0048821.jpg",
+      "2": "https://colbase.nich.go.jp/media/narahaku/693-0/image/slideshow/67ec57764ad97df3ed73abd320c31280.jpg",
+      "3": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/marega/MM0501/MM0501-06/MM0501-06_01(P).jpg",
+      "4": "https://photo-archive.jp/database/makeThumb.php?filename1=./image/00040/00040-Frame/00040-03144-0008.jpg&size=900"
+    },
+    "hint": ["３人の娘を天皇家にとつがせ、栄華をほこった平安時代の貴族"],
+    "choise": ["藤原行成", "藤原鎌足", "藤原頼通", "藤原道長", "藤原佐理"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-G7gBQ4dOBYQ",
+    "garalyimg": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Fujiwaranomichinaga.jpg?20060925005014",
+    "ref": [
+      {
+        "item_id": "cobas-48368",
+        "item_url": "https://jpsearch.go.jp/item/cobas-48368",
+        "item_title": [
+          "Murasakishikibunikkiemakidankan",
+          "\u3080\u3089\u3055\u304d\u3057\u304d\u3076\u306b\u3063\u304d\u3048\u307e\u304d\u3060\u3093\u304b\u3093",
+          "\u7d2b\u5f0f\u90e8\u65e5\u8a18\u7d75\u5dfb\u65ad\u7c21"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-12091/image/slideshow_s/A-12091_E0048821.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/A-12091"
+      },
+      {
+        "item_id": "cobas-15107",
+        "item_url": "https://jpsearch.go.jp/item/cobas-15107",
+        "item_title": [
+          "Fujiwaranokamatarizou",
+          "\u3075\u3058\u308f\u3089\u306e\u304b\u307e\u305f\u308a\u305e\u3046",
+          "\u85e4\u539f\u938c\u8db3\u50cf"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/narahaku/693-0/image/slideshow_s/67ec57764ad97df3ed73abd320c31280.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/narahaku/693-0"
+      },
+      {
+        "item_id": "arc_books-MM0501_06",
+        "item_url": "https://jpsearch.go.jp/item/arc_books-MM0501_06",
+        "item_title": [
+          "\u524d\u8ce2\u6545\u5b9f",
+          "zenkenkojitsu",
+          "\u305c\u3093\u3051\u3093\u3053\u3058\u3064"
+        ],
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/marega/MM0501/MM0501-06/MM0501-06_01(P).jpg",
+        "source_name": "\u6559\u7687\u5e81\u7acb\u30b5\u30ec\u30b8\u30aa\u5927\u5b66\u30de\u30ec\u30ac\u6587\u5eab",
+        "source_url": "https://www.dh-jac.net/db1/books/MM0501-06/portal/manifest.json"
+      },
+      {
+        "item_id": "jomon_archives-A014b000028",
+        "item_url": "https://jpsearch.go.jp/item/jomon_archives-A014b000028",
+        "item_title": [
+          "Oomorikatsuyamaiseki iwakisantotsuki\uff08mangetsu\uff09",
+          "\u5927\u68ee\u52dd\u5c71\u907a\u8de1 \u5ca9\u6728\u5c71\u3068\u6708\uff08\u6e80\u6708\uff09",
+          "\u304a\u304a\u3082\u308a\u304b\u3064\u3084\u307e\u3044\u305b\u304d \u3044\u308f\u304d\u3055\u3093\u3068\u3064\u304d\uff08\u307e\u3093\u3052\u3064\uff09"
+        ],
+        "image_url": "https://jomon-japan.jp/assets/thumbnail/A014b000028-thumbnail.png",
+        "source_name": "\u5317\u6d77\u9053\u5317\u6771\u5317\u7e04\u6587\u907a\u8de1\u7fa4DA",
+        "source_url": "https://jomon-japan.jp/archives/asset/18388"
+      },
+      {
+        "item_id": "photo-00040_03144_0008",
+        "item_url": "https://jpsearch.go.jp/item/photo-00040_03144_0008",
+        "item_title": [
+          "\u4eac\u90fd\u30fb\u5e73\u7b49\u9662",
+          "\u304d\u3087\u3046\u3068\u30fb\u3073\u3087\u3046\u3069\u3046\u3044\u3093",
+          "Byodoin Temple, Kyoto Pref"
+        ],
+        "image_url": "https://photo-archive.jp/database/makeThumb.php?filename1=./image/00040/00040-Frame/00040-03144-0008.jpg&size=250",
+        "source_name": "\u5199\u771f\u539f\u677f\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9",
+        "source_url": "https://photo-archive.jp/database/detail.php?id=00040-03144-0008"
+      }
+    ]
+  },
+  {
+    "chname": "1f358d8ec793aeb7e50fc3537f655289",
+    "sha1": "c7af4dbe394aa3516174250022464aee7c51e3c7",
+    "image": {
+      "1": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/kokkai/rarebook.ndl.go.jp/pre/image/gazou/W0000010/w0000190/w0000001/w0000094.jpg",
+      "2": "https://colbase.nich.go.jp/media/tnm/A-884/image/slideshow/A-884_C0058783.jpg",
+      "3": "http://ibmuseum.mapps.ne.jp/files/adachitokyo/media_files/large/593.jpg",
+      "4": "http://www9.nhk.or.jp/das/image/D0004230/D0004230020_00000_S_001.jpg"
+    },
+    "hint": ["鎌倉幕府を開いた初代将軍で、全国に軍事支配体制を敷いた"],
+    "choise": ["源義家", "源義仲", "源義経", "源為朝", "北条時政", "源頼朝"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-KMoVWPr1Nkz",
+    "garalyimg": "https://image.tnm.jp/image/1024/C0004679.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-59025",
+        "item_url": "https://jpsearch.go.jp/item/cobas-59025",
+        "item_title": [
+          "\u3067\u3093\u307f\u306a\u3082\u3068\u3088\u308a\u3068\u3082\u3056\u305e\u3046",
+          "Denminamotoyoritomozazou",
+          "\u4f1d\u6e90\u983c\u671d\u5750\u50cf"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/C-1526/image/slideshow_s/C-1526_E0017854.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=C-1526"
+      },
+      {
+        "item_id": "arc_nishikie-NDL_190_01_094",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-NDL_190_01_094",
+        "item_title": "\u300c\u6e90\u983c\u671d\u516c\u4e0a\u6d1b\u4e4b\u56f3\u300d",
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/kokkai/rarebook.ndl.go.jp/pre/th_image/gazou/W0000010/w0000190/w0000001/w0000094.jpg",
+        "source_name": "\u56fd\u7acb\u56fd\u4f1a\u56f3\u66f8\u9928",
+        "source_url": "https://www.dh-jac.net/db/nishikie/NDL-190-01-094/portal/"
+      },
+      {
+        "item_id": "cobas-38414",
+        "item_url": "https://jpsearch.go.jp/item/cobas-38414",
+        "item_title": [
+          "Ishibashiyama enoshima hakonezu",
+          "\u77f3\u6a4b\u5c71\u30fb\u6c5f\u5cf6\u30fb\u7bb1\u6839\u56f3",
+          "\u3044\u3057\u3070\u3057\u3084\u307e\u3000\u3048\u306e\u3057\u307e\u3000\u306f\u3053\u306d\u305a"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-884/image/slideshow_s/A-884_C0058783.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/A-884"
+      },
+      {
+        "item_id": "arc_nishikie-Adachiku_607_",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-Adachiku_607_",
+        "item_title": [
+          "\uff08\u3088\u308a\u3068\u3082\u3057\u3085\u3058\u3085\u3046\uff09",
+          "\uff08yoritomoshujuu\uff09",
+          "\uff08\u983c\u671d\u4e3b\u5f93\uff09"
+        ],
+        "image_url": "http://ibmuseum.mapps.ne.jp/files/adachitokyo/media_files/small/593.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/Adachiku-607./portal/"
+      },
+      {
+        "item_id": "michi-D0004230020_00000",
+        "item_url": "https://jpsearch.go.jp/item/michi-D0004230020_00000",
+        "item_title": [
+          "\u4f0a\u8c46\u5c71\u795e\u793e",
+          "\u4fee\u9a13\u9053\u306e\u5730"
+        ],
+        "image_url": "http://www9.nhk.or.jp/das/image/D0004230/D0004230020_00000_S_001.jpg",
+        "source_name": "\u307f\u3061\u3057\u308b",
+        "source_url": "https://www2.nhk.or.jp/archives/michi/cgi/detail.cgi?dasID=D0004230020_00000"
+      }
+    ]
+  },
+  {
+    "chname": "6477989c5f840c8c54eda1ca5626d016",
+    "sha1": "d983d131b2d1f636ebf91e90bb1ba7f1eb8e4f95",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/A-1637/image/slideshow/A-1637_C0096957.jpg",
+      "2": "https://colbase.nich.go.jp/media/tnm/A-11779/image/slideshow/A-11779_C0078313.jpg",
+      "3": "http://ibmuseum.mapps.ne.jp/files/adachitokyo/media_files/large/895.jpg"
+    },
+    "hint": ["鎌倉幕府の第8代執権。", "元寇を乗り切り、国の防備を増強しました"],
+    "choise": [
+      "北条時頼",
+      "北条重時",
+      "北条時輔",
+      "北条時宗",
+      "北条宗政",
+      "北条宗時",
+      "北条政頼",
+      "北条宗頼",
+      "桜田時厳"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-xao0Pn7B06k",
+    "garalyimg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/H%C5%8Dj%C5%8D_Tokimune.jpg/1024px-H%C5%8Dj%C5%8D_Tokimune.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-39089",
+        "item_url": "https://jpsearch.go.jp/item/cobas-39089",
+        "item_title": [
+          "\u3082\u3046\u3053\u3057\u3085\u3046\u3089\u3044\u3048\u307e\u304d\u3082\u307b\u3093",
+          "Moukoshuuraiemakimohon",
+          "\u8499\u53e4\u8972\u6765\u7d75\u5dfb\uff08\u6a21\u672c\uff09"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-1637/image/slideshow_s/A-1637_C0096957.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=A-1637"
+      },
+      {
+        "item_id": "cobas-48081",
+        "item_url": "https://jpsearch.go.jp/item/cobas-48081",
+        "item_title": [
+          "\u3082\u3046\u3053\u3057\u3085\u3046\u3089\u3044",
+          "Moukoshuurai",
+          "\u8499\u53e4\u8972\u6765"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-11779/image/slideshow_s/A-11779_C0078313.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/A-11779"
+      },
+      {
+        "item_id": "dignl-2539623",
+        "item_url": "https://jpsearch.go.jp/item/dignl-2539623",
+        "item_title": [
+          "\u30ab\u30de\u30af\u30e9\u30bc\u30f3\u30af\u30c0\u30a4\u30b7\u30c3\u30b1\u30f3\u30ad",
+          "Kamakurazenkudaishikkenki",
+          "\u938c\u5009\u524d\u4e5d\u4ee3\u57f7\u6a29\u8a18"
+        ],
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2539623",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/2539623"
+      }
+    ]
+  },
+  {
+    "chname": "1073c09672578a32e8481285d5673093",
+    "sha1": "7c45ee22841d92979e070672b318505d90fb697c",
+    "image": {
+      "1": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/kokkai/rarebook.ndl.go.jp/pre/image/gazou/W0000008/w0000104/w0000000/w0000070.jpg",
+      "2": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/BM/Prints/AM/BM-AM15306.jpg",
+      "3": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/BM/Prints/TRIPTYCHS11/BM-1906_12-20_1335(2).jpg",
+      "4": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/arc/Prints/arcUP/arcUP8207.jpg",
+      "5": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/Leiden/Prints/Lei-S13/Lei-2488-44b.jpg",
+      "6": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/arc/Prints/arcUP/arcUP7865.jpg"
+    },
+    "hint": [
+      "平安時代末期の日本の武将、公卿、棟梁。",
+      "伊勢平氏の棟梁・平忠盛の嫡男として生まれ、平氏棟梁となる"
+    ],
+    "choise": ["平将門", "平重盛", "平忠常", "後白河法皇", "平忠盛", "平清盛"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-BnGj90W3KP2",
+    "garalyimg": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Taira_no_Kiyomori%2CTenshiSekkanMiei.jpg/540px-Taira_no_Kiyomori%2CTenshiSekkanMiei.jpg",
+    "ref": [
+      {
+        "item_id": "arc_nishikie-NDL_104_00_070",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-NDL_104_00_070",
+        "item_title": "\u300c\u82b3\u5e74\u6b66\u8005\u65e1\u985e\u300d\u300c\u5e73\u76f8\u56fd\u6e05\u76db\u300d",
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/kokkai/rarebook.ndl.go.jp/pre/th_image/gazou/W0000008/w0000104/w0000000/w0000070.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/NDL-104-00-070/portal/"
+      },
+      {
+        "item_id": "arc_nishikie-BM_1906_1220_1335Nr20a",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-BM_1906_1220_1335Nr20a",
+        "item_title": "\u300c\u5efa\u793c\u9580\u9662\u300d\u300c\u53f3\u5927\u81e3\u5b9f\u671d\u300d",
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/BM/Prints/TRIPTYCHS11/BM-1906_12-20_1335(2).jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/BM-1906_1220_1335(2)/portal/"
+      },
+      {
+        "item_id": "arc_nishikie-arcUP8207",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-arcUP8207",
+        "item_title": [
+          "\u3042\u3093\u3068\u304f\u3066\u3044\u3001\u306b\u3044\u306e\u3042\u307e\u304e\u307f\u3001\u308f\u305f\u306a\u3079\u3052\u3093\u3054\u3001\u3044\u305b\u306e\u3055\u3076\u308d\u3046\u3001\u3051\u3093\u308c\u3044\u3082\u3093\u3044\u3093\u3001\u305f\u3044\u3089\u306e\u304d\u3088\u3080\u306d\u3001\u3042\u304d\u306e\u305f\u308d\u3046\u3001\u306e\u3068\u306e\u304b\u307f\u306e\u308a\u3064\u306d",
+          "Antokutei\u3001niinoamagimi\u3001watanabegengo\u3001isenosaburou\u3001kenreimonin\u3001tairanokiyomune\u3001akinotarou\u3001notonokaminoritsune",
+          "\u300c\u5b89\u5fb3\u5e1d\u300d\u300c\u4e8c\u4f4d\u30ce\u5c3c\u516c\u300d\u300c\u6e21\u8fba\u6e90\u543e\u300d\u300c\u4f0a\u52e2\u4e09\u90ce\u300d\u300c\u5efa\u793c\u9580\u9662\u300d\u300c\u5e73\u6e05\u5b97\u300d\u300c\u5b89\u82b8\u592a\u90ce\u300d\u300c\u80fd\u767b\u5b88\u6559\u7d4c\u300d"
+        ],
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/arc/Prints/arcUP/arcUP8207.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/arcUP8207/portal/"
+      },
+      {
+        "item_id": "arc_nishikie-RV_2488_44b",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-RV_2488_44b",
+        "item_title": [
+          "\u3042\u304b\u307e\u306e\u3046\u3089\u3000\u3052\u3093\u307a\u3044\u305f\u3044\u305b\u3093\u306e\u305a\u3001\u3042\u3093\u3068\u304f\u3066\u3093\u306e\u3046\u3001\u3059\u304a\u3046\u306e\u3064\u307c\u306d\u3001\u3053\u307e\u3064\u3061\u3085\u3046\u306a\u3054\u3093\u3042\u308a\u3082\u308a\u3001\u3078\u3044\u3055\u3044\u3057\u3087\u3046\u3064\u306d\u3082\u308a\u3001\u306e\u3080\u3089\u305f\u308d\u3046\u3001\u3057\u3093\u3061\u3085\u3046\u306a\u3054\u3093\u305f\u3044\u3089\u306e\u3086\u304d\u3082\u308a\u3001\u3053\u3060\u307e\u305f\u308d\u3046\u3001\u3072\u3060\u306e\u3055\u3048\u3082\u3093\u304b\u3052\u306a\u304c",
+          "Akamanoura genpeitaisennozu\u3001antokutennou\u3001suounotsubone\u3001komatsuchuunagonarimori\u3001heisaishoutsunemori\u3001nomuratarou\u3001shinchuunagontairanoyukimori\u3001kodamatarou\u3001hidanosaemonkagenaga",
+          "\uff08\u300c\u8d64\u9593\u30ce\u6d66\u6e90\u5e73\u5927\u6226\u4e4b\u56f3\u300d\uff09\u300c\u5b89\u5fb3\u5929\u7687\u300d\u300c\u5468\u4f8d\u30ce\u5c40\u300d\u300c\u5c0f\u677e\u4e2d\u5c06\u6709\u76db\u300d\u300c\u5e73\u5bb0\u76f8\u7d4c\u76db\u300d\u300c\u91ce\u6751\u592a\u90ce\u300d\u300c\u65b0\u4e2d\u7d0d\u8a00\u77e5\u76db\u300d\u300c\u5de6\u99ac\u982d\u5e73\u884c\u76db\u300d\u300c\u5150\u7389\u592a\u90ce\u300d\u300c\u98db\u9a28\u5de6\u885b\u9580\u666f\u9577\u300d"
+        ],
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Leiden/Prints/Lei-S13/Lei-2488-44b.jpg",
+        "source_name": "\u30e9\u30a4\u30c7\u30f3\u56fd\u7acb\u6c11\u65cf\u5b66\u535a\u7269\u9928",
+        "source_url": "https://hdl.handle.net/20.500.11840/744011"
+      },
+      {
+        "item_id": "arc_nishikie-arcUP7865",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-arcUP7865",
+        "item_title": [
+          "\u300c\u5e73\u5bb6\u9808\u78e8\u5bfa\u96c6\u4f1a\u300d\u300c\u65b0\u4e2d\u7d0d\u8a00\u5e73\u77e5\u76db\u300d\u300c\u5b89\u5fb3\u5929\u7687\u300d\u300c\u9928\u592a\u90ce\u5b9a\u5eb7\u300d\u300c\u7d00\u4e5d\u90ce\u8c9e\u5149\u300d\u300c\u4e0a\u7dcf\u4e94\u90ce\u5fe0\u5149\u300d\u300c\u9593\u90e8\u4e94\u90ce\u8cc7\u5149\u300d\u300c\u5916\u8a18\u7fa9\u9060\u300d\u300c\u702c\u5c3e\u592a\u90ce\u517c\u5eb7\u300d\u300c\u5ca9\u56fd\u4e09\u90ce\u6210\u91cd\u300d",
+          "\u3078\u3044\u3051\u3059\u307e\u3067\u3089\u3057\u3085\u3046\u304b\u3044\u3001\u3057\u3093\u3061\u3085\u3046\u306a\u3054\u3093\u305f\u3044\u3089\u306e\u3068\u3082\u3082\u308a\u3001\u3042\u3093\u3068\u304f\u3066\u3093\u306e\u3046\u3001\u3084\u304b\u305f\u305f\u308d\u3046\u3055\u3060\u3084\u3059\u3001\u304d\u306e\u304f\u308d\u3046\u3055\u3060\u307f\u3064\u3001\u304b\u305a\u3055\u3054\u308d\u3046\u305f\u3060\u307f\u3064\u3001\u307e\u306a\u3079\u3054\u308d\u3046\u3059\u3051\u307f\u3064\u3001\u3052\u304d\u3088\u3057\u3068\u304a\u3001\u305b\u306e\u304a\u305f\u308d\u3046\u304b\u306d\u3084\u3059\u3001\u3044\u308f\u304f\u306b\u3055\u3076\u308d\u3046\u306a\u308a\u3057\u3052",
+          "Heikesumaderashuukai\u3001shinchuunagontairanotomomori\u3001antokutennou\u3001yakatatarousadayasu\u3001kinokurousadamitsu\u3001kazusagoroutadamitsu\u3001manabegorousukemitsu\u3001gekiyoshitoo\u3001senootaroukaneyasu\u3001iwakunisaburounarishige"
+        ],
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/arc/Prints/arcUP/arcUP7865.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/arcUP7865/portal/"
+      }
+    ]
+  },
+  {
+    "chname": "a5b78dec6245526c9ec0262aac9ef7af",
+    "sha1": "02ce60265e635431a4aa6206a3610451040a28c5",
+    "image": {
+      "1": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1168524",
+      "2": "https://bunka.nii.ac.jp/heritage/285011/_367306/285011_367306571740015229574_900.jpg",
+      "3": "https://photo-archive.jp/database/makeThumb.php?filename1=./image/00040/00040-Frame/00040-03146-0003.jpg&size=900",
+      "4": "https://www.library-archives.pref.fukui.lg.jp/archive/ics/viewer/iipsrv.fcgi?IIIF=/ikou/X0280000/X0280009/2943936_2014010100002800009.jpx/full/!5100,200/0/default.jpg"
+    },
+    "hint": ["「判官（ほうがん）びいき」で知られる伝説多き悲劇の武将"],
+    "choise": ["源義家", "源義仲", "源義経", "源為朝", "北条時政", "源頼朝"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-3pBRw3QY23V",
+    "garalyimg": "https://colbase.nich.go.jp/media/tnm/A-307/image/slideshow/A-307_C0055150.jpg",
+    "ref": [
+      {
+        "item_id": "arc_nishikie-LOC00574",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-LOC00574",
+        "item_title": "\uff08\u725b\u82e5\u4e38\u3068\u5f01\u6176\uff09",
+        "image_url": "http://lapis.nichibun.ac.jp/image?did=14&pic=0&fid=00574r.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/LOC00574/portal/"
+      },
+      {
+        "item_id": "arc_nishikie-MET_DP121467",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-MET_DP121467",
+        "item_title": "\uff08\u7fa9\u7d4c\u3000\u725f\u793c\u9ad8\u677e\uff09",
+        "image_url": "https://images.metmuseum.org/CRDImages/as/web-thumb/DP121467.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/MET-DP121467/portal/"
+      },
+      {
+        "item_id": "bunka-442536",
+        "item_url": "https://jpsearch.go.jp/item/bunka-442536",
+        "item_title": [
+          "\u9d6f\u8d8a\u9006\u843d\u5e73\u5bb6\u843d\u57ce\u68b6\u539f\u50cd\u56f3",
+          "\u3072\u3088\u3069\u308a\u3054\u3048\u306e\u3055\u304b\u3055\u304a\u3068\u3057\u3078\u3044\u3051\u3089\u304f\u3058\u3087\u3046\u304b\u3058\u308f\u3089\u3046\u3054\u304d\u305a",
+          "Hiyodorigoenosakasaotoshiheikerakujoukajiwaraugokizu"
+        ],
+        "image_url": "https://bunka.nii.ac.jp/heritage/285011/_367306/285011_367306571740015229574_300.jpg",
+        "source_name": "\u6587\u5316\u907a\u7523\u30aa\u30f3\u30e9\u30a4\u30f3",
+        "source_url": "https://bunka.nii.ac.jp/heritages/detail/442536"
+      },
+      {
+        "item_id": "photo-00040_03146_0003",
+        "item_url": "https://jpsearch.go.jp/item/photo-00040_03146_0003",
+        "item_title": [
+          "\u4eac\u90fd\u30fb\u978d\u99ac\u5bfa\uff08\u79cb\uff09",
+          "Kuramadera Temple in Autumn, Kyoto Pref",
+          "\u304d\u3087\u3046\u3068\u30fb\u304f\u3089\u307e\u3067\u3089\uff08\u3042\u304d\uff09"
+        ],
+        "image_url": "https://photo-archive.jp/database/makeThumb.php?filename1=./image/00040/00040-Frame/00040-03146-0003.jpg&size=250",
+        "source_name": "\u65e5\u672c\u5199\u771f\u4fdd\u5b58\u30bb\u30f3\u30bf\u30fc",
+        "source_url": "https://photo-archive.jp/database/detail.php?id=00040-03146-0003"
+      },
+      {
+        "item_id": "fukui-R100000103_I000346641_00",
+        "item_url": "https://jpsearch.go.jp/item/fukui-R100000103_I000346641_00",
+        "item_title": "\u978d\u99ac\u5bfa\u540d\u6240\u9644",
+        "image_url": "https://www.library-archives.pref.fukui.lg.jp/archive/ics/viewer/iipsrv.fcgi?IIIF=/ikou/X0280000/X0280009/2943936_2014010100002800009.jpx/full/!110,100/0/default.jpg",
+        "source_name": "\u30c7\u30b8\u30bf\u30eb\u30a2\u30fc\u30ab\u30a4\u30d6\u798f\u4e95",
+        "source_url": "https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-350779"
+      }
+    ]
+  },
+  {
+    "chname": "8bca4faa05bee30b3064332b98751f58",
+    "sha1": "3c238d87b8f7fafac46e9bd46621be25314ae977",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/A-9221/image/slideshow/A-9221_E0037674.jpg",
+      "2": "https://colbase.nich.go.jp/media/kyohaku/H%E7%94%B249/image/slideshow/14975_p.jpg",
+      "3": "https://colbase.nich.go.jp/media/tnm/C-170/image/slideshow/C-170_C0016700.jpg",
+      "4": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/arc/Prints/arcUP/arcUP2547.jpg"
+    },
+    "hint": [
+      "室町幕府第3代将軍。",
+      "公家・武家両勢力の頂点に君臨し、金閣を建立した"
+    ],
+    "choise": ["足利義視", "足利義昭", "足利尊氏", "足利義満", "足利直義"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-JVK2pJ3xwPu34K",
+    "garalyimg": "https://image.tnm.jp/image/1024/C0029453.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-46590",
+        "item_url": "https://jpsearch.go.jp/item/cobas-46590",
+        "item_title": "\u76f8\u570b\u5bfa\uff0f\u8db3\u5229\u7fa9\u6e80\u50cf",
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-9221/image/slideshow_s/A-9221_E0037674.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=A-9221"
+      }
+    ]
+  },
+  {
+    "chname": "b34b6fd4ec96efec2e599fd9e966e420",
+    "sha1": "ec0feae0a6e49baee8dcf36931b2216b3d08d0e0",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/A-11868/image/slideshow/A-11868_C0038080.jpg",
+      "2": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/13850.tif/full/full/0/default.jpg",
+      "3": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/marega/MM0644/MM0644_15.jpg",
+      "4": "https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2815/image/slideshow/28123_3.jpg",
+      "5": "https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2228/image/slideshow/287152_d.jpg"
+    },
+    "hint": [
+      "室町時代の画僧。",
+      "明に渡り水墨画を大成した",
+      "墨一色を基調とした東洋絵画の様式。****が日本的様式を大成"
+    ],
+    "choise": ["如拙", "長谷川等伯", "雪村", "周文", "雪舟"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-1oz6RvaXONT4wk",
+    "garalyimg": "https://colbase.nich.go.jp/media/tnm/A-11868/image/slideshow/A-11868_C0038080.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-48164",
+        "item_url": "https://jpsearch.go.jp/item/cobas-48164",
+        "item_title": "\u96ea\u821f\u753b\u50cf",
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-11868/image/slideshow_s/A-11868_C0038080.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=A-11868"
+      },
+      {
+        "item_id": "keioobjecthub-1838",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-1838",
+        "item_title": [
+          "Landscapes by Sesshu",
+          "\u96ea\u821f\u7b46\u5c71\u6c34\u56f3",
+          "\u30bb\u30c3\u30b7\u30e5\u30a6\u30d2\u30c4\u30b5\u30f3\u30b9\u30a4\u30ba"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_m_13850_13850.jpg",
+        "source_name": "\u6176\u61c9\u7fa9\u587e\u30df\u30e5\u30fc\u30b8\u30a2\u30e0\u30fb\u30b3\u30e2\u30f3\u30ba",
+        "source_url": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/1838/2.1/manifest.json"
+      },
+      {
+        "item_id": "dignl-1287788",
+        "item_url": "https://jpsearch.go.jp/item/dignl-1287788",
+        "item_title": [
+          "\u5897\u7530\u9577\u76db\u30fb\u5c3e\u5d0e\u96c5\u5609\u30fb\u5409\u5099\u771f\u5099\u30fb\u9054\u78e8\u30fb\u5ddd\u4e0a\u4e0d\u767d\u30fb\u72e9\u91ce\u63a2\u5e7d\u30fb\u5fb3\u672c\u884c\u8005\u30fb\u8a00\u5916\u5b97\u5fe0\u30fb\u53e4\u7b46\u4e86\u6804\u30fb\u5e02\u91ce\u5149\u696d\u30fb\u96ea\u821f\u7b49\u63da\u30fb\u5d50\u96ea\u30fb\u677e\u5c3e\u82ad\u30fb\u4f34\u4fe1\u53cb\u30fb\u666e\u5bc2\u30fb\u9ad8\u5b8b\u7985\u5e2b\u30fb\u5c0f\u65e9\u5ddd\u79c0\u79cb\u30fb\u771f\u7530\u4fe1\u4e4b\u30fb\u7965\u5553\u30fb\u5c71\u5ca1\u6d5a\u660e\u30fb\u4f50\u4e45\u9593\u5b9f\u52dd\u30fb\u72e9\u91ce\u677e\u6804\u30fb\u58f7\u4e95\u7fa9\u77e5\u30fb\u5317\u6761\u5b9f\u6642\u30fb\u7d30\u5ddd\u91cd\u8ce2\u30fb\u4f50\u4e45\u9593\u6771\u5ddd\u30fb\u8fb0\u5df3\u5c4b\u60e3\u5175\u885b\u30fb\u5343\u5b97\u5de6\uff08\uff14\u4ee3\uff09\u30fb\u8cc0\u8302\u771f\u6df5\u30fb\u6b66\u91ce\u7d39\u9d0e",
+          "\u8096\u50cf\u96c6\u3000\uff18",
+          "\u30b7\u30e7\u30a6\u30be\u30a6\u30b7\u30e5\u30a6",
+          "Shouzoushuu"
+        ],
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1287788",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/1287788"
+      },
+      {
+        "item_id": "arc_nishikie-MM0644_15",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-MM0644_15",
+        "item_title": "\u300c\u96ea\u821f\u300d",
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/marega/MM0644/MM0644_15.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/MM0644_15/portal/"
+      },
+      {
+        "item_id": "cobas-5190",
+        "item_url": "https://jpsearch.go.jp/item/cobas-5190",
+        "item_title": [
+          "\u30b7\u30ad\u30ab\u30c1\u30e7\u30a6\u30ba\u30d3\u30e7\u30a6\u30d6",
+          "\u56db\u5b63\u82b1\u9ce5\u56f3\u5c4f\u98a8",
+          "Shikikachouzubyoubu"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2815/image/slideshow_s/28123_3.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/kyohaku/A\u7532815"
+      },
+      {
+        "item_id": "cobas-5335",
+        "item_url": "https://jpsearch.go.jp/item/cobas-5335",
+        "item_title": [
+          "Amanohashidatezu",
+          "\u30a2\u30de\u30ce\u30cf\u30b7\u30c0\u30c6\u30ba",
+          "\u5929\u6a4b\u7acb\u56f3"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2228/image/slideshow_s/287152_d.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/kyohaku/A\u7532228"
+      }
+    ]
+  },
+  {
+    "chname": "00f46819ea1c7c0fcd2c0dd4fa4232ab",
+    "sha1": "89dd6e537b1c78b6676dd8fecf7b459471a86467",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/A-9265/image/slideshow/A-9265_E0105008.jpg",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1303499",
+      "3": "https://colbase.nich.go.jp/media/kyohaku/H%E7%94%B249/image/slideshow/14975_p.jpg",
+      "4": "https://colbase.nich.go.jp/media/tnm/C-170/image/slideshow/C-170_C0016700.jpg",
+      "5": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/arc/Prints/arcUP/arcUP2547.jpg"
+    },
+    "hint": ["室町幕府第8代将軍。", "銀閣を建立した。", "東山文化の庇護者"],
+    "choise": [
+      "足利尊氏",
+      "足利義満",
+      "足利義視",
+      "足利義政",
+      "足利義尚",
+      "足利基氏"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-Ym0ZZjQJKOSjZ3q",
+    "garalyimg": "https://colbase.nich.go.jp/media/tnm/A-45/image/slideshow_s/A-45_C0053851.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-46634",
+        "item_url": "https://jpsearch.go.jp/item/cobas-46634",
+        "item_title": "\u9f8d\u5b89\u5bfa\uff0f\u7d30\u5ddd\u52dd\u5143\u50cf",
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-9265/image/slideshow_s/A-9265_E0105008.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=A-9265"
+      }
+    ]
+  },
+  {
+    "chname": "e5c25af1eec35088e88b1e008d2bb944",
+    "sha1": "6eaf66c3d7c81872e8f34fb363e5dc4e4022cc74",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/A-9204/image/slideshow/A-9204_C0073506.jpg",
+      "2": "https://colbase.nich.go.jp/media/tnm/A-9168/image/slideshow/A-9168_E0037650.jpg",
+      "3": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/kokkai/rarebook.ndl.go.jp/pre/image/gazou/W0000010/w0000404/w0000000/w0000003.jpg",
+      "4": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/kokkai/rarebook.ndl.go.jp/pre/image/gazou/W0000010/w0000404/w0000000/w0000002.jpg",
+      "5": "https://colbase.nich.go.jp/media/tnm/I-3478/image/slideshow/I-3478_C0094877.jpg",
+      "6": "https://www.artic.edu/iiif/2/536f1cfd-d21d-75f8-9313-bacacf7325f1/full/843,/0/default.jpg",
+      "7": "https://colbase.nich.go.jp/media/tnm/A-9271/image/slideshow/A-9271_C0050923.jpg",
+      "8": "https://www.fujibi.or.jp/assets/images/collection/thumb_c/thumb_c_04146.jpg"
+    },
+    "hint": [
+      "戦国時代・安土桃山時代の武将。",
+      "天下統一を目指したが、本能寺に宿泊中、家臣の明智光秀に襲撃され、自害した。"
+    ],
+    "choise": [
+      "織田幹雄",
+      "明智光秀",
+      "織田信秀",
+      "織田信広",
+      "織田信孝",
+      "織田信雄",
+      "織田信長",
+      "織田信忠",
+      "織田信雄"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-wamZdxorZdZ",
+    "garalyimg": "https://colbase.nich.go.jp/media/tnm/A-9204/image/slideshow/A-9204_C0073506.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-46573",
+        "item_url": "https://jpsearch.go.jp/item/cobas-46573",
+        "item_title": [
+          "\u304a\u3060\u306e\u3076\u306a\u304c\u305e\u3046",
+          "\u7e54\u7530\u4fe1\u9577\u50cf\uff08\u6a21\u672c\uff09",
+          "Odanobunagazou"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-9204/image/slideshow_s/A-9204_C0073506.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/A-9204"
+      },
+      {
+        "item_id": "cobas-46537",
+        "item_url": "https://jpsearch.go.jp/item/cobas-46537",
+        "item_title": [
+          "\u304a\u3060\u306e\u3076\u306a\u304c\u305e\u3046",
+          "Odanobunagazou",
+          "\u7e54\u7530\u4fe1\u9577\u50cf\uff08\u6a21\u672c\uff09"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-9168/image/slideshow_s/A-9168_E0037650.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/A-9168"
+      },
+      {
+        "item_id": "arc_nishikie-NDL_404_00_003",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-NDL_404_00_003",
+        "item_title": "\u300c\u672c\u80fd\u5bfa\u5408\u6226\u4e4b\u56f3\u300d",
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/kokkai/rarebook.ndl.go.jp/pre/th_image/gazou/W0000010/w0000404/w0000000/w0000003.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/NDL-404-00-003/portal/"
+      },
+      {
+        "item_id": "arc_nishikie-NDL_404_00_002",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-NDL_404_00_002",
+        "item_title": "\u300c\u672c\u80fd\u5bfa\u5408\u6226\u4e4b\u56f3\u300d",
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/kokkai/rarebook.ndl.go.jp/pre/th_image/gazou/W0000010/w0000404/w0000000/w0000002.jpg",
+        "source_name": "\u56fd\u7acb\u56fd\u4f1a\u56f3\u66f8\u9928",
+        "source_url": "https://www.dh-jac.net/db/nishikie/NDL-404-00-002/portal/"
+      },
+      {
+        "item_id": "cobas-87493",
+        "item_url": "https://jpsearch.go.jp/item/cobas-87493",
+        "item_title": [
+          "\u3058\u3093\u3070\u304a\u308a \u304f\u308d\u3068\u308a\u3052\u3042\u3052\u306f\u3061\u3087\u3046\u3082\u3088\u3046",
+          "Jinbaori kurotorigeagehachoumoyou",
+          "\u9663\u7fbd\u7e54 \u9ed2\u9ce5\u6bdb\u63da\u7fbd\u8776\u6a21\u69d8"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/I-3478/image/slideshow_s/I-3478_C0094877.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/I-3478"
+      },
+      {
+        "item_id": "arc_nishikie-AIC_1995_206_2_",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-AIC_1995_206_2_",
+        "item_title": "\u300c\u7e54\u7530\u4fe1\u9577\u516c\u6e05\u9808\u57ce\u4fee\u7e55\u5fa1\u89a7\u4e4b\u56f3\u300d",
+        "image_url": "https://www.artic.edu/iiif/2/536f1cfd-d21d-75f8-9313-bacacf7325f1/full/!240,240/0/default.jpg",
+        "source_name": "\u30b7\u30ab\u30b4\u7f8e\u8853\u9928",
+        "source_url": "https://www.artic.edu/artworks/223505/"
+      },
+      {
+        "item_id": "cobas-46640",
+        "item_url": "https://jpsearch.go.jp/item/cobas-46640",
+        "item_title": "\u9577\u7be0\u5408\u6226\u56f3\u5c4f\u98a8\uff08\u6a21\u672c\uff09",
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-9271/image/slideshow_s/A-9271_C0050923.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=A-9271"
+      },
+      {
+        "item_id": "tfam_art_db-4146",
+        "item_url": "https://jpsearch.go.jp/item/tfam_art_db-4146",
+        "item_title": [
+          "\u706b\u7e04\u9283",
+          "\u3072\u306a\u308f\u3058\u3085\u3046",
+          "Harquebus"
+        ],
+        "image_url": "https://www.fujibi.or.jp/assets/images/collection/thumb_c/thumb_c_04146.jpg",
+        "source_name": "\u6771\u4eac\u5bcc\u58eb\u7f8e\u8853\u9928\u53ce\u8535\u54c1\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9",
+        "source_url": ""
+      }
+    ]
+  },
+  {
+    "chname": "ec80ecad1b9ff8ce71682fbb9a08d01e",
+    "sha1": "f47391608dbb1420117b57c5da5f67c35af7a1b9",
+    "image": {
+      "1": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/14676.tif/full/full/0/default.jpg",
+      "2": "http://www9.nhk.or.jp/das/image/D0004990/D0004990256_00000_S_001.jpg",
+      "3": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/Leiden/Albums/Lei-2685-2/Lei-2685-2-34.jpg",
+      "4": "https://colbase.nich.go.jp/media/tnm/A-9276/image/slideshow/A-9276_E0053152.jpg",
+      "5": "https://colbase.nich.go.jp/media/tnm/E-20084/image/slideshow/E-20084_C0065985.jpg"
+    },
+    "hint": ["下賤の身から天下人へと成り上がった、安土桃山時代の武将"],
+    "choise": ["柴田勝家", "明智光秀", "豊臣秀頼", "豊臣秀次", "豊臣秀吉"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-AE4jD0DKdrZ",
+    "garalyimg": "https://image.tnm.jp/image/1024/C0029977.jpg",
+    "ref": [
+      {
+        "item_id": "keioobjecthub-1757",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-1757",
+        "item_title": [
+          "\u8c4a\u81e3\u79c0\u5409\u50cf",
+          "Portrait of Toyotomi Hideyoshi",
+          "\u30c8\u30e8\u30c8\u30df\u30d2\u30c7\u30e8\u30b7\u30ac\u30be\u30a6"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_m_14676_14676.jpg",
+        "source_name": "\u6176\u61c9\u30aa\u30d6\u30b8\u30a7\u30af\u30c8\u30cf\u30d6",
+        "source_url": "https://objecthub.keio.ac.jp/ja/object/1757"
+      },
+      {
+        "item_id": "michi-D0004990256_00000",
+        "item_url": "https://jpsearch.go.jp/item/michi-D0004990256_00000",
+        "item_title": [
+          "\u5fb3\u5ddd\uff36\uff33\u8c4a\u81e3\u3000\u6c7a\u6226\u306e\u821e\u53f0",
+          "\u5927\u962a\u57ce"
+        ],
+        "image_url": "http://www9.nhk.or.jp/das/image/D0004990/D0004990256_00000_S_001.jpg",
+        "source_name": "NHK\u30a2\u30fc\u30ab\u30a4\u30d6\u30b9",
+        "source_url": "https://www2.nhk.or.jp/archives/michi/cgi/detail.cgi?dasID=D0004990256_00000"
+      },
+      {
+        "item_id": "arc_nishikie-RV_2685_2_34",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-RV_2685_2_34",
+        "item_title": [
+          "\u304d\u3087\u3046\u3069\u3046\u308a\u3063\u3057\u306e\u3082\u3068\u3044\u3001\u306f\u3057\u3070\u3072\u3067\u3088\u3057",
+          "\u300c\u6559\u5c0e\u7acb\u5fd7\u57fa\u300d\u300c\u4e09\u5341\u4e09\u300d\uff08\u7fbd\u67f4\u79c0\u5409\uff09",
+          "Kyoudourisshinomotoi\u3001hashibahideyoshi"
+        ],
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Leiden/Albums/Lei-2685-2/Lei-2685-2-34.jpg",
+        "source_name": "\u30e9\u30a4\u30c7\u30f3\u56fd\u7acb\u6c11\u65cf\u5b66\u535a\u7269\u9928",
+        "source_url": "https://hdl.handle.net/20.500.11840/941077"
+      },
+      {
+        "item_id": "cobas-46645",
+        "item_url": "https://jpsearch.go.jp/item/cobas-46645",
+        "item_title": "\u95a2\u30b1\u539f\u5408\u6226\u5c4f\u98a8\u7d75\uff08\u6a21\u672c\uff09",
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-9276/image/slideshow_s/A-9276_E0053152.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/A-9276"
+      },
+      {
+        "item_id": "cobas-74618",
+        "item_url": "https://jpsearch.go.jp/item/cobas-74618",
+        "item_title": [
+          "\u5929\u6b63\u83f1\u5927\u5224",
+          "\u3066\u3093\u3057\u3087\u3046\u3072\u3057\u304a\u304a\u3070\u3093",
+          "Tenshouhishiooban"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/E-20084/image/slideshow_s/E-20084_C0065985.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=E-20084"
+      }
+    ]
+  },
+  {
+    "chname": "8152d4c714d4c6f2814e3aa58bde452a",
+    "sha1": "a7bb09927601e39e8b47b560eabc62cc8f0002dc",
+    "image": {
+      "1": "https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/002720914%2F002720914-0001.tif/full/110,/0/default.jpg",
+      "2": "https://archive.library.metro.tokyo.lg.jp/da/download?id=0000000003-00012400&size=view&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2421-K001.jpg",
+      "3": "https://colbase.nich.go.jp/media/tnm/F-20102/image/slideshow/F-20102_C0006042.jpg",
+      "4": "https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08306/bunko10_08306_p0001.jpg",
+      "5": "https://museumcollection.tokyo/wp-content/uploads/2021/10/12833-L.jpg"
+    },
+    "hint": ["江戸幕府の礎を築いた。", "三河国統一", "征夷大将軍", "江戸開府"],
+    "choise": [
+      "徳川家康",
+      "徳川秀忠",
+      "徳川家光",
+      "徳川家綱",
+      "徳川綱吉",
+      "徳川家宣",
+      "徳川家継",
+      "徳川吉宗",
+      "徳川家重",
+      "徳川家治",
+      "徳川家斉",
+      "徳川家慶",
+      "徳川家定",
+      "徳川家茂",
+      "徳川慶喜"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-bDW8Y7d2z0W",
+    "garalyimg": "https://www.dl.ndl.go.jp/api/iiif/2542434/R0000004/1830,4412,6962,6243/1920,/0/default.jpg",
+    "ref": [
+      {
+        "item_id": "ukansai-R100000114_I000002279_00",
+        "item_url": "https://jpsearch.go.jp/item/ukansai-R100000114_I000002279_00",
+        "item_title": [
+          "Tokugawa ieyasu shojou",
+          "[\u5fb3\u5ddd\u5bb6\u5eb7\u66f8\u72b6]",
+          "\u30c8\u30af\u30ac\u30ef \u30a4\u30a8\u30e4\u30b9 \u30b7\u30e7\u30b8\u30e7\u30a6"
+        ],
+        "image_url": "https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/002720914%2F002720914-0001.tif/full/110,/0/default.jpg",
+        "source_name": "\u95a2\u897f\u5927\u5b66\u30c7\u30b8\u30bf\u30eb\u30a2\u30fc\u30ab\u30a4\u30d6",
+        "source_url": "https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/books/002720914/manifest.json"
+      },
+      {
+        "item_id": "tokyo-R100000086_I000010648_00",
+        "item_url": "https://jpsearch.go.jp/item/tokyo-R100000086_I000010648_00",
+        "item_title": "\u300c\u5927\u65e5\u672c\u540d\u5c06\u9451\u300d\u300c\u5fb3\u5ddd\u5bb6\u5eb7\u516c\u300d",
+        "image_url": "https://archive.library.metro.tokyo.lg.jp/da/download/?id=0000000003-00012400&size=listThumb&type=image&file=2421-K001.jpg",
+        "source_name": "TOKYO\u30a2\u30fc\u30ab\u30a4\u30d6",
+        "source_url": ""
+      },
+      {
+        "item_id": "cobas-77966",
+        "item_url": "https://jpsearch.go.jp/item/cobas-77966",
+        "item_title": [
+          "\u3044\u308d\u3044\u308d\u3044\u3068\u304a\u3069\u3057\u306b\u307e\u3044\u3069\u3046\u3050\u305d\u304f",
+          "Iroiroitoodoshinimaidougusoku",
+          "\u8272\u3005\u7cf8\u5a01\u4e8c\u679a\u80f4\u5177\u8db3"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/F-20102/image/slideshow_s/F-20102_C0006042.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=F-20102"
+      },
+      {
+        "item_id": "tokyomuseumcolection-edo_tokyo_museumjbD85975327",
+        "item_url": "https://jpsearch.go.jp/item/tokyomuseumcolection-edo_tokyo_museumjbD85975327",
+        "item_title": ["Tokugawa Ieyasu", "\u5fb3\u5ddd\u5bb6\u5eb7\u50cf"],
+        "image_url": "https://museumcollection.tokyo/wp-content/uploads/2021/10/12833-L.jpg",
+        "source_name": "\u6771\u4eac\u30df\u30e5\u30fc\u30b8\u30a2\u30e0\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "https://museumcollection.tokyo/works/6279645/"
+      }
+    ]
+  },
+  {
+    "chname": "32893da5bb098c096920c4be9b78d582",
+    "sha1": "65a881d7f9ee169686db361e84c6b1e8fb2e2205",
+    "image": {
+      "1": "https://archive.library.metro.tokyo.lg.jp/da/download?id=0000000003-00009646&size=high&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2407-003-05.jpg",
+      "2": "https://colbase.nich.go.jp/media/tnm/H-361/image/slideshow/H-361_C0027368.jpg",
+      "3": "https://adeac.jp/items/city-aizuwakamatsu/catalog/mp500010-100050/t.jpg"
+    },
+    "hint": ["江戸幕府の第3代征夷大将軍"],
+    "choise": [
+      "徳川家康",
+      "徳川秀忠",
+      "徳川家光",
+      "徳川家綱",
+      "徳川綱吉",
+      "徳川家宣",
+      "徳川家継",
+      "徳川吉宗",
+      "徳川家重",
+      "徳川家治",
+      "徳川家斉",
+      "徳川家慶",
+      "徳川家定",
+      "徳川家茂",
+      "徳川慶喜"
+    ],
+    "garalyurl": "https://ja.wikipedia.org/wiki/%E5%BE%B3%E5%B7%9D%E5%AE%B6%E5%85%89",
+    "garalyimg": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Iemitu.jpg/1920px-Iemitu.jpg",
+    "ref": [
+      {
+        "item_id": "tokyo-R100000086_I000019155_00",
+        "item_url": "https://jpsearch.go.jp/item/tokyo-R100000086_I000019155_00",
+        "item_title": "\u4e09\u4ee3\u8d08\u6b63\u4e00\u4f4d\u592a\u653f\u5927\u81e3\u5fb3\u5ddd\u5bb6\u5149\u516c",
+        "image_url": "https://archive.library.metro.tokyo.lg.jp/da/download/?id=0000000003-00009646&size=listThumb&type=image&file=2407-003-05.jpg",
+        "source_name": "\u6771\u4eac\u90fd\u7acb\u4e2d\u592e\u56f3\u66f8\u9928",
+        "source_url": "https://archive.library.metro.tokyo.lg.jp/da/detail?tilcod=0000000003-00009646"
+      },
+      {
+        "item_id": "cobas-81310",
+        "item_url": "https://jpsearch.go.jp/item/cobas-81310",
+        "item_title": [
+          "\u3057\u3087\u3046\u3061\u304f\u3070\u3044\u3064\u3044\u3057\u3085\u307c\u3093",
+          "\u677e\u7af9\u6885\u5806\u6731\u76c6",
+          "Shouchikubaitsuishubon"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/H-361/image/slideshow_s/H-361_C0027368.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=H-361"
+      },
+      {
+        "item_id": "adeac-R100000094_I000141860_00",
+        "item_url": "https://jpsearch.go.jp/item/adeac-R100000094_I000141860_00",
+        "item_title": [
+          "\u4f1a\u6d25\u85e9\u4e3b\u53c2\u52e4\u4ea4\u4ee3\u884c\u5217\u56f3",
+          "Aizuhanshusankinkoutaigyouretsuzu",
+          "\u3042\u3044\u3065\u306f\u3093\u3057\u3085\u3055\u3093\u304d\u3093\u3053\u3046\u305f\u3044\u304e\u3087\u3046\u308c\u3064\u305a"
+        ],
+        "image_url": "https://adeac.jp/items/city-aizuwakamatsu/catalog/mp500010-100050/t.jpg",
+        "source_name": "ADEAC",
+        "source_url": "https://adeac.jp/city-aizuwakamatsu/catalog/mp500010-100050"
+      }
+    ]
+  },
+  {
+    "chname": "c246bebd0b0a4fd395b9b52d080406df",
+    "sha1": "08054a8456fbda73b9af5f16a644b3a1fe0f0176",
+    "image": {
+      "1": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/13160.tif/full/full/0/default.jpg",
+      "2": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/13412.tif/full/full/0/default.jpg"
+    },
+    "hint": ["『古事記』を研究し、国学を大成した18世紀最大の古典研究家。"],
+    "choise": [
+      "堀景山",
+      "荻生徂徠",
+      "契沖",
+      "賀茂真淵",
+      "平田篤胤",
+      "本居宣長",
+      "伴信友",
+      "長瀬真幸",
+      "千家俊信",
+      "塙保己一"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-q4WZb9AoX2A",
+    "garalyimg": "https://www.bunka.pref.mie.lg.jp/Miebunka/media/00178501/00178522_L.jpg",
+    "ref": [
+      {
+        "item_id": "keioobjecthub-1039",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-1039",
+        "item_title": [
+          "Tanzaku by Motoori Norinaga",
+          "\u30e2\u30c8\u30aa\u30ea\u30ce\u30ea\u30ca\u30ac\u30d2\u30c4\u30bf\u30f3\u30b6\u30af",
+          "\u672c\u5c45\u5ba3\u9577\u7b46\u77ed\u518a"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_m_13160_13160.jpg",
+        "source_name": "\u6176\u61c9\u5927\u5b66\u65af\u9053\u6587\u5eab",
+        "source_url": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/1039/2.1/manifest.json"
+      },
+      {
+        "item_id": "dignl-1287775",
+        "item_url": "https://jpsearch.go.jp/item/dignl-1287775",
+        "item_title": [
+          "\u970a\u5dcc\u30fb\u76e4\u6842\u6c38\u7422\u30fb\u52a0\u85e4\u5343\u852d\u30fb\u5c71\u6771\u4eac\u4f1d\u30fb\u6a4b\u672c\u7d4c\u4eae\u30fb\u677e\u5c3e\u5b97\u30cb\u30fb\u517c\u677e\u6b63\u5409\u30fb\u6edd\u5ddd\u4e00\u76ca\u30fb\u52a0\u8cc0\u5343\u4ee3\u30fb\u5e73\u7530\u7be4\u80e4\u30fb\u5411\u4e95\u53bb\u6765\u30fb\u52a0\u820e\u767d\u96c4\u30fb\u85e4\u539f\u60fa\u7aa9\u30fb\u899a\u7337\u30fb\u5c71\u672c\u6e05\u6e13\u30fb\u65e5\u89aa\u30fb\u805e\u4e2d\u6d44\u5fa9\u30fb\u7a42\u4e95\u7530\u5fe0\u53cb\u30fb\u8cc0\u8302\u5b63\u9df9\u30fb\u5efa\u90e8\u8ce2\u6587\u30fb\u68ee\u53ef\u6210\u30fb\u571f\u4f50\u5149\u8d77\u30fb\u5409\u76ca\u5357\u6daf\u30fb\u9999\u5ddd\u5ba3\u963f\u30fb\u5343\u5b97\u5ba4\uff08\uff19\u4ee3\uff09\u30fb\u8056\u518f\u30fb\u4f50\u85e4\u4e00\u658e\u30fb\u672c\u5c45\u5ba3\u9577\u30fb\u5929\u7422\u5b97\u7403",
+          "Shouzoushuu",
+          "\u30b7\u30e7\u30a6\u30be\u30a6\u30b7\u30e5\u30a6",
+          "\u8096\u50cf\u96c6\u3000\uff17"
+        ],
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1287775",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/1287775"
+      },
+      {
+        "item_id": "keioobjecthub-1366",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-1366",
+        "item_title": [
+          "Two Large Characters of \u201cPine Tree Promise\u201d by Motoori Norinaga",
+          "\u672c\u5c45\u5ba3\u9577\u7b46\u300c\u677e\u5951\u300d\u4e8c\u5927\u5b57",
+          "\u30e2\u30c8\u30aa\u30ea\u30ce\u30ea\u30ca\u30ac\u30d2\u30c4\u30b7\u30e7\u30a6\u30b1\u30a4\u30cb\u30c0\u30a4\u30b8"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_m_13412_13412.jpg",
+        "source_name": "\u6176\u61c9\u30aa\u30d6\u30b8\u30a7\u30af\u30c8\u30cf\u30d6",
+        "source_url": "https://objecthub.keio.ac.jp/ja/object/1366"
+      },
+      {
+        "item_id": "dignl-2545184",
+        "item_url": "https://jpsearch.go.jp/item/dignl-2545184",
+        "item_title": [
+          "Kojikiden",
+          "\u53e4\u4e8b\u8a18\u50b3",
+          "\u30b3\u30b8\u30ad\u30c7\u30f3"
+        ],
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2545184",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/2545184"
+      }
+    ]
+  },
+  {
+    "chname": "06fcf1da1f4f9615d5c0628e4bdc2e2d",
+    "sha1": "8898604b570c2829888419c772b126ee0ac44c71",
+    "image": {
+      "1": "https://museumcollection.tokyo/wp-content/uploads/2021/10/10459-L.jpg",
+      "2": "https://colbase.nich.go.jp/media/tnm/A-10569-861/image/slideshow/A-10569-861_E0097490.jpg",
+      "3": "https://colbase.nich.go.jp/media/tnm/A-10569-7387/image/slideshow/A-10569-7387_E0066932.jpg",
+      "4": "https://colbase.nich.go.jp/media/tnm/A-12161/image/slideshow/A-12161_C0098829.jpg",
+      "5": "https://colbase.nich.go.jp/media/tnm/A-10569-7365/image/slideshow/A-10569-7365_E0098375.jpg"
+    },
+    "hint": ["ゴッホにも影響を与えた江戸時代後期の浮世絵師"],
+    "choise": [
+      "歌川豊広",
+      "葛飾北斎",
+      "歌川豊国",
+      "歌川豊春",
+      "歌川広景",
+      "歌川重清",
+      "歌川重昌",
+      "暁斎重晴",
+      "歌川重房",
+      "歌川重春",
+      "歌川重美",
+      "歌川広重",
+      "歌川重歳",
+      "歌川重光",
+      "歌川重丸",
+      "歌川芳延"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-rnOErDakbzTR1Yl",
+    "garalyimg": "https://mfas3.s3.amazonaws.com/objects/SC145999.jpg",
+    "ref": [
+      {
+        "item_id": "tokyomuseumcolection-edo_tokyo_museumjbD83200121",
+        "item_url": "https://jpsearch.go.jp/item/tokyomuseumcolection-edo_tokyo_museumjbD83200121",
+        "item_title": [
+          "\u6b4c\u5ddd\u5e83\u91cd\u50cf(\u6b7b\u7d75)",
+          "Portrait of Utagawa Hiroshige (Shinie)"
+        ],
+        "image_url": "https://museumcollection.tokyo/wp-content/uploads/2021/10/10459-L.jpg",
+        "source_name": "\u6c5f\u6238\u6771\u4eac\u535a\u7269\u9928",
+        "source_url": "https://www.edohakuarchives.jp/detail-1790.html"
+      },
+      {
+        "item_id": "cobas-49471",
+        "item_url": "https://jpsearch.go.jp/item/cobas-49471",
+        "item_title": "\u9d1b\u9d26",
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-10569-861/image/slideshow_s/A-10569-861_E0097490.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/A-10569-861"
+      },
+      {
+        "item_id": "cobas-55846",
+        "item_url": "https://jpsearch.go.jp/item/cobas-55846",
+        "item_title": "\u540d\u6240\u6c5f\u6238\u767e\u666f\u30fb\u4e21\u56fd\u82b1\u706b",
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-10569-7387/image/slideshow_s/A-10569-7387_E0066932.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/A-10569-7387"
+      },
+      {
+        "item_id": "cobas-48438",
+        "item_url": "https://jpsearch.go.jp/item/cobas-48438",
+        "item_title": [
+          "\u3068\u3046\u3068\u3081\u3044\u3057\u3087\u30fb\u306b\u307b\u3093\u3070\u3057\u306e\u306f\u304f\u3046",
+          "\u6771\u90fd\u540d\u6240\u30fb\u65e5\u672c\u6a4b\u4e4b\u767d\u96e8",
+          "Toutomeisho nihonbashinohakuu"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-12161/image/slideshow_s/A-12161_C0098829.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/A-12161"
+      },
+      {
+        "item_id": "cobas-55824",
+        "item_url": "https://jpsearch.go.jp/item/cobas-55824",
+        "item_title": [
+          "\u540d\u6240\u6c5f\u6238\u767e\u666f\u30fb\u795e\u7530\u7d3a\u5c4b\u753a",
+          "\u3081\u3044\u3057\u3087\u3048\u3069\u3072\u3083\u3063\u3051\u3044\u3000\u304b\u3093\u3060\u3053\u3093\u3084\u3061\u3087\u3046",
+          "Meishoedohyakkei kandakonyachou"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-10569-7365/image/slideshow_s/A-10569-7365_E0098375.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=A-10569-7365"
+      }
+    ]
+  },
+  {
+    "chname": "c302ad8c1db011010f156feab6477f93",
+    "sha1": "e4a51fef7071142e4db2d03b381b6334097972bb",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/P-1147/image/slideshow/P-1147_E0015303.jpg",
+      "2": "https://www.dl.ndl.go.jp/api/iiif/1286177/R0000002/full/1800,/0/default.jpg",
+      "3": "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/PVT/tasahi/prints/49703311-01.jpg"
+    },
+    "hint": ["日本で初めて実測による日本地図を作製した江戸時代の測量家"],
+    "choise": [
+      "高橋景保",
+      "間宮林蔵",
+      "伊能忠敬",
+      "伊能景敬",
+      "神保玄二郎",
+      "伊能順次"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-ZDW4kdnvjgTk0pN",
+    "garalyimg": "https://www.city.katori.lg.jp/sightseeing/museum/tadataka.images/data_ph_tadataka_01.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-118972",
+        "item_url": "https://jpsearch.go.jp/item/cobas-118972",
+        "item_title": [
+          "Kamiseishouhougi",
+          "\u7d19\u88fd\u5c0f\u65b9\u5100",
+          "\u304b\u307f\u305b\u3044\u3057\u3087\u3046\u307b\u3046\u304e"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/P-1147/image/slideshow_s/P-1147_E0015303.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/P-1147"
+      },
+      {
+        "item_id": "arc_books-NDL_1286177",
+        "item_url": "https://jpsearch.go.jp/item/arc_books-NDL_1286177",
+        "item_title": "\u4f0a\u80fd\u65e5\u672c\u5b9f\u6e2c\u5c0f\u56f3\u3000\u4e00",
+        "image_url": "https://www.dl.ndl.go.jp/api/iiif/1286177/R0000002/full/180,/0/default.jpg",
+        "source_name": "ARC\u53e4\u5178\u7c4d\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db1/books/NDL-1286177/portal/"
+      },
+      {
+        "item_id": "arc_nishikie-T_ASAHI_49703311_01",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-T_ASAHI_49703311_01",
+        "item_title": "\u4fee\u8eab\u6b74\u53f2\u753b\u3000\u4f0a\u80fd\u5fe0\u656c",
+        "image_url": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/PVT/tasahi/prints/49703311-01.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/T.ASAHI-49703311-01/portal/"
+      }
+    ]
+  },
+  {
+    "chname": "ddffe6047c30b352b1b02971bb1e57ea",
+    "sha1": "9ac85d0b5ca1b430ae110e75f00fcf9b3749c9bd",
+    "image": {
+      "1": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2558890",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1169294",
+      "3": "https://www.library-archives.pref.fukui.lg.jp/archive/ics/viewer/iipsrv.fcgi?IIIF=/2005672/3069415/3069415_0000001.jpx/full/!1100,1000/0/default.jpg",
+      "4": "https://archive.wul.waseda.ac.jp/kosho/bunko08/bunko08_b0169/bunko08_b0169_p0001.jpg"
+    },
+    "hint": [
+      "日本で初めて西洋の解剖学の書物を翻訳した江戸時代の蘭学者。蘭学の発展に寄与"
+    ],
+    "choise": ["杉田玄甫", "杉田伯元", "杉田玄白", "杉田智和"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-ZrAXvQbXgaUkkY3",
+    "garalyimg": "https://archive.wul.waseda.ac.jp/kosho/bunko08/bunko08_a0252/bunko08_a0252_p0001.jpg",
+    "ref": [
+      {
+        "item_id": "tfam_art_db-1590",
+        "item_url": "https://jpsearch.go.jp/item/tfam_art_db-1590",
+        "item_title": [
+          "New Book of Anatomy",
+          "\u89e3\u9ad4\u65b0\u66f8",
+          "\u304b\u3044\u305f\u3044\u3057\u3093\u3057\u3087"
+        ],
+        "image_url": "https://www.fujibi.or.jp/assets/images/collection/thumb_c/thumb_c_01590.jpg",
+        "source_name": "\u6771\u4eac\u5bcc\u58eb\u7f8e\u8853\u9928",
+        "source_url": "https://www.fujibi.or.jp/our-collection/profile-of-works.html?work_id=1590"
+      },
+      {
+        "item_id": "fukui-R100000103_I000488658_00",
+        "item_url": "https://jpsearch.go.jp/item/fukui-R100000103_I000488658_00",
+        "item_title": "\u862d\u5b66\u4e8b\u59cb",
+        "image_url": "https://www.library-archives.pref.fukui.lg.jp/archive/ics/viewer/iipsrv.fcgi?IIIF=/2005672/3069415/3069415_0000001.jpx/full/!110,100/0/default.jpg",
+        "source_name": "\u30c7\u30b8\u30bf\u30eb\u30a2\u30fc\u30ab\u30a4\u30d6\u798f\u4e95",
+        "source_url": "https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=012-2005672"
+      },
+      {
+        "item_id": "arc_books-bunko08_b0169",
+        "item_url": "https://jpsearch.go.jp/item/arc_books-bunko08_b0169",
+        "item_title": [
+          "\u3059\u304e\u305f\u3052\u3093\u3071\u304f\u3057\u3087",
+          "Sugitagenpakusho",
+          "\u6749\u7530\u7384\u767d\u66f8"
+        ],
+        "image_url": "https://archive.wul.waseda.ac.jp/kosho/bunko08/bunko08_b0169/bunko08_b0169_p0001s.jpg",
+        "source_name": "ARC\u53e4\u5178\u7c4d\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db1/books/bunko08_b0169/portal/"
+      }
+    ]
+  },
+  {
+    "chname": "8d3a73d52969973d49688f58cab43bd3",
+    "sha1": "dd980e132a98223243f68c59f7335110beb1409a",
+    "image": {
+      "1": "https://www.sagalibdb.jp/image/ehagaki/H23-02/thum/H23-181-05.jpg",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2542781",
+      "3": "https://www.waseda.jp/enpaku/wp-content/uploads/2015/05/chikamatumonzaemon_ms.jpg"
+    },
+    "hint": [
+      "江戸時代の元禄文化を代表する浄瑠璃及び歌舞伎の作者。代表作は『曽根崎心中』など。"
+    ],
+    "choise": [
+      "杉森信義",
+      "近松門左衛門",
+      "岡本一抱",
+      "松平忠昌",
+      "松平昌親",
+      "山岡元隣"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-29wbwPZ82bK",
+    "garalyimg": "https://mfas3.s3.amazonaws.com/objects/SC226067.jpg",
+    "ref": [
+      {
+        "item_id": "dignl-2542781",
+        "item_url": "https://jpsearch.go.jp/item/dignl-2542781",
+        "item_title": [
+          "\u30b1\u30a4\u30bb\u30a4 \u30d5\u30b8 \u30df\u30eb \u30b5\u30c8",
+          "Keisei fuji miru sato",
+          "\u3051\u3044\u305b\u3044\u5bcc\u58eb\u898b\u91cc"
+        ],
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2542781",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/2542781"
+      },
+      {
+        "item_id": "arc_nishikie-MFA_17_3215_2",
+        "item_url": "https://jpsearch.go.jp/item/arc_nishikie-MFA_17_3215_2",
+        "item_title": "\u300c\u8fd1\u677e\u9580\u5de6\u885b\u9580\u4fe1\u76db\u4e4b\u50cf\u300d",
+        "image_url": "http://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC226067.jpg",
+        "source_name": "ARC\u6d6e\u4e16\u7d75\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db/nishikie/MFA-17.3215.2/portal/"
+      },
+      {
+        "item_id": "a1545100173162-73",
+        "item_url": "https://jpsearch.go.jp/item/a1545100173162-73",
+        "item_title": [
+          "Desk of Chikamatsu Monzaemon (copy)",
+          "\u8fd1\u677e\u9580\u5de6\u885b\u9580\u306e\u6587\u673a\uff08\u6a21\u9020\uff09",
+          "\u3061\u304b \u307e\u3064 \u3082\u3093 \u3056 \u3048 \u3082\u3093 \u3075 \u3065\u304f\u3048"
+        ],
+        "image_url": "https://www.waseda.jp/enpaku/wp-content/uploads/2015/05/chikamatumonzaemon_ms_s.jpg",
+        "source_name": "\u6f14\u5287\u535a\u7269\u9928\u540d\u54c1\u30bb\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://www.waseda.jp/enpaku/collection/2991/"
+      }
+    ]
+  },
+  {
+    "chname": "06c7670a3a0a341a434036fa52beaf26",
+    "sha1": "781ba5cd2389fbd6b04cc0cb2a06505080c973ec",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2798-108/image/slideshow/11682_2.jpg",
+      "2": "https://www.sagalibdb.jp/image/komonjo/saga/thum/54-1591sa939.jpg",
+      "3": "https://www.sagalibdb.jp/image/komonjo/2-19/thum/22-19014.jpg",
+      "4": "https://archive.library.metro.tokyo.lg.jp/da/download?id=0000000016-00067464&size=high&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI128-002-071.jpg",
+      "5": "https://colbase.nich.go.jp/media/tnm/C-512/image/slideshow/C-512_C0081754.jpg"
+    },
+    "hint": ["明治維新を経て、近代日本を治めた、わが国初の立憲君主。"],
+    "choise": ["明治天皇", "大正天皇", "昭和天皇", "平成天皇", "令和天皇"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-mj7BXzgVE0O",
+    "garalyimg": "https://museumcollection.tokyo/wp-content/uploads/2021/01/34-scaled.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-5171",
+        "item_url": "https://jpsearch.go.jp/item/cobas-5171",
+        "item_title": [
+          "\u30d2\u30ad\u30d5\u30c0\u30eb\u30a4 \u30e1\u30a4\u30b8\u30c6\u30f3\u30ce\u30a6\u30b3\u30a6\u30b4\u30a6",
+          "Hikifudarui meijitennoukougou",
+          "\u5f15\u672d\u985e \u660e\u6cbb\u5929\u7687\u7687\u540e"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2798-108/image/slideshow_s/11682_2.jpg",
+        "source_name": "\u4eac\u90fd\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://colbase.nich.go.jp/collection_items/kyohaku/A\u7532798-108"
+      },
+      {
+        "item_id": "tokyo-R100000086_I000031708_00",
+        "item_url": "https://jpsearch.go.jp/item/tokyo-R100000086_I000031708_00",
+        "item_title": "\uff3b\u660e\u6cbb\u5929\u7687\u9675\u6b63\u9580\uff3d\u5199\u771f",
+        "image_url": "https://archive.library.metro.tokyo.lg.jp/da/download/?id=0000000016-00067464&size=listThumb&type=image&file=KI128-002-071.jpg",
+        "source_name": "TOKYO\u30a2\u30fc\u30ab\u30a4\u30d6",
+        "source_url": ""
+      },
+      {
+        "item_id": "cobas-58364",
+        "item_url": "https://jpsearch.go.jp/item/cobas-58364",
+        "item_title": ["\u99ac", "Uma", "\u3046\u307e"],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/C-512/image/slideshow_s/C-512_C0081754.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=C-512"
+      }
+    ]
+  },
+  {
+    "chname": "ce14715d4ced55c8e06ae8c21c74a53b",
+    "sha1": "471fa705728ed1eda4e97f777df357ab3a5a8743",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/C-242/image/slideshow/C-242_C0027359.jpg",
+      "2": "https://colbase.nich.go.jp/media/tnm/B-1080/image/slideshow/B-1080_C0057902.jpg"
+    },
+    "hint": [
+      "幕末から明治前期にかけての日本の政治家",
+      "初代内務卿",
+      "内閣制度発足前の明治日本政府（太政官）の実質的・事実上の首相"
+    ],
+    "choise": [
+      "大久保利和",
+      "大久保利武",
+      "大久保利夫",
+      "大久保駿熊",
+      "大久保利通",
+      "大久保七熊",
+      "大久保利賢",
+      "大久保利敬",
+      "大久保利世",
+      "大久保利建",
+      "大久保利謙",
+      "大久保利春",
+      "大久保利晃"
+    ],
+    "garalyurl": "https://www.ndl.go.jp/portrait/datas/32",
+    "garalyimg": "https://www.ndl.go.jp/portrait/img/portrait/0032_1.jpg",
+    "ref": [
+      {
+        "item_id": "dignl-11445672",
+        "item_url": "https://jpsearch.go.jp/item/dignl-11445672",
+        "item_title": "\u3014\u5927\u4e45\u4fdd\u5229\u901a\u66f8\u7c21 \u9580\u8107\u91cd\u7dbe\u5b9b\u3015",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11445672",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/11445672"
+      },
+      {
+        "item_id": "cobas-58251",
+        "item_url": "https://jpsearch.go.jp/item/cobas-58251",
+        "item_title": "\u5927\u4e45\u4fdd\u5229\u901a\u50cf",
+        "image_url": "https://colbase.nich.go.jp/media/tnm/C-242/image/slideshow_s/C-242_C0027359.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=C-242"
+      },
+      {
+        "item_id": "cobas-56598",
+        "item_url": "https://jpsearch.go.jp/item/cobas-56598",
+        "item_title": [
+          "\u3057\u3061\u3054\u3093\u305c\u3063\u304f",
+          "Shichigonzekku",
+          "\u4e03\u8a00\u7d76\u53e5"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/B-1080/image/slideshow_s/B-1080_C0057902.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/B-1080"
+      },
+      {
+        "item_id": "sf001-JR0040",
+        "item_url": "https://jpsearch.go.jp/item/sf001-JR0040",
+        "item_title": [
+          "The Jikken Rongo Shoseidan Digital Edition. 04",
+          "\u30c7\u30b8\u30bf\u30eb\u7248\u300c\u5b9f\u9a13\u8ad6\u8a9e\u51e6\u4e16\u8ac7\u300d\uff08\uff14\uff09 \u983c\u5c71\u967d\u306e\u6587\u306b\u611f\u52d5\u3055\u305b\u3089\u308b ...",
+          "\u30c7\u30b8\u30bf\u30eb\u30d0\u30f3 \u30b8\u30c3\u30b1\u30f3 \u30ed\u30f3\u30b4 \u30b7\u30e7\u30bb\u30a4\u30c0\u30f3. 04"
+        ],
+        "image_url": "",
+        "source_name": "\u30c7\u30b8\u30bf\u30eb\u7248\u5b9f\u9a13\u8ad6\u8a9e\u51e6\u4e16\u8ac7",
+        "source_url": ""
+      }
+    ]
+  },
+  {
+    "chname": "29b3ab0d31af296d941182bd55753347",
+    "sha1": "1f62404377f8cbc806e70693ffd7e8759886210c",
+    "image": {
+      "1": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/5464.tif/full/full/0/default.jpg",
+      "2": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/6020.tif/full/full/0/default.jpg",
+      "3": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/5752.tif/full/full/0/default.jpg",
+      "4": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/6024.tif/full/full/0/default.jpg"
+    },
+    "hint": [
+      "3回の欧米渡航経験により脱亜を説き、慶応義塾を創始した幕末―明治の啓蒙家"
+    ],
+    "choise": [
+      "福沢百助",
+      "福沢諭吉",
+      "野本雪巌",
+      "帆足万里",
+      "伊藤東涯",
+      "中村術平",
+      "山本物次郎",
+      "大村益次郎"
+    ],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-n4qXpbroN3Uo6X9",
+    "garalyimg": "https://www.dl.ndl.go.jp/api/iiif/3514947/R0000047/2033,1778,3290,3229/1920,/0/default.jpg",
+    "ref": [
+      {
+        "item_id": "keioobjecthub-5904",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-5904",
+        "item_title": [
+          "\u30d5\u30af\u30b6\u30ef\u30e6\u30ad\u30c1\u3000\u30b7\u30e7\u30a6\u30be\u30a6",
+          "\u798f\u6fa4\u8aed\u5409\u8096\u50cf",
+          "Portrait of Fukuzawa Yukichi"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_m_5464_5464.jpg",
+        "source_name": "https://jpsearch.go.jp/entity/ncname/\u6176\u61c9\u7fa9\u587e\u7f8e\u8853\u54c1\u7ba1\u7406\u904b\u7528\u59d4\u54e1\u4f1a",
+        "source_url": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/5904/2.1/manifest.json"
+      },
+      {
+        "item_id": "keioobjecthub-6130",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-6130",
+        "item_title": [
+          "\u798f\u6fa4\u8aed\u5409\u5ea7\u50cf",
+          "Seated Figure of Fukuzawa Yukichi",
+          "\u30d5\u30af\u30b6\u30ef\u30e6\u30ad\u30c1\u3000\u30b6\u30be\u30a6"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_s_6020_6020.jpg",
+        "source_name": "https://jpsearch.go.jp/entity/ncname/\u6176\u61c9\u7fa9\u587e\u7f8e\u8853\u54c1\u7ba1\u7406\u904b\u7528\u59d4\u54e1\u4f1a",
+        "source_url": "https://objecthub.keio.ac.jp/ja/object/6130"
+      },
+      {
+        "item_id": "keioobjecthub-6076",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-6076",
+        "item_title": [
+          "\u798f\u6fa4\u8aed\u5409\u65e7\u90b8",
+          "Fukuzawayukichikyuutei",
+          "\u30d5\u30af\u30b6\u30ef\u30e6\u30ad\u30c1\u30ad\u30e5\u30a6\u30c6\u30a4"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_s_5752_5752.jpg",
+        "source_name": "https://jpsearch.go.jp/entity/ncname/\u6176\u61c9\u7fa9\u587e\u7f8e\u8853\u54c1\u7ba1\u7406\u904b\u7528\u59d4\u54e1\u4f1a",
+        "source_url": ""
+      },
+      {
+        "item_id": "keioobjecthub-6177",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-6177",
+        "item_title": [
+          "\u30d5\u30af\u30b6\u30ef\u30e6\u30ad\u30c1\u30ab\u30f3\u30ec\u30ad\u30a4\u30ef\u30a4\u3000\u30c8\u30a6\u30c0\u30a4",
+          "\u798f\u6fa4\u8aed\u5409\u9084\u66a6\u795d \u706f\u53f0",
+          "Miniature Lighthouse, Gifted in Celebration of Fukuzawa Yukichi\u2019s 60th Birthday"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_m_6024_6024.jpg",
+        "source_name": "\u6176\u61c9\u30aa\u30d6\u30b8\u30a7\u30af\u30c8\u30cf\u30d6",
+        "source_url": "https://objecthub.keio.ac.jp/ja/object/6177"
+      }
+    ]
+  },
+  {
+    "chname": "1db6cc24ecbdbfd4d5a2e2de95dbcd78",
+    "sha1": "d2f4930ac7aca05ede3eb6835fce55c1ce59d703",
+    "image": {
+      "1": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11443938",
+      "2": "https://colbase.nich.go.jp/media/kyohaku/M%E7%94%B2175/image/slideshow/270319_2.jpg",
+      "3": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1174188",
+      "4": "https://colbase.nich.go.jp/media/kyohaku/M%E7%94%B2157/image/slideshow/48285_2.jpg"
+    },
+    "hint": ["日本の幕末の長州藩士、勤王志士、明治時代初期の政治家"],
+    "choise": [
+      "木戸松子",
+      "和田昌景",
+      "桂孝古",
+      "木戸正二郎",
+      "木戸孝正",
+      "来原良蔵",
+      "木戸幸一",
+      "和田小六",
+      "木戸孝允",
+      "岩倉具視",
+      "大久保利通",
+      "西郷隆盛"
+    ],
+    "garalyurl": "https://www.ndl.go.jp/portrait/datas/65",
+    "garalyimg": "https://www.ndl.go.jp/portrait/img/portrait/0065_1.jpg",
+    "ref": [
+      {
+        "item_id": "dignl-11443938",
+        "item_url": "https://jpsearch.go.jp/item/dignl-11443938",
+        "item_title": "\u6728\u6238\u5b5d\u5141\u66f8\u7c21",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11443938",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/11443938"
+      },
+      {
+        "item_id": "cobas-167845",
+        "item_url": "https://jpsearch.go.jp/item/cobas-167845",
+        "item_title": [
+          "Fuuchikuzu",
+          "\u30d5\u30a6\u30c1\u30af\u30ba",
+          "\u98a8\u7af9\u56f3"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/kyohaku/M%E7%94%B2175/image/slideshow_s/270319_2.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/kyohaku/M\u7532175"
+      },
+      {
+        "item_id": "tfam_art_db-6652",
+        "item_url": "https://jpsearch.go.jp/item/tfam_art_db-6652",
+        "item_title": [
+          "\u3057\u3093\u3066\u3093\u3058\u3087\u3046\u3042\u3093\u305a",
+          "\u6df1\u5929\u4e0a\u6309\u56f3",
+          "From the Deep Sky"
+        ],
+        "image_url": "https://www.fujibi.or.jp/assets/images/collection/thumb_c/thumb_c_06652.jpg",
+        "source_name": "\u6771\u4eac\u5bcc\u58eb\u7f8e\u8853\u9928",
+        "source_url": "https://www.fujibi.or.jp/our-collection/profile-of-works.html?work_id=6652"
+      },
+      {
+        "item_id": "cobas-7",
+        "item_url": "https://jpsearch.go.jp/item/cobas-7",
+        "item_title": [
+          "\u30b5\u30ab\u30e2\u30c8\u30ea\u30e7\u30a6\u30de\u30a4\u30dc\u30af\u30aa\u30e8\u30d3\u30b5\u30ab\u30e2\u30c8\u30b1\u30bb\u30f3\u30be\u30b7\u30e7\u30ca\u30e9\u30d3\u30cb\u30b1\u30a4\u30ba",
+          "Sakamotoryoumaibokuoyobisakamotokesenzoshonarabinikeizu",
+          "\u5742\u672c\u9f8d\u99ac\u907a\u58a8\u53ca\u5742\u672c\u5bb6\u5148\u7956\u66f8\u4e26\u7cfb\u56f3"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/kyohaku/M%E7%94%B2157/image/slideshow_s/48285_2.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/kyohaku/M\u7532157"
+      }
+    ]
+  },
+  {
+    "chname": "fb1efb32f79b58574ced69d9031efb76",
+    "sha1": "d67db31d59c126b2ccf3fbc9f08a358e0b45281e",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2798-159/image/slideshow_s/11733_2.jpg",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1207687",
+      "3": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1307901"
+    },
+    "hint": ["幕末から明治初期の日本の政治家、軍人"],
+    "choise": [
+      "大久保正助",
+      "税所喜三左衛門",
+      "西郷隆盛",
+      "吉井幸輔",
+      "伊地知竜右衛門",
+      "有村俊斎",
+      "中村半次郎"
+    ],
+    "garalyurl": "https://www.ndl.go.jp/portrait/datas/85",
+    "garalyimg": "https://www.ndl.go.jp/portrait/img/portrait/0085_1.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-5124",
+        "item_url": "https://jpsearch.go.jp/item/cobas-5124",
+        "item_title": [
+          "\u30d2\u30ad\u30d5\u30c0\u30eb\u30a4 \u30d2\u30ad\u30d5\u30c0\u30b9\u30ea\u30df\u30db\u30f3\u30aa\u30c8\u30b3\u30ed\u30d0\u30f3\u30b5\u30a4\u30b4\u30a6\u30bf\u30ab\u30e2\u30ea",
+          "\u5f15\u672d\u985e \u5f15\u672d\u5237\u898b\u672c \u5fa1\u6240\u5224 \u897f\u90f7\u9686\u76db",
+          "Hikifudarui hikifudasurimihonotokorobansaigoutakamori"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/kyohaku/A%E7%94%B2798-159/image/slideshow_s/11733_2.jpg",
+        "source_name": "\u4eac\u90fd\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://colbase.nich.go.jp/collection_items/kyohaku/A\u7532798-159"
+      },
+      {
+        "item_id": "dignl-1307901",
+        "item_url": "https://jpsearch.go.jp/item/dignl-1307901",
+        "item_title": "\u9e7f\u5150\u5d8b\u65b0\u805e \u6cb3\u5c3b\u672c\u9663\u56f3",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1307901",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/1307901"
+      },
+      {
+        "item_id": "dignl-1880560",
+        "item_url": "https://jpsearch.go.jp/item/dignl-1880560",
+        "item_title": [
+          "\u7d9a\u660e\u6cbb\u6587\u9214",
+          "\u30be\u30af \u30e1\u30a4\u30b8 \u30d6\u30f3\u30b7\u30e7\u30a6",
+          "Zoku meiji bunshou"
+        ],
+        "image_url": "",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "https://dl.ndl.go.jp/info:ndljp/pid/1880560"
+      }
+    ]
+  },
+  {
+    "chname": "69f3d9cf7cfaccfa7cb861bc6419fdec",
+    "sha1": "a82482086d8f08de2e36b50aac7d0f0b666bdc95",
+    "image": {
+      "1": "https://museumcollection.tokyo/wp-content/uploads/2021/10/38557-L.jpg",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11222151"
+    },
+    "hint": [
+      "咸臨丸で太平洋を横断しアメリカを見聞。江戸無血開城に成功した幕末―明治の政治家"
+    ],
+    "choise": ["勝小吉", "勝信", "勝海舟", "勝元良", "勝順子", "勝民子"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-wzMVvRXPZlTl9rN",
+    "garalyimg": "https://www.dl.ndl.go.jp/api/iiif/3514947/R0000103/2125,1952,2902,3127/1920,/0/default.jpg",
+    "ref": [
+      {
+        "item_id": "tokyomuseumcolection-edo_tokyo_museumjbD15200088",
+        "item_url": "https://jpsearch.go.jp/item/tokyomuseumcolection-edo_tokyo_museumjbD15200088",
+        "item_title": [
+          "\u4f50\u85e4\u4e0e\u4e4b\u52a9\u5b9b\u52dd\u6d77\u821f\u4ed6\u66f8\u7c21\u8cbc\u4ea4",
+          "Collage of Correspondence to Sato\u3000Yonosuke from Katsu Kaishu and Others"
+        ],
+        "image_url": "https://museumcollection.tokyo/wp-content/uploads/2021/10/38557-L.jpg",
+        "source_name": "\u6771\u4eac\u30df\u30e5\u30fc\u30b8\u30a2\u30e0\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "https://museumcollection.tokyo/works/6233289/"
+      },
+      {
+        "item_id": "dignl-11222151",
+        "item_url": "https://jpsearch.go.jp/item/dignl-11222151",
+        "item_title": "\u96d1\u66f8\u985e",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11222151",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "https://dl.ndl.go.jp/info:ndljp/pid/11222151"
+      },
+      {
+        "item_id": "kochizu_collection-140",
+        "item_url": "https://jpsearch.go.jp/item/kochizu_collection-140",
+        "item_title": [
+          "\u5927\u65e5\u672c\u6cbf\u6d77\u7565\u56f3",
+          "\u3060\u3044\u306b\u307b\u3093\u3048\u3093\u304b\u3044\u308a\u3083\u304f\u305a",
+          "Dainihonenkairyakuzu"
+        ],
+        "image_url": "https://kochizu.gsi.go.jp/map-thumbnails/158.jpg",
+        "source_name": "\u56fd\u571f\u5730\u7406\u9662",
+        "source_url": "https://kochizu.gsi.go.jp/items/140?from=category,3"
+      },
+      {
+        "item_id": "yamagata-R000000189_I000000133_00",
+        "item_url": "https://jpsearch.go.jp/item/yamagata-R000000189_I000000133_00",
+        "item_title": [
+          "\u307c\u3057\u3093\u3000\u305b\u3093\u305d\u3046\u3000\u3057\u307e\u3064\u3000\uff12",
+          "Boshin sensou shimatsu \uff12",
+          "\u620a\u8fb0\u6226\u4e89\u59cb\u672b\u3000\u4e2d"
+        ],
+        "image_url": "https://opac.lib.pref.yamagata.jp/digilib/waso/img/23.jpg",
+        "source_name": "\u5c71\u5f62\u770c\u7acb\u56f3\u66f8\u9928\u30c7\u30b8\u30bf\u30eb\u30e9\u30a4\u30d6\u30e9\u30ea\u30fc",
+        "source_url": "https://www.lib.pref.yamagata.jp/index.php?key=muec00py2-1159#_1159"
+      }
+    ]
+  },
+  {
+    "chname": "374590fc61fbccc950d3d7a79fe7620a",
+    "sha1": "e48cf7952b481ab7837e332f808ea240f5fbced1",
+    "image": {
+      "1": "https://colbase.nich.go.jp/media/tnm/A-9953/image/slideshow/A-9953_C0073085.jpg",
+      "2": "http://www9.nhk.or.jp/das/image/D0004240/D0004240001_00000_S_001.jpg",
+      "3": "https://colbase.nich.go.jp/media/tnm/B-2182/image/slideshow/B-2182_C0073850.jpg",
+      "4": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/6042.tif/full/full/0/default.jpg",
+      "5": "https://museumcollection.tokyo/wp-content/uploads/2021/10/19748-L.jpg"
+    },
+    "hint": [
+      "幕末期に2度来航して開国を迫ったアメリカの海軍軍人。日米和親条約を締結"
+    ],
+    "choise": ["ペラー", "ペリー", "ペルー", "ペレ―", "ペロー"],
+    "garalyurl": "https://jpsearch.go.jp/gallery/ndl-YP0Y76MZxDUwpG",
+    "garalyimg": "https://colbase.nich.go.jp/media/tnm/A-9953/image/A-9953_C0073085.jpg",
+    "ref": [
+      {
+        "item_id": "cobas-47225",
+        "item_url": "https://jpsearch.go.jp/item/cobas-47225",
+        "item_title": [
+          "\u30da\u30ea\u30fc\u8096\u50cf(\u6a21\u672c)",
+          "\u307a\u308a\u30fc\u3057\u3087\u3046\u305e\u3046",
+          "Peri\u0304shouzou"
+        ],
+        "image_url": "https://colbase.nich.go.jp/media/tnm/A-9953/image/slideshow_s/A-9953_C0073085.jpg",
+        "source_name": "\u6771\u4eac\u56fd\u7acb\u535a\u7269\u9928",
+        "source_url": "https://webarchives.tnm.jp/imgsearch/search?q=A-9953"
+      },
+      {
+        "item_id": "michi-D0004240001_00000",
+        "item_url": "https://jpsearch.go.jp/item/michi-D0004240001_00000",
+        "item_title": [
+          "\u9ed2\u8239\u304c\u6765\u822a\u3057\u305f\u5730",
+          "\u6d66\u8cc0\u6c96"
+        ],
+        "image_url": "http://www9.nhk.or.jp/das/image/D0004240/D0004240001_00000_S_001.jpg",
+        "source_name": "\u307f\u3061\u3057\u308b",
+        "source_url": "https://www2.nhk.or.jp/archives/michi/cgi/detail.cgi?dasID=D0004240001_00000"
+      },
+      {
+        "item_id": "cobas-57320",
+        "item_url": "https://jpsearch.go.jp/item/cobas-57320",
+        "item_title": "\u30da\u30ea\u30fc\u66f8\u7ff0",
+        "image_url": "https://colbase.nich.go.jp/media/tnm/B-2182/image/slideshow_s/B-2182_C0073850.jpg",
+        "source_name": "ColBase",
+        "source_url": "https://colbase.nich.go.jp/collection_items/tnm/B-2182"
+      },
+      {
+        "item_id": "keioobjecthub-6228",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-6228",
+        "item_title": [
+          "\u30da\u30ea\u30fc\u30c6\u30a4\u30c8\u30af\u30b7\u30e5\u30ea\u30b8\u30e7\u30a6\u30e8\u30ea\u30ad\u30ab\u30f3\u30ce\u30ba",
+          "Return of Commodore Perry, with Officers and Squadron, from an Official Visit to the Prince Regent at Shuri, Capital of Lewkyu",
+          "\u30da\u30ea\u30fc\u63d0\u7763\u9996\u91cc\u57ce\u3088\u308a\u5e30\u9084\u306e\u56f3"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_s_6042_6042.jpg",
+        "source_name": "\u6176\u61c9\u30aa\u30d6\u30b8\u30a7\u30af\u30c8\u30cf\u30d6",
+        "source_url": "https://objecthub.keio.ac.jp/ja/object/6228"
+      },
+      {
+        "item_id": "tokyomuseumcolection-edo_tokyo_museumjbD95203043",
+        "item_url": "https://jpsearch.go.jp/item/tokyomuseumcolection-edo_tokyo_museumjbD95203043",
+        "item_title": "\u30da\u30ea\u30fc\u8236\u8f09\u6c7d\u8eca\u6a21\u578b\u4e4b\u56f3",
+        "image_url": "https://museumcollection.tokyo/wp-content/uploads/2021/10/19748-L.jpg",
+        "source_name": "\u6771\u4eac\u30df\u30e5\u30fc\u30b8\u30a2\u30e0\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "https://museumcollection.tokyo/works/6255171/"
+      }
+    ]
+  },
+  {
+    "chname": "5a077d29dc2a5b6f3ab72badab07694d",
+    "sha1": "4489f4bb4f4cf60a56b2a3c05fb4198578fe6795",
+    "image": {
+      "1": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1881624",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1444909",
+      "3": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1281384",
+      "4": "https://photo-archive.jp/database/makeThumb.php?filename1=./image/00069/00069-Frame/00069-06667-0013.jpg&size=900",
+      "5": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11031276"
+    },
+    "hint": [
+      "明治時代の日本海軍の指揮官として日清及び日露戦争の勝利に大きく貢献"
+    ],
+    "choise": [
+      "大塩平八郎",
+      "東郷平八郎",
+      "小林平八郎",
+      "福田平八郎",
+      "大竹平八郎",
+      "大崎平八郎"
+    ],
+    "garalyurl": "https://www.ndl.go.jp/portrait/datas/141",
+    "garalyimg": "https://www.ndl.go.jp/portrait/img/portrait/0141_1.jpg",
+    "ref": [
+      {
+        "item_id": "tokyo-R100000086_I000032529_00",
+        "item_url": "https://jpsearch.go.jp/item/tokyo-R100000086_I000032529_00",
+        "item_title": "\u6771\u90f7\u5e73\u516b\u90ce\u5143\u5e25\u3068\u6728\u5b50\u4e03\u90ce\u306e\u5199\u771f",
+        "image_url": "https://archive.library.metro.tokyo.lg.jp/da/download/?id=0000000016-00078072&size=listThumb&type=image&file=KI188-077.jpg",
+        "source_name": "\u6771\u4eac\u90fd\u7acb\u4e2d\u592e\u56f3\u66f8\u9928",
+        "source_url": "https://archive.library.metro.tokyo.lg.jp/da/detail?tilcod=0000000016-00078072"
+      }
+    ]
+  },
+  {
+    "chname": "b32dfa53bcaf9f9f776b9889fdddf974",
+    "sha1": "cae33d465f1009dd13fe7470dd045c2dcc15907f",
+    "image": {
+      "1": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11609579",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11536627",
+      "3": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1307938"
+    },
+    "hint": [
+      "外相時代には日英同盟の締結、日露戦争後のポーツマス条約の締結、条約改正の完成（関税自主権の完全回復。治外法権は陸奥宗光が改正）などの業績をのこした"
+    ],
+    "choise": ["小村寛", "小倉処平", "小村寿太郎", "小村欣一", "小村捷治"],
+    "garalyurl": "https://www.ndl.go.jp/portrait/datas/83",
+    "garalyimg": "https://www.ndl.go.jp/portrait/img/portrait/0083_1.jpg",
+    "ref": [
+      {
+        "item_id": "dignl-1444909",
+        "item_url": "https://jpsearch.go.jp/item/dignl-1444909",
+        "item_title": [
+          "\u5916\u4ea4\u3068\u5916\u4ea4\u5bb6",
+          "Gaikou to gaikouka",
+          "\u30ac\u30a4\u30b3\u30a6 \u30c8 \u30ac\u30a4\u30b3\u30a6\u30ab"
+        ],
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1444909",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/1444909"
+      },
+      {
+        "item_id": "photo-00069_06667_0013",
+        "item_url": "https://jpsearch.go.jp/item/photo-00069_06667_0013",
+        "item_title": [
+          "\u5c0f\u6751\u5bff\u592a\u90ce\u50cf.\u98eb\u80a5",
+          "Komurajutarouzou.obiz",
+          "\u3053\u3080\u3089\u3058\u3085\u305f\u308d\u3046\u305e\u3046.\u304a\u3073z"
+        ],
+        "image_url": "https://photo-archive.jp/database/makeThumb.php?filename1=./image/00069/00069-Frame/00069-06667-0013.jpg&size=250",
+        "source_name": "\u51fa\u6240\u53d6\u5f97\u5931\u6557",
+        "source_url": "https://photo-archive.jp/database/detail.php?id=00069-06667-0013"
+      },
+      {
+        "item_id": "dignl-11031276",
+        "item_url": "https://jpsearch.go.jp/item/dignl-11031276",
+        "item_title": "\u65e5\u9732\u8b1b\u548c\u4f1a\u8b70\u9332",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11031276",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "https://dl.ndl.go.jp/info:ndljp/pid/11031276"
+      }
+    ]
+  },
+  {
+    "chname": "43728d4af9d6ce7c4d3f341d740b229f",
+    "sha1": "4b5dc690962a7c10c4c4b630cde6d13c89a2da87",
+    "image": {
+      "1": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/8313625",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1277119",
+      "3": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1733751"
+    },
+    "hint": [
+      "明治維新の元勲、自由民権運動の指導者。",
+      "東アジアで初となる帝国議会を樹立し「国会を創った男」として知られる",
+      "伊藤博文、大隈重信と並ぶ「憲政の三巨人」の一人。"
+    ],
+    "choise": [
+      "板垣信方",
+      "板垣鉾太郎",
+      "板垣孫三郎",
+      "板垣退助",
+      "板垣正実",
+      "板垣信方",
+      "板垣信憲"
+    ],
+    "garalyurl": "https://www.ndl.go.jp/portrait/datas/10",
+    "garalyimg": "https://www.ndl.go.jp/portrait/img/portrait/0010_1.jpg",
+    "ref": [
+      {
+        "item_id": "dignl-11609579",
+        "item_url": "https://jpsearch.go.jp/item/dignl-11609579",
+        "item_title": "\u677f\u57a3\u9000\u52a9\u66f8\u7c21  \u6e21\u8fba\u56fd\u6b66\u5b9b",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11609579",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/11609579"
+      },
+      {
+        "item_id": "dignl-11536627",
+        "item_url": "https://jpsearch.go.jp/item/dignl-11536627",
+        "item_title": "\u3014\u5199\u771f\u3015\uff08\u677f\u57a3\u9000\u52a9\u7fc1\u5bff\u50cf\u9664\u5e55\u5f0f\u8a18\u5ff5\u64ae\u5f71\uff08\u5370\u884c\uff09\uff09",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11536627",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "https://dl.ndl.go.jp/info:ndljp/pid/11536627"
+      },
+      {
+        "item_id": "dignl-921685",
+        "item_url": "https://jpsearch.go.jp/item/dignl-921685",
+        "item_title": [
+          "\u65e5\u672c\u653f\u515a\u53f2\u6599",
+          "Nihon seitou shiryou",
+          "\u30cb\u30db\u30f3 \u30bb\u30a4\u30c8\u30a6 \u30b7\u30ea\u30e7\u30a6"
+        ],
+        "image_url": "https://www.dl.ndl.go.jp/api/iiif/921685/F0000001/full/full/0/default.jpg",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/921685"
+      },
+      {
+        "item_id": "dignl-1307938",
+        "item_url": "https://jpsearch.go.jp/item/dignl-1307938",
+        "item_title": "\u5f81\u97d3\u8ad6\u4e4b\u56f3",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1307938",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/1307938"
+      }
+    ]
+  },
+  {
+    "chname": "3a763a28c6736b15c3b79ef6f10e6610",
+    "sha1": "6eba120d01d364d4fddfd6cef33b7ca6752f7ca8",
+    "image": {
+      "1": "http://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11445709",
+      "2": "https://adeac.jp/items/tamashin/catalog/mp2020e039010-200010/039-010_2.jpg",
+      "3": "https://archive.wul.waseda.ac.jp/kosho/i14/i14_a4582/i14_a4582_p0001.jpg"
+    },
+    "hint": [
+      "細菌学の研究に従事し、黄熱病や梅毒の研究で知られる。数々の論文を発表し、ノーベル生理学・医学賞の授賞候補に三度名前が挙がったが、後にその業績の多くが否定された"
+    ],
+    "choise": ["日本武尊", "聖徳太子", "伊藤博文", "夏目漱石", "野口英世"],
+    "garalyurl": "https://www.ndl.go.jp/portrait/datas/312",
+    "garalyimg": "https://www.ndl.go.jp/portrait/img/portrait/0312_1.jpg",
+    "ref": [
+      {
+        "item_id": "dignl-8313625",
+        "item_url": "https://jpsearch.go.jp/item/dignl-8313625",
+        "item_title": "\u91ce\u53e3\u82f1\u4e16\u66f8\u7c21\u3000\u77f3\u9ed2\u5fe0\u60b3\u5b9b",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/8313625",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/8313625"
+      },
+      {
+        "item_id": "dignl-1063066",
+        "item_url": "https://jpsearch.go.jp/item/dignl-1063066",
+        "item_title": [
+          "\u4e16\u754c\u7684\u306a\u65e5\u672c\u79d1\u5b66\u8005",
+          "\u30bb\u30ab\u30a4\u30c6\u30ad\u30ca \u30cb\u30db\u30f3 \u30ab\u30ac\u30af\u30b7\u30e3",
+          "Sekaitekina nihon kagakusha"
+        ],
+        "image_url": "https://www.dl.ndl.go.jp/api/iiif/1063066/F0000001/full/full/0/default.jpg",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/1063066"
+      },
+      {
+        "item_id": "cria-KKA_P_042_060",
+        "item_url": "https://jpsearch.go.jp/item/cria-KKA_P_042_060",
+        "item_title": "\u91ce\u53e3\u82f1\u4e16\u751f\u5bb6",
+        "image_url": "https://arc.human.niigata-u.ac.jp/db/files/thumbnail/2019/KKA-P-042-060-T.jpg",
+        "source_name": "\u65b0\u6f5f\u5927\u5b66\u5730\u57df\u6620\u50cf\u30a2\u30fc\u30ab\u30a4\u30d6\u7814\u7a76\u30bb\u30f3\u30bf\u30fc",
+        "source_url": "https://arc.human.niigata-u.ac.jp/db/detail?id=2002178"
+      },
+      {
+        "item_id": "dignl-1733751",
+        "item_url": "https://jpsearch.go.jp/item/dignl-1733751",
+        "item_title": [
+          "\u91ab\u5b78\u4e2d\u592e\u96dc\u8a8c = Japana centra revuo medicina",
+          "\u30a4\u30ac\u30af \u30c1\u30e5\u30a6\u30aa\u30a6 \u30b6\u30c3\u30b7 = Japana centra revuo medicina",
+          "Igaku chuuou zasshi = Japana centra revuo medicina",
+          "\u533b\u5b66\u4e2d\u592e\u96d1\u8a8c",
+          "Japana centra revuo medicina"
+        ],
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1733751",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "https://dl.ndl.go.jp/info:ndljp/pid/1733751"
+      }
+    ]
+  },
+  {
+    "chname": "4e959331a1957fbb48e2182a00fd73be",
+    "sha1": "7fd7cf07f8239fd90c7bc0e29b1914b01f3a56e5",
+    "image": {
+      "1": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11898546",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11031269",
+      "3": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2938190",
+      "4": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1270159"
+    },
+    "hint": [
+      "通貨・円の制定、日本初の鉄道敷設、政党内閣制を基軸にした即時国会開設を主張するなど議会制推進。",
+      "早稲田大学を創設し官学に匹敵する高等教育機関を育成するために力を注いだ。"
+    ],
+    "choise": [
+      "伊藤博文",
+      "黑田清隆",
+      "三條實美",
+      "山縣有朋",
+      "松方正義",
+      "大隈重信",
+      "西園寺公望",
+      "桂太郎",
+      "岸田文雄"
+    ],
+    "garalyurl": "https://www.ndl.go.jp/portrait/datas/33",
+    "garalyimg": "https://www.ndl.go.jp/portrait/img/portrait/0033_1.jpg",
+    "ref": [
+      {
+        "item_id": "dignl-11445709",
+        "item_url": "https://jpsearch.go.jp/item/dignl-11445709",
+        "item_title": "\u4e00\u4e94\u9280\u884c\u95a2\u4fc2\u66f8\u985e",
+        "image_url": "http://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11445709",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/11445709"
+      },
+      {
+        "item_id": "arc_books-i14_a4582",
+        "item_url": "https://jpsearch.go.jp/item/arc_books-i14_a4582",
+        "item_title": "\u6697\u53f7\u96fb\u5831\u5927\u9688\u91cd\u4fe1\u5b9b",
+        "image_url": "https://archive.wul.waseda.ac.jp/kosho/i14/i14_a4582/i14_a4582_p0001s.jpg",
+        "source_name": "ARC\u53e4\u5178\u7c4d\u30dd\u30fc\u30bf\u30eb",
+        "source_url": "https://www.dh-jac.net/db1/books/i14_a4582/portal/"
+      }
+    ]
+  },
+  {
+    "chname": "575b45bd66287ff3808446c1c1525e97",
+    "sha1": "0a5e3c644a7990a52636726b226fe63b3dfa15a2",
+    "image": {
+      "1": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11898546",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11031269",
+      "3": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2938190",
+      "4": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/1270159"
+    },
+    "hint": ["日本の幕末の武士。明治期の外交官、政治家"],
+    "choise": ["陸奥宗光", "陸奥亮子", "陸奥廣吉", "陸奥丈部", "陸奥守吉行"],
+    "garalyurl": "https://www.ndl.go.jp/portrait/datas/199",
+    "garalyimg": "https://www.ndl.go.jp/portrait/img/portrait/0199_1.jpg",
+    "ref": [
+      {
+        "item_id": "dignl-11898546",
+        "item_url": "https://jpsearch.go.jp/item/dignl-11898546",
+        "item_title": "\u9678\u5965\u5b97\u5149\u96fb\u5831\uff08\u5199\uff09 \u9ed2\u7530\u6e05\u9686\u5b9b",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11898546",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "https://dl.ndl.go.jp/info:ndljp/pid/11898546"
+      },
+      {
+        "item_id": "dignl-11031269",
+        "item_url": "https://jpsearch.go.jp/item/dignl-11031269",
+        "item_title": "\u65e5\u6e05\u8b1b\u548c\u59cb\u672b\u9644\u9332\u3000\u4f1a\u898b\u8981\u9332",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11031269",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/11031269"
+      },
+      {
+        "item_id": "dignl-2938190",
+        "item_url": "https://jpsearch.go.jp/item/dignl-2938190",
+        "item_title": "\u65b0\u689d\u7d04\u8ad6 \u5168",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/2938190",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "http://dl.ndl.go.jp/info:ndljp/pid/2938190"
+      }
+    ]
+  },
+  {
+    "chname": "5bb7ff7aadaaf452592948597a79552e",
+    "sha1": "9e35112b27bf55692b2948e5ad4fac7b0e1919d7",
+    "image": {
+      "1": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/15682.tif/full/full/0/default.jpg",
+      "2": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11031142"
+    },
+    "hint": [
+      "初代総理大臣　初代枢密院議長、初代貴族院議長、初代韓国統監、元老などを歴任した"
+    ],
+    "choise": ["伊藤十蔵", "伊藤博文", "伊藤文吉", "伊藤眞一", "伊藤弥右衛門"],
+    "garalyurl": "https://www.ndl.go.jp/portrait/datas/12",
+    "garalyimg": "https://www.ndl.go.jp/portrait/img/portrait/0012_1.jpg",
+    "ref": [
+      {
+        "item_id": "keioobjecthub-615",
+        "item_url": "https://jpsearch.go.jp/item/keioobjecthub-615",
+        "item_title": [
+          "\u30a4\u30c8\u30a6\u30d2\u30ed\u30d6\u30df\u30d2\u30c4\u30b7\u30e7\u30b8\u30e7\u30a6",
+          "\u4f0a\u85e4\u535a\u6587\u7b46\u66f8\u72b6",
+          "Letter by Ito Hirobumi"
+        ],
+        "image_url": "https://file.objecthub.keio.ac.jp/image/thum_m_15682_15682.jpg",
+        "source_name": "\u6176\u61c9\u30aa\u30d6\u30b8\u30a7\u30af\u30c8\u30cf\u30d6",
+        "source_url": "https://objecthub.keio.ac.jp/ja/object/615"
+      },
+      {
+        "item_id": "dignl-11031142",
+        "item_url": "https://jpsearch.go.jp/item/dignl-11031142",
+        "item_title": "\u4f0a\u85e4\u535a\u6587\u66f8\u7c21\u3014\u8349\u7a3f\u3015",
+        "image_url": "https://dl.ndl.go.jp/titleThumb/info:ndljp/pid/11031142",
+        "source_name": "NDL\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
+        "source_url": "https://dl.ndl.go.jp/info:ndljp/pid/11031142"
+      }
+    ]
+  }
+]

@@ -32,11 +32,15 @@
       <div id="questionimage-infomation-container">
         <h3 id="questionimage-infomation-title-text">画像の情報</h3>
         <ul>
-          <li v-for="(imageUrl, index) in hintImageURLs">
+          <li v-for="(imageRef, index) in hintImageRefs">
             <p class="questionimage_infomation_imagenum_text">
               {{ index + 1 }}枚目
             </p>
-            <a target="_blank" :href="imageUrl" class="questionimage_infomation_description_text">{{ imageUrl }}</a>
+            <p>
+              <a target="_blank" v-show="imageRef.item_url" :href="imageRef.item_url" class="questionimage_infomation_description_text">『{{ imageRef.item_title }}』</a><br  v-show="imageRef.item_url">
+              <a target="_blank" v-show="imageRef.source_url" :href="imageRef.source_url" class="questionimage_infomation_description_text">「{{ imageRef.source_name }}」収録</a><br v-show="imageRef.source_url">
+              <a target="_blank" v-show="imageRef.image_url" :href="imageRef.image_url" class="questionimage_infomation_description_text">({{ imageRef.image_url }})</a>
+            </p>
           </li>
         </ul>
       </div>
@@ -61,7 +65,15 @@ const answer = questionStore.previousAnswer;
 const isCorrect = questionStore.scores[currentQuestionNumber - 1] > 0;
 
 const questionData = questionStore.previousQuestionData;
-const hintImageURLs = questionStore.getPreviousHintImages;
+const hintImageRefs = questionData.ref.map((ref) => {
+  const { item_title } = ref
+  if(typeof item_title === "string") return ref
+
+  return {
+    ...ref,
+    item_title: item_title.sort((a, b) => a.length - b.length)[0]
+  }
+})
 
 </script>
 
@@ -324,6 +336,7 @@ h1 span {
   line-height: 160%;
   color: #38322c;
   word-break: break-all;
+  text-decoration: none;
 }
 
 #questionimage-infomation-container {
